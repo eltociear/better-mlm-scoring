@@ -326,7 +326,7 @@ class MaskedLMScorer(LMScorer):
         return masked_logprobs
 
 
-    def prepare_text(self, text: Union[str, List[str]]) -> Iterable[Any]:
+    def prepare_text(self, text: Union[str, List[str]], use_adjusted_metric) -> Iterable[Any]:
         """
         Prepares a batch of input text into a format fit to run MLM
         scoring on. 
@@ -336,6 +336,7 @@ class MaskedLMScorer(LMScorer):
         https://github.com/simonepri/lm-scorer
         
         :param text: batch of sentences to be prepared for scoring.
+        :param use_adjusted_metric: whether or not we mask out subtokens belonging to the same word to the right of the token to be currently predicted (see below) #CK
 
         :return: Batch of formatted input that can be passed to `logprob`
         """
@@ -352,7 +353,11 @@ class MaskedLMScorer(LMScorer):
 
         masked_tensors = [] # token ids, attention masks, lengths
 
-        for token_ids, attention_mask in zip(token_idx, attention_masks):
+        for ind, (token_ids, attention_mask) in enumerate(zip(token_idx, attention_masks)):
+
+            tokens = encoded.tokens(batch_index=ind)  # CK: added for debugging
+            word_ids = encoded.word_ids(batch_index=ind)
+
             token_ids = torch.tensor(token_ids)
             # final_lengths = len(token_ids) - 2
             attention_mask = torch.tensor(attention_mask)
@@ -362,13 +367,32 @@ class MaskedLMScorer(LMScorer):
 
             effective_token_ids = [token for token in token_ids if token != self.pad_token_id and token != self.cls_token_id and token != self.sep_token_id]
             effective_length = len(effective_token_ids)
-            
 
-            mask_indices = []
-            mask_indices = [[mask_pos] for mask_pos in range(effective_length+2)]
+
+            if use_adjusted_metric:
+                """
+                CK adjusted the preparation function here.
+                We want tokens belonging to the right of the current token to be predicted to be masked out as well.
+                For justification, see https://arxiv.org/pdf/2212.01488.pdf, SI 7
+
+                Note: This only works if you use FastTokenizers, which minicons uses as a default.
+
+                (example uses BertFastTokenizer)
+                Input sentence: 'The hooligan wrecked the vehicle.'
+                original mask_indices >> [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
+                tokens = encoded.tokens() >> ['[CLS]', 'the', 'ho', '##oli', '##gan', 'wrecked', 'the', 'vehicle', '.', '[SEP]', '[PAD]', '[PAD]']
+                word_idx = encoded.word_ids() >> [None, 0, 1, 1, 1, 2, 3, 4, 5, None, None, None]
+                we mask out tokens to the right of current token for multi-token words. Use word_idx list for this purpose
+                adapted mask_indices outputs >> [[0], [1], [2, 3, 4], [3, 4], [4], [5], [6], [7], [8], [9]]
+                """
+                mask_indices = [[i] + [j for j in range(i + 1, effective_length+2) if word_ids[j] == word_ids[i]]
+                                    if word_ids[i] is not None else [i] for i in range(effective_length+2)]
+            else:
+                mask_indices = [[mask_pos] for mask_pos in range(effective_length+2)]
 
             # We don't mask the [CLS], [SEP] for now for PLL
             mask_indices = mask_indices[1:-1]
+
 
             mask_token_id = self.mask_token_id
             for mask_set in mask_indices:
@@ -619,16 +643,16 @@ class MaskedLMScorer(LMScorer):
         else:
             return scores
 
-    def sequence_score(self, batch, reduction = lambda x: x.mean(0).item(), base_two = False):
+    def sequence_score(self, batch, use_adjusted_metric=False, reduction = lambda x: x.mean(0).item(), base_two = False):
         '''
         TODO: reduction should be a string, if it's a function, specify what kind of function. --> how to ensure it is always that type?
         '''
-        tokenized = self.prepare_text(batch)
+        tokenized = self.prepare_text(batch, use_adjusted_metric=use_adjusted_metric)
         scores = self.compute_stats(tokenized, rank = False, base_two = base_two, return_tensors = True)
         reduced = list(map(reduction, scores))
         return reduced
 
-    def token_score(self, batch: Union[str, List[str]], surprisal: bool = False, prob: bool = False, base_two: bool = False, rank: bool = False) -> Union[List[Tuple[str, float]], List[Tuple[str, float, int]]]:
+    def token_score(self, batch: Union[str, List[str]], use_adjusted_metric = False, surprisal: bool = False, prob: bool = False, base_two: bool = False, rank: bool = False) -> Union[List[Tuple[str, float]], List[Tuple[str, float, int]]]:
         '''
         For every input sentence, returns a list of tuples in the following format:
             `(token, score)`,
@@ -647,7 +671,7 @@ class MaskedLMScorer(LMScorer):
         assert not (surprisal and prob), "cannot both evaluate probability and surprisal at the same time!"
         assert not (base_two and prob), "cannot both use base (which is for a log), and a probability measure at the same time!"
 
-        tokenized = self.prepare_text(batch)
+        tokenized = self.prepare_text(batch, use_adjusted_metric=use_adjusted_metric)
         if rank:
             scores, ranks = self.compute_stats(tokenized, rank = rank, prob = prob, base_two = base_two, return_tensors=True)
         else:
@@ -920,7 +944,10 @@ class IncrementalLMScorer(LMScorer):
         '''
         tokenized = self.prepare_text(batch)
         scores = self.compute_stats(tokenized, rank = False, base_two = base_two, return_tensors = True)
+
         reduced = list(map(reduction, scores))
+        # FIXME CK: apparently the code from the docs doesn't work here for reduction for LL?
+        # FIXME CK: https://github.com/kanishkamisra/minicons/blob/master/examples/surprisals.md
         return reduced
 
     def token_score(self, batch: Union[str, List[str]], surprisal: bool = False, prob: bool = False, base_two: bool = False, rank: bool = False) -> Union[List[Tuple[str, float]], List[Tuple[str, float, int]]]:
