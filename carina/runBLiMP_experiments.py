@@ -40,8 +40,6 @@ def main():
     stimuli = []
     accuracy_dictionary = {}
 
-    i = 0
-
     for jsonl in tqdm(Path(STIMPATH).glob('*.jsonl')):
         print(jsonl)
         dataset_name = str(jsonl).split('/')[-1].split('.jsonl')[0]
@@ -69,10 +67,6 @@ def main():
                 bad_scores.extend(model.sequence_score(bad, reduction=lambda x: x.sum().item()))
 
         accuracy_dictionary[dataset_name] = np.mean([g > b for g, b in zip(good_scores, bad_scores)])
-
-        i += 1
-        if i == 3:
-            break
 
     # Create a dataframe from the dictionary
     df = pd.DataFrame.from_dict(accuracy_dictionary, orient='index')
