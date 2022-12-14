@@ -48,7 +48,7 @@ def main():
     # Run BLiMP experiment
     ######################
 
-    FILE = Path(os.path.abspath(f"./blimp/data/{args.file}"))
+    FILE = Path(os.path.join(os.getcwd(),args.file))
     dataset_name = str(FILE).split('/')[-1].split('.jsonl')[0]
     print(dataset_name)
 
