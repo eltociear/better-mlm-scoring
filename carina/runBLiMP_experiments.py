@@ -40,9 +40,10 @@ def main():
     stimuli = []
     accuracy_dictionary = {}
 
+    ind = 0
     for jsonl in tqdm(Path(STIMPATH).glob('*.jsonl')):
-        print(jsonl)
         dataset_name = str(jsonl).split('/')[-1].split('.jsonl')[0]
+        print(f"{ind} | {dataset_name}")
 
         lines = [json.loads(line) for line in jsonl.read_text().split('\n') if len(line.strip())]
         for line in lines:
@@ -50,6 +51,7 @@ def main():
 
         for pair in stimuli[:5]:
             print(f"{pair[0]} vs. {pair[1]}")
+        print('\n')
 
         stimuli_dl = DataLoader(stimuli, batch_size=100)
 
@@ -67,6 +69,7 @@ def main():
                 bad_scores.extend(model.sequence_score(bad, reduction=lambda x: x.sum().item()))
 
         accuracy_dictionary[dataset_name] = np.mean([g > b for g, b in zip(good_scores, bad_scores)])
+        ind += 1
 
     # Create a dataframe from the dictionary
     df = pd.DataFrame.from_dict(accuracy_dictionary, orient='index')
