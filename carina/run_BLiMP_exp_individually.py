@@ -6,6 +6,7 @@ import os
 import argparse
 from tqdm import tqdm
 import re
+from pathlib import Path
 
 
 def main():
@@ -27,7 +28,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', required=True)
     parser.add_argument('--file', required=True, help='which BLiMP paradigm is currently being evaluated')
-    parser.add_argument('--batch_size', default=500) # default comes from Salazar et al. (2020) blimp expts.
+    parser.add_argument('--batch_size', type=int, default=500) # default comes from Salazar et al. (2020) blimp expts.
     # https://github.com/awslabs/mlm-scoring/tree/a8fd29f3ca666da386be91eb7c319027603c58a4/examples/lingacc-blimp#ranking
     parser.add_argument('--use_adjusted_metric', default=False,
                         help="whether to use the adjusted PLL metric or not, default is False", action='store_true')
@@ -47,13 +48,13 @@ def main():
     # Run BLiMP experiment
     ######################
 
-    FILENAME = os.path.abspath(f"./blimp/data/{args.file}")
-    dataset_name = str(FILENAME).split('/')[-1].split('.jsonl')[0]
+    FILE = Path(os.path.abspath(f"./blimp/data/{args.file}"))
+    dataset_name = str(FILE).split('/')[-1].split('.jsonl')[0]
     print(dataset_name)
 
     stimuli = []
 
-    lines = [json.loads(line) for line in FILENAME.read_text().split('\n') if len(line.strip())]
+    lines = [json.loads(line) for line in FILE.read_text().split('\n') if len(line.strip())]
     for line in lines:
         stimuli.append([line['sentence_good'], line['sentence_bad']])
 
@@ -83,7 +84,7 @@ def main():
     ######################
 
     # create results folder
-    savename = f"results/{args.model}/"
+    savename = f"results/BLiMP/{args.model}/"
     os.makedirs(savename, exist_ok=True)
 
     # create results filename
