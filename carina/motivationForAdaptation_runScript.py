@@ -58,15 +58,15 @@ for sent_i, sent in enumerate(stimuli):
         plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1), fancybox=True, shadow=False, ncol=1)
         plt.ylabel('Token PLL score')
         if which_masking == "within_word_l2r":
-            plt.title(f"{sent} | Adapted PLL metric with l2r word token masking")
+            plt.title("Adapted PLL metric with left-to-right word token masking")
             savesuffix = 'adaptedPLL_l2r'
         elif which_masking == "within_word_mlm":
-            plt.title(f"{sent} | Adapted PLL metric with mlm word token masking")
+            plt.title("Adapted PLL metric with whole-word masking")
             savesuffix = 'adaptedPLL_mlm'
         else:
-            plt.title(f"{sent} | Original PLL metric")
+            plt.title("Token-level masking (original PLL metric)")
             savesuffix = 'originalPLL'
-        plt.tight_layout()
+        fig.tight_layout()
 
         out_dir = "results/motivationForAdaptation/"
         os.makedirs(out_dir, exist_ok=True)
@@ -74,3 +74,36 @@ for sent_i, sent in enumerate(stimuli):
         plt.savefig(filename, dpi=180, bbox_inches='tight')
         plt.show()
         print('\n')
+
+for sent_i, sent in enumerate(stimuli):
+    fig, axs = plt.subplots(1, 3, figsize=(20, 6), sharey=True)
+    for i, which_masking in enumerate(["original", "within_word_l2r", "within_word_mlm"]):
+        scores = mlm_model.token_score(sent, which_masking=which_masking)[0]
+        x = [elm[0] for elm in scores]
+        y = [elm[1] for elm in scores]
+        avg = np.mean(y)
+
+        axs[i].plot(y, marker="o", label=f"Sentence PLL score = {round(sum(y), 4)}")
+        axs[i].set_xticks(np.arange(len(x)), np.arange(1, len(x) + 1), minor=False)
+        axs[i].set_xticklabels(x)
+        axs[i].axhline(y=avg, color='r', linestyle='--', label=f"Avg. token PLL score = {round(avg, 2)}")
+        axs[i].legend(loc='upper center', bbox_to_anchor=(0.5, -0.1), fancybox=True, shadow=False, ncol=1)
+        axs[i].set_ylabel('Token PLL score')
+        if which_masking == "within_word_l2r":
+            axs[i].set_title("Within-word left-to-right masking")
+            savesuffix = 'adaptedPLL_l2r'
+        elif which_masking == "within_word_mlm":
+            axs[i].set_title(f"Whole-word masking")
+            savesuffix = 'adaptedPLL_mlm'
+        else:
+            axs[i].set_title("Token-level masking (original PLL metric)")
+            savesuffix = 'originalPLL'
+    fig.suptitle(f"{sent}")
+    fig.tight_layout()
+
+    out_dir = "results/motivationForAdaptation/"
+    os.makedirs(out_dir, exist_ok=True)
+    filename = f'{out_dir}/sent{sent_i + 1}_combined.png'
+    plt.savefig(filename, dpi=180, bbox_inches='tight')
+    plt.show()
+    print('\n')
