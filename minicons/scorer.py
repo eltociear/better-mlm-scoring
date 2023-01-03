@@ -326,7 +326,7 @@ class MaskedLMScorer(LMScorer):
         return masked_logprobs
 
 
-    def prepare_text(self, text: Union[str, List[str]], which_masking) -> Iterable[Any]:
+    def prepare_text(self, text: Union[str, List[str]], which_masking, output_num_tokens=False) -> Iterable[Any]:
         """
         Prepares a batch of input text into a format fit to run MLM
         scoring on. 
@@ -427,8 +427,12 @@ class MaskedLMScorer(LMScorer):
                 attention_masked_list.append(attention_masked)
                 token_ids_masked_list.append(token_ids_masked)
             masked_tensors.append((torch.stack(token_ids_masked_list), torch.stack(attention_masked_list), effective_token_ids, len(mask_indices), 1))
-        
-        return masked_tensors
+
+        if output_num_tokens:
+            token_lengths = [len([x for x in idxs if x != 0]) for idxs in encoded['input_ids']]
+            return masked_tensors, token_lengths
+        else:
+            return masked_tensors
 
     def prime_text(self, preamble: Union[str, List[str]] , stimuli: Union[str, List[str]]) -> Iterable[Any]:
         """
@@ -474,8 +478,6 @@ class MaskedLMScorer(LMScorer):
             effective_token_ids = [token for j, token in enumerate(token_ids) if token != self.pad_token_id and token != self.cls_token_id and token != self.sep_token_id and j >= preamble_lens[i]]
             effective_length = len(effective_token_ids) + preamble_lens[i]
 
-
-            mask_indices = []
             mask_indices = [[mask_pos] for mask_pos in range(preamble_lens[i], effective_length+1)]
 
             # We don't mask the [CLS], [SEP] for now for PLL
@@ -667,14 +669,21 @@ class MaskedLMScorer(LMScorer):
         else:
             return scores
 
-    def sequence_score(self, batch, which_masking = "original", reduction = lambda x: x.mean(0).item(), base_two = False):
+    def sequence_score(self, batch, which_masking = "original", reduction = lambda x: x.mean(0).item(), base_two = False,
+                       output_num_tokens=False):
         '''
         TODO: reduction should be a string, if it's a function, specify what kind of function. --> how to ensure it is always that type?
         '''
-        tokenized = self.prepare_text(batch, which_masking=which_masking)
+        if output_num_tokens:
+            tokenized, token_lengths = self.prepare_text(batch, which_masking=which_masking, output_num_tokens=True)
+        else:
+            tokenized = self.prepare_text(batch, which_masking=which_masking)
         scores = self.compute_stats(tokenized, rank = False, base_two = base_two, return_tensors = True)
         reduced = list(map(reduction, scores))
-        return reduced
+        if output_num_tokens:
+            return reduced, token_lengths
+        else:
+            return reduced
 
     def token_score(self, batch: Union[str, List[str]], which_masking = "original", surprisal: bool = False, prob: bool = False, base_two: bool = False, rank: bool = False) -> Union[List[Tuple[str, float]], List[Tuple[str, float, int]]]:
         '''
@@ -882,7 +891,7 @@ class IncrementalLMScorer(LMScorer):
         
         return logprobs
 
-    def compute_stats(self, batch: Iterable, rank: bool = False, prob: bool = False, base_two: bool = False, return_tensors: bool = False) -> Union[Tuple[List[float], List[float]], List[float]]:
+    def compute_stats(self, batch: Iterable, rank: bool = False, prob: bool = False, base_two: bool = False, return_tensors: bool = False, output_num_tokens=False) -> Union[Tuple[List[float], List[float]], List[float]]:
         '''
         Primary computational method that processes a batch of prepared sentences and returns per-token scores for each sentence. By default, returns log-probabilities.
 
@@ -960,19 +969,30 @@ class IncrementalLMScorer(LMScorer):
         if rank:
             return scores, ranks
         else:
-            return scores
+            if output_num_tokens:
+                token_lengths = [len(elm) for elm in effective_ids]
+                return scores, token_lengths
+            else:
+                return scores
 
-    def sequence_score(self, batch, reduction = lambda x: x.mean(0).item(), base_two = False):
+    def sequence_score(self, batch, reduction = lambda x: x.mean(0).item(), base_two = False, output_num_tokens=False):
         '''
         TODO: reduction should be a string, if it's a function, specify what kind of function. --> how to ensure it is always that type?
         '''
         tokenized = self.prepare_text(batch)
-        scores = self.compute_stats(tokenized, rank = False, base_two = base_two, return_tensors = True)
+        if output_num_tokens:
+            scores, token_lengths = self.compute_stats(tokenized, rank = False, base_two = base_two, return_tensors = True, output_num_tokens=True)
+        else:
+            scores = self.compute_stats(tokenized, rank=False, base_two=base_two, return_tensors=True)
 
         reduced = list(map(reduction, scores))
-        # FIXME CK: apparently the code from the docs doesn't work here for reduction for LL?
-        # FIXME CK: https://github.com/kanishkamisra/minicons/blob/master/examples/surprisals.md
-        return reduced
+
+        if output_num_tokens:
+            return reduced, token_lengths
+        else:
+            # FIXME CK: apparently the code from the docs doesn't work here for reduction for LL?
+            # FIXME CK: https://github.com/kanishkamisra/minicons/blob/master/examples/surprisals.md
+            return reduced
 
     def token_score(self, batch: Union[str, List[str]], surprisal: bool = False, prob: bool = False, base_two: bool = False, rank: bool = False) -> Union[List[Tuple[str, float]], List[Tuple[str, float, int]]]:
         '''
