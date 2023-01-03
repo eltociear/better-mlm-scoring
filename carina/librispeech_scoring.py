@@ -29,7 +29,8 @@ def main():
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', required=True)
-    parser.add_argument('--batch_size', type=int, default=2000) # default comes from Salazar et al. (2020) LibriSpeech expts.
+    parser.add_argument('--batch_size', type=int,
+                        default=2000)  # default comes from Salazar et al. (2020) LibriSpeech expts.
     # https://github.com/awslabs/mlm-scoring/tree/a8fd29f3ca666da386be91eb7c319027603c58a4/examples/lingacc-blimp#ranking
     parser.add_argument('--which_masking', type=str, default="original",
                         help="whether to use the original or adjusted PLL metric or not, default is 'original'."
@@ -60,21 +61,27 @@ def main():
         corpus = json.load(json_file)
         for sent_idx, value in corpus.items():
             ref_stimulus = _apply_tokenizer_opts(value["ref"])
-            ref_stim_length = ref_stimulus.split()
-            stimuli += [(sent_idx, ref_stimulus, ref_stim_length)]
+            ref_stim_length = len(ref_stimulus.split())
+            stimuli.append([sent_idx, ref_stimulus, ref_stim_length])
+
+    for triple in stimuli[:5]:
+        print(f"{triple[0]} | {triple[1]} | {triple[2]}")
+    print('\n')
 
     stimuli_dl = DataLoader(stimuli, batch_size=args.batch_size)
     sent_ids, stimuli, token_lengths, scores, nr_words = [], [], [], [], []
 
     for batch in tqdm(stimuli_dl):
         sent_idxs, ref_stimuli, stim_lengths = batch
-        if not args.model.startswith('gpt'): #if mlm model
+        if not args.model.startswith('gpt'):  # if mlm model
             curr_scores, curr_token_lengths = model.sequence_score(ref_stimuli, which_masking=args.which_masking,
-                                                    reduction=lambda x: x.sum().item(), output_num_tokens=True)
+                                                                   reduction=lambda x: x.sum().item(),
+                                                                   output_num_tokens=True)
         else:
-            curr_scores, curr_token_lengths = model.sequence_score(ref_stimulus, reduction=lambda x: x.sum().item(), output_num_tokens=True)
+            curr_scores, curr_token_lengths = model.sequence_score(ref_stimulus, reduction=lambda x: x.sum().item(),
+                                                                   output_num_tokens=True)
 
-        #results.extend(list(zip(sent_idxs, ref_stimuli, curr_token_lengths, curr_scores)))
+        # results.extend(list(zip(sent_idxs, ref_stimuli, curr_token_lengths, curr_scores)))
         sent_ids.extend(sent_idxs)
         stimuli.extend(ref_stimuli)
         token_lengths.extend(curr_token_lengths)
@@ -82,11 +89,11 @@ def main():
         scores.extend(curr_scores)
 
     results_df = pd.DataFrame({
-        "sentence id":sent_ids,
-        "ref sentence":stimuli,
-        "PLL score": scores
-        "nr. of tokens":token_lengths,
-        "nr. of words":nr_words
+        'sentence id': sent_ids,
+        'ref sentence': stimuli,
+        'PLL score': scores,
+        'nr. of tokens': token_lengths,
+        'nr. of words': nr_words
     })
 
     ######################
@@ -110,6 +117,7 @@ def main():
     savename += ".csv"
 
     results_df.to_csv(savename, index=False)
+
 
 if __name__ == '__main__':
     main()
