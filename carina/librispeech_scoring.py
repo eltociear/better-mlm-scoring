@@ -60,13 +60,14 @@ def main():
         corpus = json.load(json_file)
         for sent_idx, value in corpus.items():
             ref_stimulus = _apply_tokenizer_opts(value["ref"])
-            stimuli += [(sent_idx, ref_stimulus)]
+            ref_stim_length = ref_stimulus.split()
+            stimuli += [(sent_idx, ref_stimulus, ref_stim_length)]
 
     stimuli_dl = DataLoader(stimuli, batch_size=args.batch_size)
-    sent_ids, stimuli, token_lengths, scores = [], [], [], []
+    sent_ids, stimuli, token_lengths, scores, nr_words = [], [], [], [], []
 
     for batch in tqdm(stimuli_dl):
-        sent_idxs, ref_stimuli = batch
+        sent_idxs, ref_stimuli, stim_lengths = batch
         if not args.model.startswith('gpt'): #if mlm model
             curr_scores, curr_token_lengths = model.sequence_score(ref_stimuli, which_masking=args.which_masking,
                                                     reduction=lambda x: x.sum().item(), output_num_tokens=True)
@@ -77,13 +78,15 @@ def main():
         sent_ids.extend(sent_idxs)
         stimuli.extend(ref_stimuli)
         token_lengths.extend(curr_token_lengths)
+        nr_words.extend(stim_lengths)
         scores.extend(curr_scores)
 
     results_df = pd.DataFrame({
         "sentence id":sent_ids,
         "ref sentence":stimuli,
+        "PLL score": scores
         "nr. of tokens":token_lengths,
-        "PLL score":scores
+        "nr. of words":nr_words
     })
 
     ######################
