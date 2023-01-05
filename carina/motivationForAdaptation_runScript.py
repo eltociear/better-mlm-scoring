@@ -122,6 +122,12 @@ for sent_i, sent in enumerate(stimuli):
 
 import matplotlib.patches as patches
 
+marker_dict = {
+    "original" : "o",
+    "within_word_l2r" : "P",
+    "within_word_mlm" : "p"
+}
+
 for sent_i, sent in enumerate(stimuli):
     fig, ax = plt.subplots()
     ys = []
@@ -139,7 +145,7 @@ for sent_i, sent in enumerate(stimuli):
         else:
             label = "Original PLL metric (token-level masking)"
 
-        ax.plot(y, marker="o", label=f"{label} | Sentence PLL score = {round(sum(y), 2)}")
+        ax.plot(y, marker=marker_dict[which_masking], label=f"{label} | Sentence PLL score = {round(sum(y), 2)}")
 
     plt.xticks(np.arange(len(x)), np.arange(1, len(x) + 1))
     ax.set_xticklabels(x)
@@ -151,7 +157,7 @@ for sent_i, sent in enumerate(stimuli):
 
     shared_x = [elm if elm not in indices else None for elm in np.arange(len(x))]
     shared_y = [y[i] if i or i == 0 else None for i in shared_x]
-    plt.plot(shared_x, shared_y, color='gray', marker="o", label="Token scores shared across metrics")
+    plt.plot(shared_x, shared_y, color='gray', marker="s", label="Token scores shared across metrics")
 
     ymin, ymax = ax.get_ylim()
     x = np.arange(1, len(x) + 1)
