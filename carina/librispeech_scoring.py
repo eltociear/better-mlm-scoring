@@ -11,27 +11,18 @@ import re
 
 def main():
     """
-    This function scores sentences in a given paradigm belonging to the BLiMP benchmark & calculates the model's
-    accurately at determining for each minimal sentence pair in the paradigm, which of the two sentences is the
-    grammatical one (as determined by higher sentence likelihood)
-
-    We use this function to compare pseudo-log-likelihood scores of a sequence as proposed by Salazar et al. (2019) vs.
-    metric that is adjusted for better within-word token scoring
+    This function scores the ref sentences in the LibriSpeech dataset
     :param *which_masking*
         > if set to 'original' (default) it calculates the PLL as proposed by Salazar et al. (2020)
         > if set to 'within_word_l2r' it calculates the PLL metric for a given sentence, masking out future word tokens
             for multi-token words
         > if set to 'within_word_mlm' it calculates the PLL metric for a given sentence, masking out all tokens of the
             word to which the current token belongs for multi-token words
-
-    The scoring uses a batch size of 500 as a default (as proposed in the mlm-scoring library for this experiment by
-    Salazar et al. (2020)).
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', required=True)
     parser.add_argument('--batch_size', type=int,
                         default=2000)  # default comes from Salazar et al. (2020) LibriSpeech expts.
-    # https://github.com/awslabs/mlm-scoring/tree/a8fd29f3ca666da386be91eb7c319027603c58a4/examples/lingacc-blimp#ranking
     parser.add_argument('--which_masking', type=str, default="original",
                         help="whether to use the original or adjusted PLL metric or not, default is 'original'."
                              "Other options are 'within_word_l2r' and 'within_word_mlm'")
@@ -51,7 +42,7 @@ def main():
     # Score LibriSpeech text
     ########################
 
-    def _apply_tokenizer_opts(sent: str) -> str:
+    def _apply_tokenizer_opts(sent: str) -> str: # from Salazar et al. (2021)
         sent += '.'
         sent = sent.capitalize()
         return sent
@@ -60,19 +51,18 @@ def main():
     with open('librispeech/data/test-clean.am.json') as json_file:
         corpus = json.load(json_file)
         for sent_idx, value in corpus.items():
-            ref_stimulus = _apply_tokenizer_opts(value["ref"])
-            ref_stim_length = len(ref_stimulus.split())
-            stimuli.append([sent_idx, ref_stimulus, ref_stim_length])
+            ref_stimulus = _apply_tokenizer_opts(value["ref"]) # Only scoring ref sentences so far
+            stimuli.append([sent_idx, ref_stimulus])
 
-    for triple in stimuli[:5]:
-        print(f"{triple[0]} | {triple[1]} | {triple[2]}")
+    for pair in stimuli[:5]:
+        print(f"{pair[0]} | {pair[1]}")
     print('\n')
 
     stimuli_dl = DataLoader(stimuli, batch_size=args.batch_size)
-    sent_ids, stimuli, token_lengths, scores, nr_words = [], [], [], [], []
+    sent_ids, stimuli, token_lengths, scores = [], [], [], []
 
     for batch in tqdm(stimuli_dl):
-        sent_idxs, ref_stimuli, stim_lengths = batch
+        sent_idxs, ref_stimuli = batch
         if not args.model.startswith('gpt'):  # if mlm model
             curr_scores, curr_token_lengths = model.sequence_score(ref_stimuli, which_masking=args.which_masking,
                                                                    reduction=lambda x: x.sum().item(),
@@ -85,15 +75,13 @@ def main():
         sent_ids.extend(sent_idxs)
         stimuli.extend(ref_stimuli)
         token_lengths.extend(curr_token_lengths)
-        nr_words.extend(stim_lengths)
         scores.extend(curr_scores)
 
     results_df = pd.DataFrame({
         'sentence id': sent_ids,
         'ref sentence': stimuli,
         'PLL score': scores,
-        'nr. of tokens': token_lengths,
-        'nr. of words': nr_words
+        'nr. of tokens': token_lengths
     })
 
     ######################
