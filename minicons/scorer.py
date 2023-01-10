@@ -1,5 +1,6 @@
 from logging import log
 from typing import Iterable, Union, List, Dict, Optional, Callable, Tuple, Any
+from tqdm import tqdm
 
 import torch
 from transformers import (
@@ -372,7 +373,6 @@ class MaskedLMScorer(LMScorer):
             effective_token_ids = [token for token in token_ids if token != self.pad_token_id and token != self.cls_token_id and token != self.sep_token_id]
             effective_length = len(effective_token_ids)
 
-
             if which_masking == "within_word_l2r":
                 """
                 CK adjusted the preparation function here.
@@ -411,8 +411,11 @@ class MaskedLMScorer(LMScorer):
                 mask_indices = [[mask_pos] + [j for j in range(effective_length + 2) if (word_ids[j] == word_ids[mask_pos] and mask_pos != j)]
                                 if word_ids[mask_pos] is not None else [mask_pos] for mask_pos in range(effective_length + 2)]
 
-            else: # original token-by-token-masking
+            elif which_masking == "original": # original token-by-token-masking
                 mask_indices = [[mask_pos] for mask_pos in range(effective_length+2)]
+
+            else:
+                raise NotImplementedError
 
             # We don't mask the [CLS], [SEP] for now for PLL
             mask_indices = mask_indices[1:-1]
@@ -467,7 +470,7 @@ class MaskedLMScorer(LMScorer):
 
         masked_tensors = [] # token ids, attention masks, lengths
 
-        for i, (token_ids, attention_mask) in enumerate(zip(token_idx, attention_masks)):
+        for i, (token_ids, attention_mask) in tqdm(enumerate(zip(token_idx, attention_masks))):
             token_ids = torch.tensor(token_ids)
             # final_lengths = len(token_ids) - 2
             attention_mask = torch.tensor(attention_mask)
@@ -793,6 +796,8 @@ class IncrementalLMScorer(LMScorer):
 
     def encode(self, text: Union[str, List[str]]) -> dict:
         text = [text] if isinstance(text, str) else text
+        text = [self.tokenizer.bos_token + sentence for sentence in text] #Added CK https://github.com/huggingface/transformers/issues/1009
+        # also in LM-Zoo: https://github.com/cpllab/lm-zoo/blob/master/models/gpt2/get_surprisals.py#L44
         return self.tokenizer(text, return_tensors='pt', padding = True)
     
     def prepare_text(self, text: Union[str, List[str]]) -> Tuple:
@@ -912,7 +917,7 @@ class IncrementalLMScorer(LMScorer):
         ids = [[i for i in instance if i != self.tokenizer.pad_token_id] for instance in encoded['input_ids'].tolist()]
 
         ## Ignore the probabilities of the first token.
-        effective_ids = [id[1:] for id in ids]
+        effective_ids = [id[1:] for id in ids] # CK: Note that I now include the BOS token at the beginning of the string!
 
         with torch.no_grad():
             logits = self.model(**encoded).logits.detach()
