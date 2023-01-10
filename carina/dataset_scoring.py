@@ -117,8 +117,10 @@ def main():
             savename += f"{args.dataset}_AdjustedPLL_l2r"
         elif args.which_masking == "within_word_mlm":
             savename += f"{args.dataset}_AdjustedPLL_mlm"
-        else:
+        elif args.which_masking == "original":
             savename += f"{args.dataset}_OriginalPLL"
+        else:
+            raise NotImplementedError
     else:
         savename += f"{args.dataset}"
     savename += ".csv"
