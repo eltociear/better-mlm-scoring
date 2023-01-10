@@ -1,0 +1,1565 @@
+sentence id,sentence,PLL score,nr. of tokens
+tensor(0),The raider caught the illness.,-25.308202743530273,9
+tensor(1),The illness caught the raider.,-28.228866577148438,9
+tensor(2),The illness was caught by the raider.,-26.38129997253418,11
+tensor(3),The raider was caught by the illness.,-29.998080253601074,11
+tensor(4),The marauder contracted the disease.,-6.191896438598633,11
+tensor(5),The disease contracted the marauder.,-21.423672676086426,11
+tensor(6),The disease was contracted by the marauder.,-15.123053073883057,13
+tensor(7),The marauder was contracted by the disease.,-24.040513038635254,13
+tensor(8),The convict dreaded the prison.,-24.757603645324707,9
+tensor(9),The prison dreaded the convict.,-25.631875038146973,9
+tensor(10),The prison was dreaded by the convict.,-26.41063642501831,11
+tensor(11),The convict was dreaded by the prison.,-35.0094633102417,11
+tensor(12),The criminal feared the jail.,-31.693479537963867,8
+tensor(13),The jail feared the criminal.,-28.742475509643555,8
+tensor(14),The jail was feared by the criminal.,-30.608729362487793,10
+tensor(15),The criminal was feared by the jail.,-32.980292320251465,10
+tensor(16),The prostitute squandered the cash.,-15.238931655883789,10
+tensor(17),The cash squandered the prostitute.,-21.18163013458252,10
+tensor(18),The cash was squandered by the prostitute.,-14.263487815856934,12
+tensor(19),The prostitute was squandered by the cash.,-22.84529399871826,12
+tensor(20),The call girl wasted the money.,-30.950832843780518,9
+tensor(21),The money wasted the call girl.,-42.67141914367676,9
+tensor(22),The money was wasted by the call girl.,-28.246541500091553,11
+tensor(23),The call girl was wasted by the money.,-40.615458965301514,11
+tensor(24),The adventurer requested the beverage.,-24.621797561645508,9
+tensor(25),The beverage requested the adventurer.,-33.01378059387207,9
+tensor(26),The beverage was requested by the adventurer.,-25.956829071044922,11
+tensor(27),The adventurer was requested by the beverage.,-39.4860258102417,11
+tensor(28),The undertaker prepared the funeral.,-13.514209747314453,9
+tensor(29),The funeral prepared the undertaker.,-25.286745071411133,9
+tensor(30),The funeral was prepared by the undertaker.,-18.41446828842163,11
+tensor(31),The undertaker was prepared by the funeral.,-31.577046394348145,11
+tensor(32),The mortician arranged the burial.,-12.293192863464355,11
+tensor(33),The burial arranged the mortician.,-29.894423484802246,11
+tensor(34),The burial was arranged by the mortician.,-12.01423168182373,13
+tensor(35),The mortician was arranged by the burial.,-30.70811176300049,13
+tensor(36),The supervisor supplied the liquor.,-23.6090726852417,8
+tensor(37),The liquor supplied the supervisor.,-29.835951805114746,8
+tensor(38),The liquor was supplied by the supervisor.,-24.37606716156006,10
+tensor(39),The supervisor was supplied by the liquor.,-39.24386405944824,10
+tensor(40),The overseer provided the alcohol.,-20.007568359375,9
+tensor(41),The alcohol provided the overseer.,-29.65308904647827,9
+tensor(42),The alcohol was provided by the overseer.,-16.757137775421143,11
+tensor(43),The overseer was provided by the alcohol.,-36.99936628341675,11
+tensor(44),The troublemaker crashed the car.,-12.361639976501465,9
+tensor(45),The car crashed the troublemaker.,-27.399292945861816,9
+tensor(46),The car was crashed by the troublemaker.,-13.360614776611328,11
+tensor(47),The troublemaker was crashed by the car.,-24.231863021850586,11
+tensor(48),The hooligan wrecked the vehicle.,-13.697547435760498,10
+tensor(49),The vehicle wrecked the hooligan.,-20.95798397064209,10
+tensor(50),The vehicle was wrecked by the hooligan.,-13.133345603942871,12
+tensor(51),The hooligan was wrecked by the vehicle.,-19.87683391571045,12
+tensor(52),The repairman fixed the tap.,-22.414251804351807,9
+tensor(53),The tap fixed the repairman.,-34.49825620651245,9
+tensor(54),The tap was fixed by the repairman.,-24.00977897644043,11
+tensor(55),The repairman was fixed by the tap.,-37.868430614471436,11
+tensor(56),The handyman repaired the faucet.,-12.026266098022461,12
+tensor(57),The faucet repaired the handyman.,-22.09229803085327,12
+tensor(58),The faucet was repaired by the handyman.,-12.673144340515137,14
+tensor(59),The handyman was repaired by the faucet.,-22.295852661132812,14
+tensor(60),The secretary organized the desk.,-25.010560035705566,8
+tensor(61),The desk organized the secretary.,-32.431077003479004,8
+tensor(62),The desk was organized by the secretary.,-24.19127368927002,10
+tensor(63),The secretary was organized by the desk.,-39.53537654876709,10
+tensor(64),The receptionist tidied the table.,-4.1083879470825195,11
+tensor(65),The table tidied the receptionist.,-13.699501991271973,11
+tensor(66),The table was tidied by the receptionist.,-4.362256050109863,13
+tensor(67),The receptionist was tidied by the table.,-14.037283897399902,13
+tensor(68),The pilot steered the airplane.,-11.999511241912842,8
+tensor(69),The airplane steered the pilot.,-27.852972984313965,8
+tensor(70),The airplane was steered by the pilot.,-11.674612045288086,10
+tensor(71),The pilot was steered by the airplane.,-27.34223461151123,10
+tensor(72),The aviator maneuvered the jet.,-9.280197143554688,10
+tensor(73),The jet maneuvered the aviator.,-17.298877716064453,10
+tensor(74),The jet was maneuvered by the aviator.,-15.328306674957275,12
+tensor(75),The aviator was maneuvered by the jet.,-18.23986577987671,12
+tensor(76),The chef sauteed the squid.,-12.105862617492676,11
+tensor(77),The squid sauteed the chef.,-23.87122392654419,11
+tensor(78),The squid was sauteed by the chef.,-8.768346786499023,13
+tensor(79),The chef was sauteed by the squid.,-17.855244636535645,13
+tensor(80),The cook grilled the octopus.,-6.407858371734619,12
+tensor(81),The octopus grilled the cook.,-9.490344047546387,12
+tensor(82),The octopus was grilled by the cook.,-8.781551361083984,14
+tensor(83),The cook was grilled by the octopus.,-15.929153442382812,14
+tensor(84),The ship captain promised the triumph.,-35.78494358062744,9
+tensor(85),The triumph promised the ship captain.,-37.27836084365845,9
+tensor(86),The triumph was promised by the ship captain.,-27.715858936309814,11
+tensor(87),The ship captain was promised by the triumph.,-38.609211921691895,11
+tensor(88),The skipper guaranteed the victory.,-14.244118213653564,9
+tensor(89),The victory guaranteed the skipper.,-18.169752597808838,9
+tensor(90),The victory was guaranteed by the skipper.,-13.36164140701294,11
+tensor(91),The skipper was guaranteed by the victory.,-26.20147466659546,11
+tensor(92),The milliner adorned the fedora.,-19.99980115890503,10
+tensor(93),The fedora adorned the milliner.,-22.829551219940186,10
+tensor(94),The fedora was adorned by the milliner.,-17.93032455444336,12
+tensor(95),The milliner was adorned by the fedora.,-27.435112953186035,12
+tensor(96),The hatter decorated the bowler.,-35.020044803619385,9
+tensor(97),The bowler decorated the hatter.,-33.839510917663574,9
+tensor(98),The bowler was decorated by the hatter.,-34.60689640045166,11
+tensor(99),The hatter was decorated by the bowler.,-34.05882263183594,11
+tensor(100),The serviceman hoisted the flag.,-11.530623435974121,10
+tensor(101),The flag hoisted the serviceman.,-20.495250701904297,10
+tensor(102),The flag was hoisted by the serviceman.,-13.596003532409668,12
+tensor(103),The serviceman was hoisted by the flag.,-20.714228630065918,12
+tensor(104),The soldier raised the banner.,-18.64943790435791,8
+tensor(105),The banner raised the soldier.,-32.03280258178711,8
+tensor(106),The banner was raised by the soldier.,-19.311659336090088,10
+tensor(107),The soldier was raised by the banner.,-27.678677082061768,10
+tensor(108),The agent failed the mission.,-15.097879886627197,8
+tensor(109),The mission failed the agent.,-23.326287746429443,8
+tensor(110),The mission was failed by the agent.,-19.945192337036133,10
+tensor(111),The agent was failed by the mission.,-30.35784673690796,10
+tensor(112),The operative blew the assignment.,-27.978598594665527,8
+tensor(113),The assignment blew the operative.,-35.853946685791016,8
+tensor(114),The assignment was blown by the operative.,-35.057963371276855,10
+tensor(115),The operative was blown by the assignment.,-37.74854755401611,10
+tensor(116),The anchorman garbled the expression.,-23.865510940551758,11
+tensor(117),The expression garbled the anchorman.,-20.20901393890381,11
+tensor(118),The expression was garbled by the anchorman.,-15.801375389099121,13
+tensor(119),The anchorman was garbled by the expression.,-23.31805181503296,13
+tensor(120),The announcer mispronounced the word.,-12.443241596221924,11
+tensor(121),The word mispronounced the announcer.,-14.143489360809326,11
+tensor(122),The word was mispronounced by the announcer.,-12.732507705688477,13
+tensor(123),The announcer was mispronounced by the word.,-21.725940704345703,13
+tensor(124),The author finished the novel.,-10.851460456848145,8
+tensor(125),The novel finished the author.,-23.492842197418213,8
+tensor(126),The novel was finished by the author.,-14.746387004852295,10
+tensor(127),The author was finished by the novel.,-35.33911991119385,10
+tensor(128),The writer completed the book.,-13.254042148590088,8
+tensor(129),The book completed the writer.,-23.7552433013916,8
+tensor(130),The book was completed by the writer.,-15.129740238189697,10
+tensor(131),The writer was completed by the book.,-34.07674312591553,10
+tensor(132),The financier sponsored the project.,-8.966742038726807,10
+tensor(133),The project sponsored the financier.,-20.317620277404785,10
+tensor(134),The project was sponsored by the financier.,-11.503177642822266,12
+tensor(135),The financier was sponsored by the project.,-17.73080587387085,12
+tensor(136),The banker funded the program.,-25.13520622253418,8
+tensor(137),The program funded the banker.,-32.20130729675293,8
+tensor(138),The program was funded by the banker.,-26.08197546005249,10
+tensor(139),The banker was funded by the program.,-29.6419038772583,10
+tensor(140),The tourist exited the bus.,-17.723703384399414,8
+tensor(141),The bus exited the tourist.,-31.602201461791992,8
+tensor(142),The bus was exited by the tourist.,-25.590049743652344,10
+tensor(143),The tourist was exited by the bus.,-29.61569833755493,10
+tensor(144),The vacationer left the shuttle.,-24.895028114318848,9
+tensor(145),The shuttle left the vacationer.,-31.870756149291992,9
+tensor(146),The shuttle was left by the vacationer.,-31.31723117828369,11
+tensor(147),The vacationer was left by the shuttle.,-31.768543243408203,11
+tensor(148),The dietitian loathed the jam.,-20.26870059967041,11
+tensor(149),The jam loathed the dietitian.,-26.608811378479004,11
+tensor(150),The jam was loathed by the dietitian.,-23.46530246734619,13
+tensor(151),The dietitian was loathed by the jam.,-25.106284141540527,13
+tensor(152),The nutritionist detested the marmalade.,-10.458436489105225,13
+tensor(153),The marmalade detested the nutritionist.,-14.26136827468872,13
+tensor(154),The marmalade was detested by the nutritionist.,-13.301054954528809,15
+tensor(155),The nutritionist was detested by the marmalade.,-16.34846067428589,15
+tensor(156),The scientist discovered the cure.,-15.348857402801514,8
+tensor(157),The cure discovered the scientist.,-31.530076026916504,8
+tensor(158),The cure was discovered by the scientist.,-16.7979416847229,10
+tensor(159),The scientist was discovered by the cure.,-32.08256912231445,10
+tensor(160),The researcher found the remedy.,-25.43424701690674,8
+tensor(161),The remedy found the researcher.,-33.24987602233887,8
+tensor(162),The remedy was found by the researcher.,-25.866397857666016,10
+tensor(163),The researcher was found by the remedy.,-39.913705825805664,10
+tensor(164),The doctor closed the school.,-26.486031532287598,8
+tensor(165),The school closed the doctor.,-34.837406158447266,8
+tensor(166),The school was closed by the doctor.,-23.662363052368164,10
+tensor(167),The doctor was closed by the school.,-28.157331466674805,10
+tensor(168),The maid lifted the cushion.,-17.779537200927734,8
+tensor(169),The cushion lifted the maid.,-28.01305055618286,8
+tensor(170),The cushion was lifted by the maid.,-19.9966402053833,10
+tensor(171),The maid was lifted by the cushion.,-30.51830244064331,10
+tensor(172),The servant wiped the sink.,-17.82483673095703,8
+tensor(173),The sink wiped the servant.,-32.43840503692627,8
+tensor(174),The sink was wiped by the servant.,-24.865262031555176,10
+tensor(175),The servant was wiped by the sink.,-33.700039863586426,10
+tensor(176),The domestic cleaned the wash basin.,-22.505946159362793,9
+tensor(177),The wash basin cleaned the domestic.,-36.19974994659424,9
+tensor(178),The wash basin was cleaned by the domestic.,-24.744616508483887,11
+tensor(179),The domestic was cleaned by the wash basin.,-35.21512317657471,11
+tensor(180),The friend donned the pullover.,-16.39930820465088,10
+tensor(181),The pullover donned the friend.,-30.378478050231934,10
+tensor(182),The pullover was donned by the friend.,-18.847116470336914,12
+tensor(183),The friend was donned by the pullover.,-29.537060737609863,12
+tensor(184),The convalescent took the pill.,-8.788813591003418,10
+tensor(185),The pill took the convalescent.,-19.86482810974121,10
+tensor(186),The pill was taken by the convalescent.,-14.079005241394043,12
+tensor(187),The convalescent was taken by the pill.,-28.594189643859863,12
+tensor(188),The patient swallowed the medicine.,-16.772454261779785,8
+tensor(189),The medicine swallowed the patient.,-26.125422954559326,8
+tensor(190),The medicine was swallowed by the patient.,-18.893330574035645,10
+tensor(191),The patient was swallowed by the medicine.,-22.820672035217285,10
+tensor(192),The hoarder hid the stash.,-8.7149977684021,12
+tensor(193),The stash hid the hoarder.,-13.923598289489746,12
+tensor(194),The stash was hidden by the hoarder.,-7.845752716064453,14
+tensor(195),The hoarder was hidden by the stash.,-14.960590839385986,14
+tensor(196),The packrat concealed the stockpile.,-28.589953422546387,10
+tensor(197),The stockpile concealed the packrat.,-29.63775062561035,10
+tensor(198),The stockpile was concealed by the packrat.,-29.27431058883667,12
+tensor(199),The packrat was concealed by the stockpile.,-33.10007286071777,12
+tensor(200),The reporter abandoned the story.,-18.252190113067627,8
+tensor(201),The story abandoned the reporter.,-24.731072902679443,8
+tensor(202),The story was abandoned by the reporter.,-17.470884323120117,10
+tensor(203),The reporter was abandoned by the story.,-33.7636194229126,10
+tensor(204),The journalist ditched the article.,-17.882966995239258,9
+tensor(205),The article ditched the journalist.,-26.147786617279053,9
+tensor(206),The article was ditched by the journalist.,-21.926097869873047,11
+tensor(207),The journalist was ditched by the article.,-32.05903339385986,11
+tensor(208),The carnivore ate the steak.,-12.587530136108398,11
+tensor(209),The steak ate the carnivore.,-19.3024959564209,11
+tensor(210),The steak was eaten by the carnivore.,-14.719341278076172,13
+tensor(211),The carnivore was eaten by the steak.,-21.586135864257812,13
+tensor(212),The meat-eater devoured the filet.,-7.514634132385254,14
+tensor(213),The filet devoured the meat-eater.,-9.660930633544922,14
+tensor(214),The filet was devoured by the meat-eater.,-10.530652046203613,16
+tensor(215),The meat-eater was devoured by the filet.,-13.004388809204102,16
+tensor(216),The man drank the soda.,-13.523525714874268,8
+tensor(217),The soda drank the man.,-30.41732120513916,8
+tensor(218),The soda was drunk by the man.,-23.28117847442627,10
+tensor(219),The man was drunk by the soda.,-29.735093593597412,10
+tensor(220),The teacher bought the laptop.,-22.765830039978027,8
+tensor(221),The laptop bought the teacher.,-33.60815143585205,8
+tensor(222),The laptop was bought by the teacher.,-22.067047119140625,10
+tensor(223),The teacher was bought by the laptop.,-39.6145133972168,10
+tensor(224),The instructor purchased the computer.,-26.758012771606445,8
+tensor(225),The computer purchased the instructor.,-34.91547107696533,8
+tensor(226),The computer was purchased by the instructor.,-26.284789085388184,10
+tensor(227),The instructor was purchased by the computer.,-37.13412284851074,10
+tensor(228),The lady cooked the supper.,-18.234439849853516,8
+tensor(229),The supper cooked the lady.,-33.88284873962402,8
+tensor(230),The supper was cooked by the lady.,-19.982271194458008,10
+tensor(231),The lady was cooked by the supper.,-38.92657947540283,10
+tensor(232),The woman prepared the dinner.,-14.001852989196777,8
+tensor(233),The dinner prepared the woman.,-29.890549182891846,8
+tensor(234),The dinner was prepared by the woman.,-15.604403972625732,10
+tensor(235),The woman was prepared by the dinner.,-38.81362438201904,10
+tensor(236),The traveler lost the souvenir.,-11.299588203430176,11
+tensor(237),The souvenir lost the traveler.,-16.31186294555664,11
+tensor(238),The souvenir was lost by the traveler.,-14.306835174560547,13
+tensor(239),The traveler was lost by the souvenir.,-24.14439582824707,13
+tensor(240),The sightseer misplaced the memento.,-19.69097900390625,12
+tensor(241),The memento misplaced the sightseer.,-19.49823570251465,12
+tensor(242),The memento was misplaced by the sightseer.,-19.20522975921631,14
+tensor(243),The sightseer was misplaced by the memento.,-19.621272087097168,14
+tensor(244),The comedian confirmed the itinerary.,-17.708996772766113,10
+tensor(245),The itinerary confirmed the comedian.,-24.768073081970215,10
+tensor(246),The itinerary was confirmed by the comedian.,-17.80970573425293,12
+tensor(247),The comedian was confirmed by the itinerary.,-23.287728309631348,12
+tensor(248),The humorist verified the schedule.,-30.838268280029297,9
+tensor(249),The schedule verified the humorist.,-36.23594093322754,9
+tensor(250),The schedule was verified by the humorist.,-27.100990295410156,11
+tensor(251),The humorist was verified by the schedule.,-35.28048038482666,11
+tensor(252),The woodworker skimmed the brochure.,-4.113478660583496,14
+tensor(253),The brochure skimmed the woodworker.,-10.367413520812988,14
+tensor(254),The brochure was skimmed by the woodworker.,-6.385660171508789,16
+tensor(255),The woodworker was skimmed by the brochure.,-15.220913410186768,16
+tensor(256),The guide reached the target.,-22.961220741271973,8
+tensor(257),The target reached the guide.,-30.23713207244873,8
+tensor(258),The target was reached by the guide.,-25.175804615020752,10
+tensor(259),The guide was reached by the target.,-30.482345581054688,10
+tensor(260),The townsperson farmed the grain.,-29.49893569946289,10
+tensor(261),The grain farmed the townsperson.,-38.944480419158936,10
+tensor(262),The grain was farmed by the townsperson.,-28.6476411819458,12
+tensor(263),The townsperson was farmed by the grain.,-41.42265844345093,12
+tensor(264),The villager cultivated the crop.,-21.618847846984863,9
+tensor(265),The crop cultivated the villager.,-38.00589990615845,9
+tensor(266),The crop was cultivated by the villager.,-21.06789541244507,11
+tensor(267),The villager was cultivated by the crop.,-39.98634576797485,11
+tensor(268),The mentor revised the manuscript.,-27.701003074645996,8
+tensor(269),The manuscript revised the mentor.,-36.95225286483765,8
+tensor(270),The manuscript was revised by the mentor.,-28.97216796875,10
+tensor(271),The mentor was revised by the manuscript.,-42.621684551239014,10
+tensor(272),The advisor edited the paper.,-21.66729736328125,8
+tensor(273),The paper edited the advisor.,-35.32919454574585,8
+tensor(274),The paper was edited by the advisor.,-22.675031661987305,10
+tensor(275),The advisor was edited by the paper.,-34.44289970397949,10
+tensor(276),The accountant made the chart.,-30.491880893707275,8
+tensor(277),The chart made the accountant.,-38.41483116149902,8
+tensor(278),The chart was made by the accountant.,-24.026302337646484,10
+tensor(279),The accountant was made by the chart.,-43.70408630371094,10
+tensor(280),The bookkeeper created the graph.,-21.82959747314453,9
+tensor(281),The graph created the bookkeeper.,-34.19175672531128,9
+tensor(282),The graph was created by the bookkeeper.,-20.255114555358887,11
+tensor(283),The bookkeeper was created by the graph.,-38.06081295013428,11
+tensor(284),The logger felled the pine tree.,-20.557547569274902,11
+tensor(285),The pine tree felled the logger.,-25.082152366638184,11
+tensor(286),The pine tree was felled by the logger.,-10.943573951721191,13
+tensor(287),The logger was felled by the pine tree.,-21.592588424682617,13
+tensor(288),The tycoon ran the company.,-7.371128082275391,10
+tensor(289),The company ran the tycoon.,-16.36154079437256,10
+tensor(290),The company was run by the tycoon.,-10.104750633239746,12
+tensor(291),The tycoon was run by the company.,-15.814447402954102,12
+tensor(292),The mogul governed the corporation.,-15.599168300628662,10
+tensor(293),The corporation governed the mogul.,-19.377223014831543,10
+tensor(294),The corporation was governed by the mogul.,-16.622373580932617,12
+tensor(295),The mogul was governed by the corporation.,-19.005568027496338,12
+tensor(296),The campaigner biased the ballot.,-25.07319402694702,10
+tensor(297),The ballot biased the campaigner.,-27.644394874572754,10
+tensor(298),The ballot was biased by the campaigner.,-27.541309356689453,12
+tensor(299),The campaigner was biased by the ballot.,-30.795650005340576,12
+tensor(300),The activist prejudiced the vote.,-27.369958877563477,9
+tensor(301),The vote prejudiced the activist.,-26.871234893798828,9
+tensor(302),The vote was prejudiced by the activist.,-29.244408130645752,11
+tensor(303),The activist was prejudiced by the vote.,-27.245247840881348,11
+tensor(304),The stewardess pulled the suitcase.,-17.224666595458984,10
+tensor(305),The suitcase pulled the stewardess.,-31.247742652893066,10
+tensor(306),The suitcase was pulled by the stewardess.,-15.313896179199219,12
+tensor(307),The stewardess was pulled by the suitcase.,-18.32596492767334,12
+tensor(308),The flight-attendant dragged the luggage.,-14.158641815185547,10
+tensor(309),The luggage dragged the flight-attendant.,-21.03447723388672,10
+tensor(310),The luggage was dragged by the flight-attendant.,-16.252903938293457,12
+tensor(311),The flight-attendant was dragged by the luggage.,-21.639354705810547,12
+tensor(312),The congressman delivered the speech.,-8.440570831298828,9
+tensor(313),The speech delivered the congressman.,-26.15311336517334,9
+tensor(314),The speech was delivered by the congressman.,-10.010891914367676,11
+tensor(315),The congressman was delivered by the speech.,-32.40318727493286,11
+tensor(316),The representative gave the address.,-13.98760986328125,8
+tensor(317),The address gave the representative.,-30.477101802825928,8
+tensor(318),The address was given by the representative.,-16.4292049407959,10
+tensor(319),The representative was given by the address.,-36.23633527755737,10
+tensor(320),The sheriff inspected the estate.,-15.931396007537842,8
+tensor(321),The estate inspected the sheriff.,-37.10512733459473,8
+tensor(322),The estate was inspected by the sheriff.,-17.881271362304688,10
+tensor(323),The sheriff was inspected by the estate.,-36.00667667388916,10
+tensor(324),The constable examined the property.,-12.158915519714355,9
+tensor(325),The property examined the constable.,-30.090121269226074,9
+tensor(326),The property was examined by the constable.,-12.462297439575195,11
+tensor(327),The constable was examined by the property.,-26.39801025390625,11
+tensor(328),The celebrity signed the photograph.,-21.397074699401855,8
+tensor(329),The photograph signed the celebrity.,-30.22188949584961,8
+tensor(330),The photograph was signed by the celebrity.,-20.008429527282715,10
+tensor(331),The celebrity was signed by the photograph.,-37.46975612640381,10
+tensor(332),The star autographed the picture.,-13.491089344024658,10
+tensor(333),The picture autographed the star.,-19.243279933929443,10
+tensor(334),The picture was autographed by the star.,-13.569090843200684,12
+tensor(335),The star was autographed by the picture.,-25.874666213989258,12
+tensor(336),The nanny tutored the boy.,-8.139222145080566,10
+tensor(337),The boy tutored the nanny.,-8.815771102905273,10
+tensor(338),The boy was tutored by the nanny.,-8.044651985168457,12
+tensor(339),The nanny was tutored by the boy.,-11.058601379394531,12
+tensor(340),The governess instructed the lad.,-14.620410919189453,9
+tensor(341),The lad instructed the governess.,-17.468342304229736,9
+tensor(342),The lad was instructed by the governess.,-15.154772758483887,11
+tensor(343),The governess was instructed by the lad.,-18.04738187789917,11
+tensor(344),The blackmailer threatened the senator.,-15.083801746368408,10
+tensor(345),The senator threatened the blackmailer.,-16.133451461791992,10
+tensor(346),The senator was threatened by the blackmailer.,-14.838757991790771,12
+tensor(347),The blackmailer was threatened by the senator.,-15.225111484527588,12
+tensor(348),The extortionist menaced the legislator.,-6.699902534484863,15
+tensor(349),The legislator menaced the extortionist.,-2.6993093490600586,15
+tensor(350),The legislator was menaced by the extortionist.,-5.348095893859863,17
+tensor(351),The extortionist was menaced by the legislator.,-5.2270660400390625,17
+tensor(352),The artist portrayed the philosopher.,-18.655059337615967,8
+tensor(353),The philosopher portrayed the artist.,-23.4695405960083,8
+tensor(354),The philosopher was portrayed by the artist.,-18.210904121398926,10
+tensor(355),The artist was portrayed by the philosopher.,-28.38286066055298,10
+tensor(356),The painter depicted the thinker.,-24.854281902313232,9
+tensor(357),The thinker depicted the painter.,-26.36328125,9
+tensor(358),The thinker was depicted by the painter.,-20.565749168395996,11
+tensor(359),The painter was depicted by the thinker.,-31.96727418899536,11
+tensor(360),The mechanic berated the intern.,-23.152040481567383,10
+tensor(361),The intern berated the mechanic.,-17.285459518432617,10
+tensor(362),The intern was berated by the mechanic.,-29.23399066925049,12
+tensor(363),The mechanic was berated by the intern.,-23.712327003479004,12
+tensor(364),The technician rebuked the aide.,-15.448505401611328,10
+tensor(365),The aide rebuked the technician.,-14.295608520507812,10
+tensor(366),The aide was rebuked by the technician.,-21.97529411315918,12
+tensor(367),The technician was rebuked by the aide.,-21.63003158569336,12
+tensor(368),The fairy enchanted the troll.,-15.295576572418213,9
+tensor(369),The troll enchanted the fairy.,-16.59908390045166,9
+tensor(370),The troll was enchanted by the fairy.,-14.894689083099365,11
+tensor(371),The fairy was enchanted by the troll.,-14.70944595336914,11
+tensor(372),The pixie mesmerized the ogre.,-1.2702178955078125,14
+tensor(373),The ogre mesmerized the pixie.,-1.1507415771484375,14
+tensor(374),The ogre was mesmerized by the pixie.,-1.1641387939453125,16
+tensor(375),The pixie was mesmerized by the ogre.,-1.2798433303833008,16
+tensor(376),The orderly assisted the dentist.,-18.864795684814453,9
+tensor(377),The dentist assisted the orderly.,-17.65894079208374,9
+tensor(378),The dentist was assisted by the orderly.,-16.885467529296875,11
+tensor(379),The orderly was assisted by the dentist.,-16.26927661895752,11
+tensor(380),The nurse helped the orthodontist.,-16.195942878723145,12
+tensor(381),The orthodontist helped the nurse.,-15.2615385055542,12
+tensor(382),The orthodontist was helped by the nurse.,-13.983320236206055,14
+tensor(383),The nurse was helped by the orthodontist.,-16.367868900299072,14
+tensor(384),The owner evicted the tenant.,-8.098053932189941,9
+tensor(385),The tenant evicted the owner.,-9.293602466583252,9
+tensor(386),The tenant was evicted by the owner.,-12.124886512756348,11
+tensor(387),The owner was evicted by the tenant.,-10.67415189743042,11
+tensor(388),The critic attacked the conservative.,-22.19938087463379,8
+tensor(389),The conservative attacked the critic.,-22.920493602752686,8
+tensor(390),The conservative was attacked by the critic.,-24.905278205871582,10
+tensor(391),The critic was attacked by the conservative.,-20.760489463806152,10
+tensor(392),The reviewer criticized the right-winger.,-16.437686443328857,10
+tensor(393),The right-winger criticized the reviewer.,-22.152470111846924,10
+tensor(394),The right-winger was criticized by the reviewer.,-18.184619903564453,12
+tensor(395),The reviewer was criticized by the right-winger.,-25.736637115478516,12
+tensor(396),The admirer badgered the director.,-18.238327026367188,10
+tensor(397),The director badgered the admirer.,-15.09100341796875,10
+tensor(398),The director was badgered by the admirer.,-17.593407154083252,12
+tensor(399),The admirer was badgered by the director.,-14.988692283630371,12
+tensor(400),The fan pestered the filmmaker.,-22.20587921142578,10
+tensor(401),The filmmaker pestered the fan.,-22.511460304260254,10
+tensor(402),The filmmaker was pestered by the fan.,-23.284732818603516,12
+tensor(403),The fan was pestered by the filmmaker.,-19.2861328125,12
+tensor(404),The paramedic revived the youth.,-18.78847360610962,10
+tensor(405),The youth revived the paramedic.,-18.784122467041016,10
+tensor(406),The youth was revived by the paramedic.,-17.83301067352295,12
+tensor(407),The paramedic was revived by the youth.,-18.703046798706055,12
+tensor(408),The EMT resuscitated the youngster.,-7.9375457763671875,13
+tensor(409),The youngster resuscitated the EMT.,-11.919262886047363,13
+tensor(410),The youngster was resuscitated by the EMT.,-16.091216564178467,15
+tensor(411),The EMT was resuscitated by the youngster.,-14.630647659301758,15
+tensor(412),The prankster duped the marketer.,-17.246602058410645,12
+tensor(413),The marketer duped the prankster.,-17.287460803985596,12
+tensor(414),The marketer was duped by the prankster.,-12.80130386352539,14
+tensor(415),The prankster was duped by the marketer.,-13.498790740966797,14
+tensor(416),The joker tricked the distributor.,-20.27285385131836,10
+tensor(417),The distributor tricked the joker.,-21.902389526367188,10
+tensor(418),The distributor was tricked by the joker.,-19.87650966644287,12
+tensor(419),The joker was tricked by the distributor.,-22.44123601913452,12
+tensor(420),The playboy courted the damsel.,-8.597268104553223,11
+tensor(421),The damsel courted the playboy.,-8.960502624511719,11
+tensor(422),The damsel was courted by the playboy.,-10.128641128540039,13
+tensor(423),The playboy was courted by the damsel.,-10.539380073547363,13
+tensor(424),The womanizer wooed the maiden.,-22.734256267547607,11
+tensor(425),The maiden wooed the womanizer.,-23.355334281921387,11
+tensor(426),The maiden was wooed by the womanizer.,-17.163108348846436,13
+tensor(427),The womanizer was wooed by the maiden.,-19.67728614807129,13
+tensor(428),The nomad cherished the clergyman.,-16.36007308959961,11
+tensor(429),The clergyman cherished the nomad.,-17.839601516723633,11
+tensor(430),The clergyman was cherished by the nomad.,-18.910837173461914,13
+tensor(431),The nomad was cherished by the clergyman.,-19.47877025604248,13
+tensor(432),The vagabond revered the priest.,-18.860280990600586,11
+tensor(433),The priest revered the vagabond.,-16.56783103942871,11
+tensor(434),The priest was revered by the vagabond.,-20.726569175720215,13
+tensor(435),The vagabond was revered by the priest.,-18.987380027770996,13
+tensor(436),The assassin shot the statesman.,-22.810862064361572,8
+tensor(437),The statesman shot the assassin.,-23.350311756134033,8
+tensor(438),The statesman was shot by the assassin.,-20.076579093933105,10
+tensor(439),The assassin was shot by the statesman.,-21.916016578674316,10
+tensor(440),The hit man killed the politician.,-23.470919132232666,9
+tensor(441),The politician killed the hit man.,-22.648478507995605,9
+tensor(442),The politician was killed by the hit man.,-21.440645694732666,11
+tensor(443),The hit man was killed by the politician.,-22.060086250305176,11
+tensor(444),The clerk charged the elderly person.,-29.227858066558838,9
+tensor(445),The elderly person charged the clerk.,-27.609046936035156,9
+tensor(446),The elderly person was charged by the clerk.,-32.3234167098999,11
+tensor(447),The clerk was charged by the elderly person.,-32.04503583908081,11
+tensor(448),The cashier billed the senior citizen.,-18.668668746948242,10
+tensor(449),The senior citizen billed the cashier.,-18.558249473571777,10
+tensor(450),The senior citizen was billed by the cashier.,-18.83417510986328,12
+tensor(451),The cashier was billed by the senior citizen.,-20.87344264984131,12
+tensor(452),The mediator rescued the hostage.,-19.550118446350098,9
+tensor(453),The hostage rescued the mediator.,-24.805910110473633,9
+tensor(454),The hostage was rescued by the mediator.,-19.156865119934082,11
+tensor(455),The mediator was rescued by the hostage.,-24.49176597595215,11
+tensor(456),The negotiator saved the captive.,-15.315989017486572,10
+tensor(457),The captive saved the negotiator.,-18.985830307006836,10
+tensor(458),The captive was saved by the negotiator.,-14.336713790893555,12
+tensor(459),The negotiator was saved by the captive.,-18.176984786987305,12
+tensor(460),The detective found the assailant.,-10.86881399154663,10
+tensor(461),The assailant found the detective.,-16.921802520751953,10
+tensor(462),The assailant was found by the detective.,-14.490955352783203,12
+tensor(463),The detective was found by the assailant.,-18.42157745361328,12
+tensor(464),The sleuth located the attacker.,-18.014802932739258,10
+tensor(465),The attacker located the sleuth.,-14.938608646392822,10
+tensor(466),The attacker was located by the sleuth.,-23.08579730987549,12
+tensor(467),The sleuth was located by the attacker.,-21.664012908935547,12
+tensor(468),The artisan trained the apprentice.,-15.993720054626465,9
+tensor(469),The apprentice trained the artisan.,-14.970515727996826,9
+tensor(470),The apprentice was trained by the artisan.,-14.694648265838623,11
+tensor(471),The artisan was trained by the apprentice.,-16.227270126342773,11
+tensor(472),The craftsman taught the trainee.,-12.51075029373169,10
+tensor(473),The trainee taught the craftsman.,-12.845269203186035,10
+tensor(474),The trainee was taught by the craftsman.,-10.63598918914795,12
+tensor(475),The craftsman was taught by the trainee.,-12.515522003173828,12
+tensor(476),The biker defied the trainer.,-18.007604598999023,10
+tensor(477),The trainer defied the biker.,-18.218246459960938,10
+tensor(478),The trainer was defied by the biker.,-27.15803050994873,12
+tensor(479),The biker was defied by the trainer.,-27.043104648590088,12
+tensor(480),The cyclist disobeyed the coach.,-16.549498081207275,11
+tensor(481),The coach disobeyed the cyclist.,-20.777758598327637,11
+tensor(482),The coach was disobeyed by the cyclist.,-17.94934320449829,13
+tensor(483),The cyclist was disobeyed by the coach.,-18.109219551086426,13
+tensor(484),The speaker engrossed the audience.,-11.646013736724854,10
+tensor(485),The audience engrossed the speaker.,-14.17596435546875,10
+tensor(486),The audience was engrossed by the speaker.,-15.031862258911133,12
+tensor(487),The speaker was engrossed by the audience.,-14.847599029541016,12
+tensor(488),The genius shocked the cousin.,-36.91478633880615,8
+tensor(489),The cousin shocked the genius.,-39.309319496154785,8
+tensor(490),The cousin was shocked by the genius.,-29.91885280609131,10
+tensor(491),The genius was shocked by the cousin.,-36.52201557159424,10
+tensor(492),The prodigy surprised the relative.,-27.923590660095215,10
+tensor(493),The relative surprised the prodigy.,-27.541732788085938,10
+tensor(494),The relative was surprised by the prodigy.,-22.747877597808838,12
+tensor(495),The prodigy was surprised by the relative.,-24.89149284362793,12
+tensor(496),The smuggler bribed the bureaucrat.,-2.5545644760131836,12
+tensor(497),The bureaucrat bribed the smuggler.,-2.2255916595458984,12
+tensor(498),The bureaucrat was bribed by the smuggler.,-1.9214601516723633,14
+tensor(499),The smuggler was bribed by the bureaucrat.,-6.285654067993164,14
+tensor(500),The amateur irked the maestro.,-18.68552875518799,11
+tensor(501),The maestro irked the amateur.,-14.83824348449707,11
+tensor(502),The maestro was irked by the amateur.,-14.699884414672852,13
+tensor(503),The amateur was irked by the maestro.,-11.65079116821289,13
+tensor(504),The novice irritated the virtuoso.,-14.620644569396973,12
+tensor(505),The virtuoso irritated the novice.,-12.188905715942383,12
+tensor(506),The virtuoso was irritated by the novice.,-13.81598949432373,14
+tensor(507),The novice was irritated by the virtuoso.,-12.572627067565918,14
+tensor(508),The lawyer questioned the witness.,-13.930146217346191,8
+tensor(509),The witness questioned the lawyer.,-21.22746515274048,8
+tensor(510),The witness was questioned by the lawyer.,-18.42522621154785,10
+tensor(511),The lawyer was questioned by the witness.,-18.659852027893066,10
+tensor(512),The attorney interrogated the bystander.,-9.221216201782227,12
+tensor(513),The bystander interrogated the attorney.,-11.088418960571289,12
+tensor(514),The bystander was interrogated by the attorney.,-13.414551734924316,14
+tensor(515),The attorney was interrogated by the bystander.,-15.830809593200684,14
+tensor(516),The singer disappointed the enthusiast.,-21.237515449523926,11
+tensor(517),The enthusiast disappointed the singer.,-15.825836658477783,11
+tensor(518),The enthusiast was disappointed by the singer.,-18.271977424621582,13
+tensor(519),The singer was disappointed by the enthusiast.,-15.459325790405273,13
+tensor(520),The vocalist disillusioned the connoisseur.,-14.230245590209961,14
+tensor(521),The connoisseur disillusioned the vocalist.,-9.721996307373047,14
+tensor(522),The connoisseur was disillusioned by the vocalist.,-17.774439811706543,16
+tensor(523),The vocalist was disillusioned by the connoisseur.,-15.722180366516113,16
+tensor(524),The chauffeur drove the diplomat.,-20.388598918914795,11
+tensor(525),The diplomat drove the chauffeur.,-17.251158237457275,11
+tensor(526),The diplomat was driven by the chauffeur.,-21.49479579925537,13
+tensor(527),The chauffeur was driven by the diplomat.,-19.29254150390625,13
+tensor(528),The driver transported the ambassador.,-24.483808994293213,8
+tensor(529),The ambassador transported the driver.,-28.73912525177002,8
+tensor(530),The ambassador was transported by the driver.,-29.44118070602417,10
+tensor(531),The driver was transported by the ambassador.,-27.717466354370117,10
+tensor(532),The guard apprehended the prisoner.,-10.278754711151123,11
+tensor(533),The prisoner apprehended the guard.,-15.079638004302979,11
+tensor(534),The prisoner was apprehended by the guard.,-12.94681167602539,13
+tensor(535),The guard was apprehended by the prisoner.,-15.878202438354492,13
+tensor(536),The warden caught the inmate.,-15.963666915893555,10
+tensor(537),The inmate caught the warden.,-16.47843837738037,10
+tensor(538),The inmate was caught by the warden.,-13.486661911010742,12
+tensor(539),The warden was caught by the inmate.,-15.612652778625488,12
+tensor(540),The tailor costumed the dancer.,-22.313343048095703,10
+tensor(541),The dancer costumed the tailor.,-22.447144508361816,10
+tensor(542),The dancer was costumed by the tailor.,-12.90925121307373,12
+tensor(543),The tailor was costumed by the dancer.,-21.135901927947998,12
+tensor(544),The dressmaker attired the ballerina.,-11.148087501525879,11
+tensor(545),The ballerina attired the dressmaker.,-14.355524063110352,11
+tensor(546),The ballerina was attired by the dressmaker.,-11.814959526062012,13
+tensor(547),The dressmaker was attired by the ballerina.,-14.109204292297363,13
+tensor(548),The principal scolded the child.,-12.857088088989258,10
+tensor(549),The child scolded the principal.,-14.516658782958984,10
+tensor(550),The child was scolded by the principal.,-12.73617935180664,12
+tensor(551),The principal was scolded by the child.,-18.283586502075195,12
+tensor(552),The headmaster reprimanded the kid.,-11.563454627990723,11
+tensor(553),The kid reprimanded the headmaster.,-17.26152467727661,11
+tensor(554),The kid was reprimanded by the headmaster.,-12.523626327514648,13
+tensor(555),The headmaster was reprimanded by the kid.,-19.757099628448486,13
+tensor(556),The lord named the heir.,-23.619232654571533,8
+tensor(557),The heir named the lord.,-26.830543518066406,8
+tensor(558),The heir was named by the lord.,-22.86788320541382,10
+tensor(559),The lord was named by the heir.,-27.513117790222168,10
+tensor(560),The baron chose the successor.,-26.394814491271973,8
+tensor(561),The successor chose the baron.,-33.42932319641113,8
+tensor(562),The successor was chosen by the baron.,-18.327942848205566,10
+tensor(563),The baron was chosen by the successor.,-32.853952407836914,10
+tensor(564),The cop restrained the rioter.,-18.63993215560913,9
+tensor(565),The rioter restrained the cop.,-21.388391494750977,9
+tensor(566),The rioter was restrained by the cop.,-20.162386417388916,11
+tensor(567),The cop was restrained by the rioter.,-22.087244033813477,11
+tensor(568),The policeman subdued the rabble-rouser.,-19.065509796142578,14
+tensor(569),The rabble-rouser subdued the policeman.,-20.533513069152832,14
+tensor(570),The rabble-rouser was subdued by the policeman.,-16.512263298034668,16
+tensor(571),The policeman was subdued by the rabble-rouser.,-17.36056900024414,16
+tensor(572),The dad coddled the baby.,-18.238308906555176,9
+tensor(573),The baby coddled the dad.,-20.998955726623535,9
+tensor(574),The baby was coddled by the dad.,-17.045228958129883,11
+tensor(575),The dad was coddled by the baby.,-18.117545127868652,11
+tensor(576),The father pampered the infant.,-14.110593318939209,10
+tensor(577),The infant pampered the father.,-20.670292377471924,10
+tensor(578),The infant was pampered by the father.,-13.97342586517334,12
+tensor(579),The father was pampered by the infant.,-16.862455368041992,12
+tensor(580),The king exiled the rebel.,-17.5203800201416,8
+tensor(581),The rebel exiled the king.,-18.680142879486084,8
+tensor(582),The rebel was exiled by the king.,-14.75784683227539,10
+tensor(583),The king was exiled by the rebel.,-19.82151222229004,10
+tensor(584),The monarch banished the insurgent.,-15.338104724884033,10
+tensor(585),The insurgent banished the monarch.,-18.164240837097168,10
+tensor(586),The insurgent was banished by the monarch.,-12.752025604248047,12
+tensor(587),The monarch was banished by the insurgent.,-15.980222702026367,12
+tensor(588),The thief robbed the manufacturer.,-20.543227195739746,8
+tensor(589),The manufacturer robbed the thief.,-24.82394552230835,8
+tensor(590),The manufacturer was robbed by the thief.,-22.070743560791016,10
+tensor(591),The thief was robbed by the manufacturer.,-24.99599552154541,10
+tensor(592),The robber burgled the industrialist.,-19.724980354309082,12
+tensor(593),The industrialist burgled the robber.,-18.656506538391113,12
+tensor(594),The industrialist was burgled by the robber.,-20.220616340637207,14
+tensor(595),The robber was burgled by the industrialist.,-17.902432441711426,14
+tensor(596),The pessimist discouraged the contestant.,-20.452754974365234,11
+tensor(597),The contestant discouraged the pessimist.,-30.294443130493164,11
+tensor(598),The contestant was discouraged by the pessimist.,-22.356934547424316,13
+tensor(599),The pessimist was discouraged by the contestant.,-27.658493995666504,13
+tensor(600),The cynic dissuaded the participant.,-17.521164894104004,13
+tensor(601),The participant dissuaded the cynic.,-19.695408821105957,13
+tensor(602),The participant was dissuaded by the cynic.,-20.951915740966797,15
+tensor(603),The cynic was dissuaded by the participant.,-21.943113327026367,15
+tensor(604),The loudmouth tormented the loner.,-23.520933151245117,11
+tensor(605),The loner tormented the loudmouth.,-26.224093437194824,11
+tensor(606),The loner was tormented by the loudmouth.,-26.455206871032715,13
+tensor(607),The loudmouth was tormented by the loner.,-25.541593551635742,13
+tensor(608),The windbag taunted the recluse.,-16.58310317993164,13
+tensor(609),The recluse taunted the windbag.,-11.390846252441406,13
+tensor(610),The recluse was taunted by the windbag.,-13.91198444366455,15
+tensor(611),The windbag was taunted by the recluse.,-14.952961921691895,15
+tensor(612),The imitator fooled the investigator.,-11.577362537384033,11
+tensor(613),The investigator fooled the imitator.,-14.219449043273926,11
+tensor(614),The investigator was fooled by the imitator.,-9.841809272766113,13
+tensor(615),The imitator was fooled by the investigator.,-13.839348793029785,13
+tensor(616),The impersonator conned the inspector.,-13.578571319580078,11
+tensor(617),The inspector conned the impersonator.,-13.949005603790283,11
+tensor(618),The inspector was conned by the impersonator.,-16.128074645996094,13
+tensor(619),The impersonator was conned by the inspector.,-14.335950374603271,13
+tensor(620),The boss fired the worker.,-27.06702995300293,8
+tensor(621),The worker fired the boss.,-24.430470943450928,8
+tensor(622),The worker was fired by the boss.,-19.438058853149414,10
+tensor(623),The boss was fired by the worker.,-21.300631999969482,10
+tensor(624),The pyromaniac unnerved the shopkeeper.,-5.022137641906738,14
+tensor(625),The shopkeeper unnerved the pyromaniac.,-8.117508888244629,14
+tensor(626),The shopkeeper was unnerved by the pyromaniac.,-8.073809623718262,16
+tensor(627),The pyromaniac was unnerved by the shopkeeper.,-8.389327049255371,16
+tensor(628),The arsonist alarmed the vendor.,-23.268284797668457,10
+tensor(629),The vendor alarmed the arsonist.,-24.78391933441162,10
+tensor(630),The vendor was alarmed by the arsonist.,-23.47587013244629,12
+tensor(631),The arsonist was alarmed by the vendor.,-23.894967079162598,12
+tensor(632),The professional supported the beginner.,-22.79399585723877,9
+tensor(633),The beginner supported the professional.,-21.90607452392578,9
+tensor(634),The beginner was supported by the professional.,-21.777769088745117,11
+tensor(635),The professional was supported by the beginner.,-22.402573585510254,11
+tensor(636),The master encouraged the rookie.,-27.17363739013672,8
+tensor(637),The rookie encouraged the master.,-29.541098594665527,8
+tensor(638),The rookie was encouraged by the master.,-29.168781280517578,10
+tensor(639),The master was encouraged by the rookie.,-29.983433723449707,10
+tensor(640),The magician hypnotized the crowd.,-11.042999744415283,12
+tensor(641),The crowd hypnotized the magician.,-13.899909019470215,12
+tensor(642),The crowd was hypnotized by the magician.,-15.569071769714355,14
+tensor(643),The magician was hypnotized by the crowd.,-13.260968208312988,14
+tensor(644),The businessman employed the expert.,-30.170424938201904,8
+tensor(645),The expert employed the businessman.,-34.541263580322266,8
+tensor(646),The expert was employed by the businessman.,-27.29713726043701,10
+tensor(647),The businessman was employed by the expert.,-31.656691074371338,10
+tensor(648),The entrepreneur hired the specialist.,-29.634032249450684,8
+tensor(649),The specialist hired the entrepreneur.,-32.915162086486816,8
+tensor(650),The specialist was hired by the entrepreneur.,-24.046369552612305,10
+tensor(651),The entrepreneur was hired by the specialist.,-26.994467735290527,10
+tensor(652),The terrorist petrified the first lady.,-35.83863353729248,10
+tensor(653),The first lady petrified the terrorist.,-30.850520133972168,10
+tensor(654),The first lady was petrified by the terrorist.,-25.0792179107666,12
+tensor(655),The terrorist was petrified by the first lady.,-26.31574583053589,12
+tensor(656),The hijacker terrified the president's wife.,-19.909485816955566,13
+tensor(657),The president's wife terrified the hijacker.,-24.81923770904541,13
+tensor(658),The president's wife was terrified by the hijacker.,-24.19749927520752,15
+tensor(659),The hijacker was terrified by the president's wife.,-27.480810165405273,15
+tensor(660),The judge praised the gold medalist.,-20.478671073913574,9
+tensor(661),The gold medalist praised the judge.,-24.068096160888672,9
+tensor(662),The gold medalist was praised by the judge.,-23.72585391998291,11
+tensor(663),The judge was praised by the gold medalist.,-24.252477645874023,11
+tensor(664),The panelist congratulated the winner.,-16.344032287597656,12
+tensor(665),The winner congratulated the panelist.,-17.320163249969482,12
+tensor(666),The winner was congratulated by the panelist.,-12.89843463897705,14
+tensor(667),The panelist was congratulated by the winner.,-15.05442190170288,14
+tensor(668),The liar emulated the victor.,-15.612030029296875,11
+tensor(669),The victor emulated the liar.,-14.107240676879883,11
+tensor(670),The victor was emulated by the liar.,-20.15082550048828,13
+tensor(671),The liar was emulated by the victor.,-19.43548583984375,13
+tensor(672),The deceiver imitated the conqueror.,-4.194278717041016,12
+tensor(673),The conqueror imitated the deceiver.,-3.5829925537109375,12
+tensor(674),The conqueror was imitated by the deceiver.,-7.026432991027832,14
+tensor(675),The deceiver was imitated by the conqueror.,-5.6940107345581055,14
+tensor(676),The environmentalist cautioned the tobacconist.,-19.075172424316406,11
+tensor(677),The tobacconist cautioned the environmentalist.,-13.052511215209961,11
+tensor(678),The tobacconist was cautioned by the environmentalist.,-17.332387924194336,13
+tensor(679),The environmentalist was cautioned by the tobacconist.,-17.26042079925537,13
+tensor(680),The alcoholic hassled the guest.,-27.99436664581299,10
+tensor(681),The guest hassled the alcoholic.,-30.818923473358154,10
+tensor(682),The guest was hassled by the alcoholic.,-24.219242095947266,12
+tensor(683),The alcoholic was hassled by the guest.,-24.777750492095947,12
+tensor(684),The drunk bothered the visitor.,-28.277585983276367,8
+tensor(685),The visitor bothered the drunk.,-30.700654983520508,8
+tensor(686),The visitor was bothered by the drunk.,-25.41181182861328,10
+tensor(687),The drunk was bothered by the visitor.,-27.322919845581055,10
+tensor(688),The commentator vexed the athlete.,-25.73938226699829,9
+tensor(689),The athlete vexed the commentator.,-29.50926113128662,9
+tensor(690),The athlete was vexed by the commentator.,-26.5035457611084,11
+tensor(691),The commentator was vexed by the athlete.,-32.68785762786865,11
+tensor(692),The sportscaster peeved the jock.,-7.93904972076416,12
+tensor(693),The jock peeved the sportscaster.,-5.6003265380859375,12
+tensor(694),The jock was peeved by the sportscaster.,-8.824250221252441,14
+tensor(695),The sportscaster was peeved by the jock.,-10.000936508178711,14
+tensor(696),The preacher hugged the churchgoer.,-16.749699592590332,10
+tensor(697),The churchgoer hugged the preacher.,-14.768653392791748,10
+tensor(698),The churchgoer was hugged by the preacher.,-15.088884353637695,12
+tensor(699),The preacher was hugged by the churchgoer.,-18.58869981765747,12
+tensor(700),The pastor embraced the parishioner.,-18.999037742614746,10
+tensor(701),The parishioner embraced the pastor.,-19.576011657714844,10
+tensor(702),The parishioner was embraced by the pastor.,-13.409669876098633,12
+tensor(703),The pastor was embraced by the parishioner.,-22.49934148788452,12
+tensor(704),The maniac mocked the clown.,-23.994568824768066,9
+tensor(705),The clown mocked the maniac.,-23.39683198928833,9
+tensor(706),The clown was mocked by the maniac.,-18.469199657440186,11
+tensor(707),The maniac was mocked by the clown.,-18.80429697036743,11
+tensor(708),The lunatic ridiculed the jester.,-1.5025634765625,14
+tensor(709),The jester ridiculed the lunatic.,-1.0319890975952148,14
+tensor(710),The jester was ridiculed by the lunatic.,-5.321127891540527,16
+tensor(711),The lunatic was ridiculed by the jester.,-5.943617820739746,16
+tensor(712),The archivist contacted the inventor.,-15.972319602966309,9
+tensor(713),The inventor contacted the archivist.,-18.12832498550415,9
+tensor(714),The inventor was contacted by the archivist.,-14.300129890441895,11
+tensor(715),The archivist was contacted by the inventor.,-15.098864078521729,11
+tensor(716),The historian approached the innovator.,-18.141491889953613,10
+tensor(717),The innovator approached the historian.,-20.66476821899414,10
+tensor(718),The innovator was approached by the historian.,-17.74166488647461,12
+tensor(719),The historian was approached by the innovator.,-18.37577247619629,12
+tensor(720),The janitor called the landscaper.,-15.911362171173096,11
+tensor(721),The landscaper called the janitor.,-18.36343288421631,11
+tensor(722),The landscaper was called by the janitor.,-19.823166847229004,13
+tensor(723),The janitor was called by the landscaper.,-20.463383197784424,13
+tensor(724),The custodian phoned the gardener.,-7.512849807739258,12
+tensor(725),The gardener phoned the custodian.,-4.493290901184082,12
+tensor(726),The gardener was phoned by the custodian.,-11.054681777954102,14
+tensor(727),The custodian was phoned by the gardener.,-11.0985689163208,14
+tensor(728),The drummer annoyed the weatherman.,-31.22456169128418,9
+tensor(729),The weatherman annoyed the drummer.,-30.533230781555176,9
+tensor(730),The weatherman was annoyed by the drummer.,-29.382261276245117,11
+tensor(731),The drummer was annoyed by the weatherman.,-30.576868534088135,11
+tensor(732),The percussionist displeased the meteorologist.,-7.847966194152832,14
+tensor(733),The meteorologist displeased the percussionist.,-9.7086181640625,14
+tensor(734),The meteorologist was displeased by the percussionist.,-10.682483673095703,16
+tensor(735),The percussionist was displeased by the meteorologist.,-14.408645629882812,16
+tensor(736),The go-between belittled the defendant.,-11.609254837036133,12
+tensor(737),The defendant belittled the go-between.,-12.055445671081543,12
+tensor(738),The defendant was belittled by the go-between.,-13.193099021911621,14
+tensor(739),The go-between was belittled by the defendant.,-12.787220001220703,14
+tensor(740),The intermediary deprecated the felon.,-5.721138000488281,15
+tensor(741),The felon deprecated the intermediary.,-2.7439804077148438,15
+tensor(742),The felon was deprecated by the intermediary.,-11.002095222473145,17
+tensor(743),The intermediary was deprecated by the felon.,-4.725604057312012,17
+tensor(744),The valet entertained the envoy.,-12.332603454589844,10
+tensor(745),The envoy entertained the valet.,-13.37844181060791,10
+tensor(746),The envoy was entertained by the valet.,-14.486944198608398,12
+tensor(747),The valet was entertained by the envoy.,-10.594566822052002,12
+tensor(748),The manservant amused the emissary.,-11.289556503295898,12
+tensor(749),The emissary amused the manservant.,-11.49039077758789,12
+tensor(750),The emissary was amused by the manservant.,-11.385293960571289,14
+tensor(751),The manservant was amused by the emissary.,-10.173243522644043,14
+tensor(752),The acrobat pushed the stranger.,-16.834304809570312,11
+tensor(753),The stranger pushed the acrobat.,-13.415630340576172,11
+tensor(754),The stranger was pushed by the acrobat.,-17.952399253845215,13
+tensor(755),The acrobat was pushed by the stranger.,-16.469602584838867,13
+tensor(756),The gymnast shoved the outsider.,-25.103882789611816,9
+tensor(757),The outsider shoved the gymnast.,-34.485294342041016,9
+tensor(758),The outsider was shoved by the gymnast.,-31.425559043884277,11
+tensor(759),The gymnast was shoved by the outsider.,-27.680293083190918,11
+tensor(760),The benefactor calmed the architect.,-28.30591583251953,10
+tensor(761),The architect calmed the benefactor.,-28.779277801513672,10
+tensor(762),The architect was calmed by the benefactor.,-28.935766220092773,12
+tensor(763),The benefactor was calmed by the architect.,-22.908334732055664,12
+tensor(764),The patron soothed the draftsman.,-19.319191932678223,11
+tensor(765),The draftsman soothed the patron.,-19.251632690429688,11
+tensor(766),The draftsman was soothed by the patron.,-23.069584846496582,13
+tensor(767),The patron was soothed by the draftsman.,-20.19872283935547,13
+tensor(768),The therapist lauded the hairdresser.,-18.323650360107422,11
+tensor(769),The hairdresser lauded the therapist.,-19.544963836669922,11
+tensor(770),The hairdresser was lauded by the therapist.,-22.001123428344727,13
+tensor(771),The therapist was lauded by the hairdresser.,-21.70490264892578,13
+tensor(772),The psychologist extolled the hairstylist.,-19.84943962097168,12
+tensor(773),The hairstylist extolled the psychologist.,-16.96243190765381,12
+tensor(774),The hairstylist was extolled by the psychologist.,-23.116498947143555,14
+tensor(775),The psychologist was extolled by the hairstylist.,-23.016764640808105,14
+tensor(776),The nobleman married the baroness.,-15.467044830322266,9
+tensor(777),The baroness married the nobleman.,-19.43852710723877,9
+tensor(778),The baroness was married by the nobleman.,-26.19706630706787,11
+tensor(779),The nobleman was married by the baroness.,-22.19627332687378,11
+tensor(780),The aristocrat wed the countess.,-12.459000587463379,11
+tensor(781),The countess wed the aristocrat.,-15.771360397338867,11
+tensor(782),The countess was wed by the aristocrat.,-20.004145622253418,13
+tensor(783),The aristocrat was wed by the countess.,-15.35576057434082,13
+tensor(784),The actuary assuaged the creditor.,-14.464653968811035,12
+tensor(785),The creditor assuaged the actuary.,-12.274271488189697,12
+tensor(786),The creditor was assuaged by the actuary.,-11.38592529296875,14
+tensor(787),The actuary was assuaged by the creditor.,-12.533257961273193,14
+tensor(788),The analyst relieved the investor.,-33.35740089416504,8
+tensor(789),The investor relieved the analyst.,-30.695228576660156,8
+tensor(790),The investor was relieved by the analyst.,-33.3327693939209,10
+tensor(791),The analyst was relieved by the investor.,-33.232544898986816,10
+tensor(792),The sailor frightened the psychic.,-38.19044303894043,8
+tensor(793),The psychic frightened the sailor.,-27.93753671646118,8
+tensor(794),The psychic was frightened by the sailor.,-34.94346237182617,10
+tensor(795),The sailor was frightened by the psychic.,-28.198423385620117,10
+tensor(796),The mariner scared the fortune-teller.,-24.784776210784912,12
+tensor(797),The fortune-teller scared the mariner.,-21.234469413757324,12
+tensor(798),The fortune-teller was scared by the mariner.,-29.538677215576172,14
+tensor(799),The mariner was scared by the fortune-teller.,-23.048892974853516,14
+tensor(800),The assistant flattered the auditor.,-14.311935424804688,10
+tensor(801),The auditor flattered the assistant.,-12.771360874176025,10
+tensor(802),The auditor was flattered by the assistant.,-13.577377319335938,12
+tensor(803),The assistant was flattered by the auditor.,-10.527559280395508,12
+tensor(804),The helper complimented the appraiser.,-15.009615898132324,11
+tensor(805),The appraiser complimented the helper.,-11.232061386108398,11
+tensor(806),The appraiser was complimented by the helper.,-19.320725440979004,13
+tensor(807),The helper was complimented by the appraiser.,-14.415912628173828,13
+tensor(808),The immigrant believed the trooper.,-32.1454701423645,9
+tensor(809),The trooper believed the immigrant.,-30.411938667297363,9
+tensor(810),The trooper was believed by the immigrant.,-34.011587619781494,11
+tensor(811),The immigrant was believed by the trooper.,-34.111483573913574,11
+tensor(812),The foreigner trusted the patrolman.,-22.046425819396973,10
+tensor(813),The patrolman trusted the foreigner.,-22.77963161468506,10
+tensor(814),The patrolman was trusted by the foreigner.,-25.444194793701172,12
+tensor(815),The foreigner was trusted by the patrolman.,-26.5765380859375,12
+tensor(816),The mapmaker affronted the farmer.,-22.91392230987549,12
+tensor(817),The farmer affronted the mapmaker.,-22.406117916107178,12
+tensor(818),The farmer was affronted by the mapmaker.,-19.82860279083252,14
+tensor(819),The mapmaker was affronted by the farmer.,-21.464155197143555,14
+tensor(820),The cartographer insulted the rancher.,-17.0108699798584,10
+tensor(821),The rancher insulted the cartographer.,-17.752949714660645,10
+tensor(822),The rancher was insulted by the cartographer.,-19.116674423217773,12
+tensor(823),The cartographer was insulted by the rancher.,-20.628913402557373,12
+tensor(824),The poet awed the entertainer.,-22.982942581176758,10
+tensor(825),The entertainer awed the poet.,-20.923810482025146,10
+tensor(826),The entertainer was awed by the poet.,-20.944374084472656,12
+tensor(827),The poet was awed by the entertainer.,-18.39908504486084,12
+tensor(828),The lyricist dazzled the performer.,-19.031591415405273,10
+tensor(829),The performer dazzled the lyricist.,-20.88133144378662,10
+tensor(830),The performer was dazzled by the lyricist.,-19.477670669555664,12
+tensor(831),The lyricist was dazzled by the performer.,-20.561742782592773,12
+tensor(832),The peddler tested the manager.,-21.565024375915527,10
+tensor(833),The manager tested the peddler.,-17.7502121925354,10
+tensor(834),The manager was tested by the peddler.,-22.853251457214355,12
+tensor(835),The peddler was tested by the manager.,-18.476741790771484,12
+tensor(836),The traveling salesman challenged the executive.,-20.476399898529053,9
+tensor(837),The executive challenged the traveling salesman.,-23.70195198059082,9
+tensor(838),The executive was challenged by the traveling salesman.,-26.96492624282837,11
+tensor(839),The traveling salesman was challenged by the executive.,-26.548848628997803,11
+tensor(840),The musician admired the diva.,-19.552603244781494,9
+tensor(841),The diva admired the musician.,-17.27953052520752,9
+tensor(842),The diva was admired by the musician.,-19.604050159454346,11
+tensor(843),The musician was admired by the diva.,-16.443449020385742,11
+tensor(844),The instrumentalist adored the prima donna.,-12.054520606994629,13
+tensor(845),The prima donna adored the instrumentalist.,-14.469234466552734,13
+tensor(846),The prima donna was adored by the instrumentalist.,-10.649782180786133,15
+tensor(847),The instrumentalist was adored by the prima donna.,-12.40851879119873,15
+tensor(848),The general welcomed the hero.,-21.558268070220947,8
+tensor(849),The hero welcomed the general.,-25.80323362350464,8
+tensor(850),The hero was welcomed by the general.,-21.401906967163086,10
+tensor(851),The general was welcomed by the hero.,-25.525678634643555,10
+tensor(852),The commander greeted the champion.,-26.359456062316895,8
+tensor(853),The champion greeted the commander.,-28.128053665161133,8
+tensor(854),The champion was greeted by the commander.,-26.984261512756348,10
+tensor(855),The commander was greeted by the champion.,-25.342772006988525,10
+tensor(856),The cobbler disdained the stonecutter.,-9.157697677612305,15
+tensor(857),The stonecutter disdained the cobbler.,-11.45586109161377,15
+tensor(858),The stonecutter was disdained by the cobbler.,-10.25469970703125,17
+tensor(859),The cobbler was disdained by the stonecutter.,-10.707996368408203,17
+tensor(860),The shoemaker scorned the mason.,-7.199329376220703,12
+tensor(861),The mason scorned the shoemaker.,-10.419639587402344,12
+tensor(862),The mason was scorned by the shoemaker.,-7.295843124389648,14
+tensor(863),The shoemaker was scorned by the mason.,-8.376302719116211,14
+tensor(864),The postman noticed the chaplain.,-27.153859615325928,9
+tensor(865),The chaplain noticed the postman.,-29.9813175201416,9
+tensor(866),The chaplain was noticed by the postman.,-27.304104804992676,11
+tensor(867),The postman was noticed by the chaplain.,-26.01934289932251,11
+tensor(868),The mailman saw the minister.,-24.703105926513672,9
+tensor(869),The minister saw the mailman.,-24.601473331451416,9
+tensor(870),The minister was seen by the mailman.,-26.540865421295166,11
+tensor(871),The mailman was seen by the minister.,-24.16496181488037,11
+tensor(872),The composer begrudged the playwright.,-16.497538566589355,10
+tensor(873),The playwright begrudged the composer.,-16.829157829284668,10
+tensor(874),The playwright was begrudged by the composer.,-18.033926963806152,12
+tensor(875),The composer was begrudged by the playwright.,-17.523746490478516,12
+tensor(876),The songwriter envied the dramatist.,-20.298344612121582,10
+tensor(877),The dramatist envied the songwriter.,-18.334214210510254,10
+tensor(878),The dramatist was envied by the songwriter.,-14.852275848388672,12
+tensor(879),The songwriter was envied by the dramatist.,-12.914220809936523,12
+tensor(880),The missionary baffled the oracle.,-14.485946655273438,11
+tensor(881),The oracle baffled the missionary.,-10.540031433105469,11
+tensor(882),The oracle was baffled by the missionary.,-14.201441764831543,13
+tensor(883),The missionary was baffled by the oracle.,-10.604995727539062,13
+tensor(884),The evangelist mystified the soothsayer.,-1.4262466430664062,15
+tensor(885),The soothsayer mystified the evangelist.,-0.60577392578125,15
+tensor(886),The soothsayer was mystified by the evangelist.,-2.4072065353393555,17
+tensor(887),The evangelist was mystified by the soothsayer.,-3.3326549530029297,17
+tensor(888),The trespasser choked the fighter.,-22.542685508728027,11
+tensor(889),The fighter choked the trespasser.,-23.241551399230957,11
+tensor(890),The fighter was choked by the trespasser.,-25.182211875915527,13
+tensor(891),The trespasser was choked by the fighter.,-23.997879028320312,13
+tensor(892),The broker introduced the donor.,-30.83329963684082,8
+tensor(893),The donor introduced the broker.,-33.44973182678223,8
+tensor(894),The donor was introduced by the broker.,-31.376261711120605,10
+tensor(895),The broker was introduced by the donor.,-31.290676593780518,10
+tensor(896),The dealer presented the sponsor.,-28.13217544555664,8
+tensor(897),The sponsor presented the dealer.,-31.10984230041504,8
+tensor(898),The sponsor was presented by the dealer.,-27.2375807762146,10
+tensor(899),The dealer was presented by the sponsor.,-31.179680824279785,10
+tensor(900),The shrink commended the dean.,-29.713401794433594,8
+tensor(901),The dean commended the shrink.,-28.43127727508545,8
+tensor(902),The dean was commended by the shrink.,-31.300099849700928,10
+tensor(903),The shrink was commended by the dean.,-26.75041961669922,10
+tensor(904),The psychiatrist applauded the provost.,-14.900309562683105,12
+tensor(905),The provost applauded the psychiatrist.,-12.199625015258789,12
+tensor(906),The provost was applauded by the psychiatrist.,-15.126777648925781,14
+tensor(907),The psychiatrist was applauded by the provost.,-14.625431060791016,14
+tensor(908),The refugee provoked the homeless person.,-33.79581260681152,9
+tensor(909),The homeless person provoked the refugee.,-31.37940502166748,9
+tensor(910),The homeless person was provoked by the refugee.,-29.716376781463623,11
+tensor(911),The refugee was provoked by the homeless person.,-32.126129150390625,11
+tensor(912),The asylum seeker goaded the vagrant.,-13.486940860748291,13
+tensor(913),The vagrant goaded the asylum seeker.,-11.133638381958008,13
+tensor(914),The vagrant was goaded by the asylum seeker.,-8.576142311096191,15
+tensor(915),The asylum seeker was goaded by the vagrant.,-6.99830436706543,15
+tensor(916),The interpreter swindled the messenger.,-21.04070806503296,10
+tensor(917),The messenger swindled the interpreter.,-20.72465705871582,10
+tensor(918),The messenger was swindled by the interpreter.,-21.080121517181396,12
+tensor(919),The interpreter was swindled by the messenger.,-20.9589786529541,12
+tensor(920),The translator deceived the courier.,-8.307847023010254,10
+tensor(921),The courier deceived the translator.,-7.588865280151367,10
+tensor(922),The courier was deceived by the translator.,-9.074008464813232,12
+tensor(923),The translator was deceived by the courier.,-9.316778659820557,12
+tensor(924),The gangster hated the governor.,-26.030181884765625,8
+tensor(925),The governor hated the gangster.,-24.321897983551025,8
+tensor(926),The governor was hated by the gangster.,-30.24539852142334,10
+tensor(927),The gangster was hated by the governor.,-26.25913429260254,10
+tensor(928),The hoodlum abhorred the chancellor.,-17.830631732940674,12
+tensor(929),The chancellor abhorred the hoodlum.,-20.172945022583008,12
+tensor(930),The chancellor was abhorred by the hoodlum.,-20.258615493774414,14
+tensor(931),The hoodlum was abhorred by the chancellor.,-17.680617332458496,14
+tensor(932),The planner convinced the customer.,-21.943882942199707,9
+tensor(933),The customer convinced the planner.,-22.76220989227295,9
+tensor(934),The customer was convinced by the planner.,-19.179840564727783,11
+tensor(935),The planner was convinced by the customer.,-20.700902938842773,11
+tensor(936),The organizer persuaded the buyer.,-28.128524780273438,8
+tensor(937),The buyer persuaded the organizer.,-29.41425609588623,8
+tensor(938),The buyer was persuaded by the organizer.,-24.15445852279663,10
+tensor(939),The organizer was persuaded by the buyer.,-25.763705730438232,10
+tensor(940),The wizard protected the gnome.,-18.567668914794922,10
+tensor(941),The gnome protected the wizard.,-16.967552661895752,10
+tensor(942),The gnome was protected by the wizard.,-17.503844261169434,12
+tensor(943),The wizard was protected by the gnome.,-20.323994636535645,12
+tensor(944),The sorcerer defended the dwarf.,-15.428658485412598,9
+tensor(945),The dwarf defended the sorcerer.,-13.701279640197754,9
+tensor(946),The dwarf was defended by the sorcerer.,-18.74886178970337,11
+tensor(947),The sorcerer was defended by the dwarf.,-16.388172149658203,11
+tensor(948),The student befuddled the professor.,-14.315057754516602,10
+tensor(949),The professor befuddled the student.,-11.796043395996094,10
+tensor(950),The professor was befuddled by the student.,-16.13510799407959,12
+tensor(951),The student was befuddled by the professor.,-12.830981254577637,12
+tensor(952),The scholar confused the lecturer.,-30.854252815246582,8
+tensor(953),The lecturer confused the scholar.,-29.777760982513428,8
+tensor(954),The lecturer was confused by the scholar.,-31.52082633972168,10
+tensor(955),The scholar was confused by the lecturer.,-29.657867431640625,10
+tensor(956),The invader spotted the sentry.,-12.892356395721436,10
+tensor(957),The sentry spotted the invader.,-9.786441326141357,10
+tensor(958),The sentry was spotted by the invader.,-14.624884605407715,12
+tensor(959),The invader was spotted by the sentry.,-15.446464538574219,12
+tensor(960),The intruder sighted the watchman.,-17.44332504272461,10
+tensor(961),The watchman sighted the intruder.,-13.772172927856445,10
+tensor(962),The watchman was sighted by the intruder.,-14.955843448638916,12
+tensor(963),The intruder was sighted by the watchman.,-13.062111854553223,12
+tensor(964),The supplier reimbursed the merchant.,-21.102407455444336,11
+tensor(965),The merchant reimbursed the supplier.,-20.8827805519104,11
+tensor(966),The merchant was reimbursed by the supplier.,-21.851223945617676,13
+tensor(967),The supplier was reimbursed by the merchant.,-21.969122886657715,13
+tensor(968),The wholesaler compensated the trader.,-18.878520965576172,10
+tensor(969),The trader compensated the wholesaler.,-20.53327703475952,10
+tensor(970),The trader was compensated by the wholesaler.,-18.312410354614258,12
+tensor(971),The wholesaler was compensated by the trader.,-18.639342308044434,12
+tensor(972),The accuser confronted the vandal.,-5.867103576660156,11
+tensor(973),The vandal confronted the accuser.,-6.547539710998535,11
+tensor(974),The vandal was confronted by the accuser.,-7.28029727935791,13
+tensor(975),The accuser was confronted by the vandal.,-9.670333862304688,13
+tensor(976),The plaintiff accosted the thug.,-12.114745140075684,11
+tensor(977),The thug accosted the plaintiff.,-12.671059608459473,11
+tensor(978),The thug was accosted by the plaintiff.,-11.898943901062012,13
+tensor(979),The plaintiff was accosted by the thug.,-12.731059074401855,13
+tensor(980),The trickster bemused the idiot.,-13.824066162109375,11
+tensor(981),The idiot bemused the trickster.,-16.02603530883789,11
+tensor(982),The idiot was bemused by the trickster.,-20.79018259048462,13
+tensor(983),The trickster was bemused by the idiot.,-16.042617797851562,13
+tensor(984),The swindler puzzled the fool.,-24.81555986404419,10
+tensor(985),The fool puzzled the swindler.,-24.126144409179688,10
+tensor(986),The fool was puzzled by the swindler.,-16.894104480743408,12
+tensor(987),The swindler was puzzled by the fool.,-18.99590301513672,12
+tensor(988),The protestor quoted the leader.,-22.190449714660645,9
+tensor(989),The leader quoted the protestor.,-22.919879913330078,9
+tensor(990),The leader was quoted by the protestor.,-24.396284103393555,11
+tensor(991),The protestor was quoted by the leader.,-22.27647304534912,11
+tensor(992),The striker cited the chief.,-33.16538619995117,8
+tensor(993),The chief cited the striker.,-33.27612018585205,8
+tensor(994),The chief was cited by the striker.,-34.206271171569824,10
+tensor(995),The striker was cited by the chief.,-30.381661415100098,10
+tensor(996),The postal worker repulsed the taxi-driver.,-19.63220739364624,11
+tensor(997),The taxi-driver repulsed the postal worker.,-21.091862678527832,11
+tensor(998),The taxi-driver was repulsed by the postal worker.,-20.455793380737305,13
+tensor(999),The postal worker was repulsed by the taxi-driver.,-20.162105083465576,13
+tensor(1000),The letter carrier disgusted the cabbie.,-26.93366527557373,10
+tensor(1001),The cabbie disgusted the letter carrier.,-28.81652307510376,10
+tensor(1002),The cabbie was disgusted by the letter carrier.,-28.858016967773438,12
+tensor(1003),The letter carrier was disgusted by the cabbie.,-29.820577144622803,12
+tensor(1004),The competitor agitated the rival.,-34.45434331893921,8
+tensor(1005),The rival agitated the competitor.,-34.90932273864746,8
+tensor(1006),The rival was agitated by the competitor.,-31.600686073303223,10
+tensor(1007),The competitor was agitated by the rival.,-32.15010929107666,10
+tensor(1008),The contender flustered the opponent.,-21.235916137695312,9
+tensor(1009),The opponent flustered the contender.,-21.199748992919922,9
+tensor(1010),The opponent was flustered by the contender.,-22.154255867004395,11
+tensor(1011),The contender was flustered by the opponent.,-23.075443267822266,11
+tensor(1012),The culprit betrayed the hunter.,-17.129182815551758,11
+tensor(1013),The hunter betrayed the culprit.,-17.462693214416504,11
+tensor(1014),The hunter was betrayed by the culprit.,-13.780388832092285,13
+tensor(1015),The culprit was betrayed by the hunter.,-13.918124198913574,13
+tensor(1016),The botanist respected the partner.,-32.1267991065979,8
+tensor(1017),The partner respected the botanist.,-35.02872276306152,8
+tensor(1018),The partner was respected by the botanist.,-33.32302188873291,10
+tensor(1019),The botanist was respected by the partner.,-34.397125244140625,10
+tensor(1020),The flora specialist esteemed the collaborator.,-39.917919635772705,10
+tensor(1021),The collaborator esteemed the flora specialist.,-38.57211112976074,10
+tensor(1022),The collaborator was esteemed by the flora specialist.,-39.58700370788574,12
+tensor(1023),The flora specialist was esteemed by the collaborator.,-40.3826642036438,12
+tensor(1024),The pacifist placated the zealot.,-1.6148128509521484,15
+tensor(1025),The zealot placated the pacifist.,-3.7435426712036133,15
+tensor(1026),The zealot was placated by the pacifist.,-3.0661401748657227,17
+tensor(1027),The pacifist was placated by the zealot.,-3.168553352355957,17
+tensor(1028),The scoundrel beat the protagonist.,-22.97864055633545,11
+tensor(1029),The protagonist beat the scoundrel.,-22.967529296875,11
+tensor(1030),The protagonist was beaten by the scoundrel.,-17.51748561859131,13
+tensor(1031),The scoundrel was beaten by the protagonist.,-16.192487239837646,13
+tensor(1032),The rogue defeated the main character.,-22.738093376159668,9
+tensor(1033),The main character defeated the rogue.,-21.902242183685303,9
+tensor(1034),The main character was defeated by the rogue.,-18.771382331848145,11
+tensor(1035),The rogue was defeated by the main character.,-17.68567180633545,11
+tensor(1036),The sociologist accepted the offer.,-8.593827724456787,9
+tensor(1037),The offer accepted the sociologist.,-22.801849365234375,9
+tensor(1038),The offer was accepted by the sociologist.,-13.399727821350098,11
+tensor(1039),The sociologist was accepted by the offer.,-26.952518463134766,11
+tensor(1040),The boyfriend basted the turkey.,-26.035731315612793,10
+tensor(1041),The turkey basted the boyfriend.,-27.887454986572266,10
+tensor(1042),The turkey was basted by the boyfriend.,-26.47263526916504,12
+tensor(1043),The boyfriend was basted by the turkey.,-29.104032516479492,12
+tensor(1044),The caseworker posed the question.,-8.223755836486816,10
+tensor(1045),The question posed the caseworker.,-17.446571350097656,10
+tensor(1046),The question was posed by the caseworker.,-12.20146369934082,12
+tensor(1047),The caseworker was posed by the question.,-27.075222969055176,12
+tensor(1048),The ditch digger bent the wire.,-24.014090061187744,10
+tensor(1049),The wire bent the ditch digger.,-26.815173625946045,10
+tensor(1050),The wire was bent by the ditch digger.,-27.791540145874023,12
+tensor(1051),The ditch digger was bent by the wire.,-25.55790901184082,12
+tensor(1052),The uncle hung the ornament.,-21.05770969390869,10
+tensor(1053),The ornament hung the uncle.,-28.994197845458984,10
+tensor(1054),The ornament was hung by the uncle.,-21.54477071762085,12
+tensor(1055),The uncle was hung by the ornament.,-25.71095895767212,12
+tensor(1056),The attendant pressed the button.,-7.125280380249023,8
+tensor(1057),The button pressed the attendant.,-24.91737699508667,8
+tensor(1058),The button was pressed by the attendant.,-8.762907028198242,10
+tensor(1059),The attendant was pressed by the button.,-25.801236152648926,10
+tensor(1060),The bum stole the necklace.,-15.73637580871582,9
+tensor(1061),The necklace stole the bum.,-27.017295837402344,9
+tensor(1062),The necklace was stolen by the bum.,-16.101686477661133,11
+tensor(1063),The bum was stolen by the necklace.,-28.057608604431152,11
+tensor(1064),The potter molded the clay.,-11.326202392578125,10
+tensor(1065),The clay molded the potter.,-23.96419620513916,10
+tensor(1066),The clay was molded by the potter.,-8.7010498046875,12
+tensor(1067),The potter was molded by the clay.,-25.868688583374023,12
+tensor(1068),The guarantor initialed the form.,-23.125170707702637,12
+tensor(1069),The form initialed the guarantor.,-30.48544979095459,12
+tensor(1070),The form was initialed by the guarantor.,-24.742788791656494,14
+tensor(1071),The guarantor was initialed by the form.,-32.359774589538574,14
+tensor(1072),The couch-potato forgot the umbrella.,-35.08951950073242,10
+tensor(1073),The umbrella forgot the couch-potato.,-36.40604639053345,10
+tensor(1074),The umbrella was forgotten by the couch-potato.,-32.47623348236084,12
+tensor(1075),The couch-potato was forgotten by the umbrella.,-34.2091121673584,12
+tensor(1076),The groupie attended the concert.,-26.518794059753418,9
+tensor(1077),The concert attended the groupie.,-39.761688232421875,9
+tensor(1078),The concert was attended by the groupie.,-23.372011184692383,11
+tensor(1079),The groupie was attended by the concert.,-37.89994239807129,11
+tensor(1080),The hacker memorized the password.,-3.634176254272461,11
+tensor(1081),The password memorized the hacker.,-10.918529987335205,11
+tensor(1082),The password was memorized by the hacker.,-3.9518346786499023,13
+tensor(1083),The hacker was memorized by the password.,-12.457801818847656,13
+tensor(1084),The marine packed the bag.,-20.103670120239258,8
+tensor(1085),The bag packed the marine.,-32.22772693634033,8
+tensor(1086),The bag was packed by the marine.,-21.185210704803467,10
+tensor(1087),The marine was packed by the bag.,-40.57482862472534,10
+tensor(1088),The seamstress ironed the shirt.,-15.570253372192383,12
+tensor(1089),The shirt ironed the seamstress.,-21.524367332458496,12
+tensor(1090),The shirt was ironed by the seamstress.,-11.24370288848877,14
+tensor(1091),The seamstress was ironed by the shirt.,-28.457576751708984,14
+tensor(1092),The confectioner sprinkled the sugar.,-6.1372880935668945,13
+tensor(1093),The sugar sprinkled the confectioner.,-9.967428207397461,13
+tensor(1094),The sugar was sprinkled by the confectioner.,-12.374103546142578,15
+tensor(1095),The confectioner was sprinkled by the sugar.,-19.112485885620117,15
+tensor(1096),The voter sealed the envelope.,-21.46736431121826,8
+tensor(1097),The envelope sealed the voter.,-29.50722026824951,8
+tensor(1098),The envelope was sealed by the voter.,-19.18277645111084,10
+tensor(1099),The voter was sealed by the envelope.,-38.60768795013428,10
+tensor(1100),The fisherman emptied the trashcan.,-7.8031768798828125,10
+tensor(1101),The trashcan emptied the fisherman.,-20.89280891418457,10
+tensor(1102),The trashcan was emptied by the fisherman.,-9.230294227600098,12
+tensor(1103),The fisherman was emptied by the trashcan.,-26.95539093017578,12
+tensor(1104),The cellist received the prize.,-11.06924057006836,9
+tensor(1105),The prize received the cellist.,-24.915277004241943,9
+tensor(1106),The prize was received by the cellist.,-18.098102569580078,11
+tensor(1107),The cellist was received by the prize.,-27.060041427612305,11
+tensor(1108),The cheapskate rated the service.,-22.511169910430908,10
+tensor(1109),The service rated the cheapskate.,-26.636929035186768,10
+tensor(1110),The service was rated by the cheapskate.,-28.651340007781982,12
+tensor(1111),The cheapskate was rated by the service.,-30.723984241485596,12
+tensor(1112),The schoolgirl borrowed the key.,-17.902626991271973,9
+tensor(1113),The key borrowed the schoolgirl.,-37.64662456512451,9
+tensor(1114),The key was borrowed by the schoolgirl.,-22.101999759674072,11
+tensor(1115),The schoolgirl was borrowed by the key.,-38.336281299591064,11
+tensor(1116),The bookworm recited the poem.,-14.427156448364258,9
+tensor(1117),The poem recited the bookworm.,-37.09921169281006,9
+tensor(1118),The poem was recited by the bookworm.,-14.416667938232422,11
+tensor(1119),The bookworm was recited by the poem.,-37.45577955245972,11
+tensor(1120),The diver recharged the battery.,-10.508018016815186,9
+tensor(1121),The battery recharged the diver.,-20.6096830368042,9
+tensor(1122),The battery was recharged by the diver.,-19.11230754852295,11
+tensor(1123),The diver was recharged by the battery.,-22.22633934020996,11
+tensor(1124),The poker player won the game.,-13.373316764831543,9
+tensor(1125),The game won the poker player.,-28.773587226867676,9
+tensor(1126),The game was won by the poker player.,-17.383874893188477,11
+tensor(1127),The poker player was won by the game.,-32.31268548965454,11
+tensor(1128),The copycat redecorated the apartment.,-9.693155288696289,12
+tensor(1129),The apartment redecorated the copycat.,-19.665464401245117,12
+tensor(1130),The apartment was redecorated by the copycat.,-13.039350509643555,14
+tensor(1131),The copycat was redecorated by the apartment.,-21.100358963012695,14
+tensor(1132),The winemaker uncorked the bottle.,-3.997023582458496,11
+tensor(1133),The bottle uncorked the winemaker.,-16.19229745864868,11
+tensor(1134),The bottle was uncorked by the winemaker.,-5.152045249938965,13
+tensor(1135),The winemaker was uncorked by the bottle.,-17.08815050125122,13
+tensor(1136),The exterminator filed the complaint.,-9.281384468078613,11
+tensor(1137),The complaint filed the exterminator.,-23.663455963134766,11
+tensor(1138),The complaint was filed by the exterminator.,-9.08360481262207,13
+tensor(1139),The exterminator was filed by the complaint.,-32.02069664001465,13
+tensor(1140),The minuteman loaded the gun.,-31.012930870056152,9
+tensor(1141),The gun loaded the minuteman.,-40.32958650588989,9
+tensor(1142),The gun was loaded by the minuteman.,-28.93509864807129,11
+tensor(1143),The minuteman was loaded by the gun.,-41.092957973480225,11
+tensor(1144),The bookseller calculated the profit.,-14.462932109832764,9
+tensor(1145),The profit calculated the bookseller.,-31.469736099243164,9
+tensor(1146),The profit was calculated by the bookseller.,-13.504637718200684,11
+tensor(1147),The bookseller was calculated by the profit.,-27.399873733520508,11
+tensor(1148),The count inherited the painting.,-22.71805429458618,8
+tensor(1149),The painting inherited the count.,-35.17475605010986,8
+tensor(1150),The painting was inherited by the count.,-22.17111825942993,10
+tensor(1151),The count was inherited by the painting.,-37.63702201843262,10
+tensor(1152),The groundskeeper changed the light bulb.,-14.00659465789795,10
+tensor(1153),The light bulb changed the groundskeeper.,-21.917645931243896,10
+tensor(1154),The light bulb was changed by the groundskeeper.,-15.695291519165039,12
+tensor(1155),The groundskeeper was changed by the light bulb.,-28.15476131439209,12
+tensor(1156),The marcher sang the anthem.,-13.318655967712402,9
+tensor(1157),The anthem sang the marcher.,-28.217860221862793,9
+tensor(1158),The anthem was sung by the marcher.,-15.013349533081055,11
+tensor(1159),The marcher was sung by the anthem.,-29.467753410339355,11
+tensor(1160),The deckhand unlocked the door.,-7.308171272277832,9
+tensor(1161),The door unlocked the deckhand.,-21.451149463653564,9
+tensor(1162),The door was unlocked by the deckhand.,-9.54594898223877,11
+tensor(1163),The deckhand was unlocked by the door.,-22.58109998703003,11
+tensor(1164),The supremacist established the fund.,-21.20790147781372,12
+tensor(1165),The fund established the supremacist.,-27.08832359313965,12
+tensor(1166),The fund was established by the supremacist.,-20.833602905273438,14
+tensor(1167),The supremacist was established by the fund.,-31.500329971313477,14
+tensor(1168),The house sitter watered the plant.,-16.909075260162354,11
+tensor(1169),The plant watered the house sitter.,-26.06362247467041,11
+tensor(1170),The plant was watered by the house sitter.,-16.880340576171875,13
+tensor(1171),The house sitter was watered by the plant.,-21.01922082901001,13
+tensor(1172),The interviewee wrinkled the suit.,-29.456205368041992,9
+tensor(1173),The suit wrinkled the interviewee.,-34.6451678276062,9
+tensor(1174),The suit was wrinkled by the interviewee.,-26.71402359008789,11
+tensor(1175),The interviewee was wrinkled by the suit.,-33.138537883758545,11
+tensor(1176),The cryptographer sent the letter.,-12.363161087036133,10
+tensor(1177),The letter sent the cryptographer.,-22.76391315460205,10
+tensor(1178),The letter was sent by the cryptographer.,-12.680715560913086,12
+tensor(1179),The cryptographer was sent by the letter.,-24.43173599243164,12
+tensor(1180),The bellboy erased the message.,-16.92271089553833,9
+tensor(1181),The message erased the bellboy.,-30.953911304473877,9
+tensor(1182),The message was erased by the bellboy.,-18.85657262802124,11
+tensor(1183),The bellboy was erased by the message.,-33.78185415267944,11
+tensor(1184),The forger shipped the package.,-21.88001537322998,9
+tensor(1185),The package shipped the forger.,-36.15947198867798,9
+tensor(1186),The package was shipped by the forger.,-26.128892421722412,11
+tensor(1187),The forger was shipped by the package.,-45.01596164703369,11
+tensor(1188),The crackhead smoked the pipe.,-26.35270643234253,9
+tensor(1189),The pipe smoked the crackhead.,-39.226813316345215,9
+tensor(1190),The pipe was smoked by the crackhead.,-27.28547954559326,11
+tensor(1191),The crackhead was smoked by the pipe.,-34.522462368011475,11
+tensor(1192),The manicurist rescheduled the appointment.,-6.391081809997559,14
+tensor(1193),The appointment rescheduled the manicurist.,-14.708963394165039,14
+tensor(1194),The appointment was rescheduled by the manicurist.,-12.798898220062256,16
+tensor(1195),The manicurist was rescheduled by the appointment.,-19.72091579437256,16
+tensor(1196),The charlatan burned the contract.,-17.948432445526123,11
+tensor(1197),The contract burned the charlatan.,-22.410877227783203,11
+tensor(1198),The contract was burnt by the charlatan.,-23.394742012023926,13
+tensor(1199),The charlatan was burnt by the contract.,-30.82108974456787,13
+tensor(1200),The tanner placed the order.,-17.896390914916992,9
+tensor(1201),The order placed the tanner.,-30.965534210205078,9
+tensor(1202),The order was placed by the tanner.,-20.609772205352783,11
+tensor(1203),The tanner was placed by the order.,-32.73002243041992,11
+tensor(1204),The archaeologist canceled the trip.,-22.553128719329834,8
+tensor(1205),The trip canceled the archaeologist.,-34.37394142150879,8
+tensor(1206),The trip was canceled by the archaeologist.,-23.864990711212158,10
+tensor(1207),The archaeologist was canceled by the trip.,-44.2336950302124,10
+tensor(1208),The Frenchman sliced the baguette.,-9.954266548156738,11
+tensor(1209),The baguette sliced the Frenchman.,-12.77432632446289,11
+tensor(1210),The baguette was sliced by the Frenchman.,-12.554849624633789,13
+tensor(1211),The Frenchman was sliced by the baguette.,-19.083529472351074,13
+tensor(1212),The producer cast the actress.,-20.057754039764404,8
+tensor(1213),The actress cast the producer.,-26.1482834815979,8
+tensor(1214),The actress was cast by the producer.,-15.181397914886475,10
+tensor(1215),The producer was cast by the actress.,-24.712473392486572,10
+tensor(1216),The exorcist vanquished the spirit.,-7.206864356994629,11
+tensor(1217),The spirit vanquished the exorcist.,-7.577452659606934,11
+tensor(1218),The spirit was vanquished by the exorcist.,-9.349016189575195,13
+tensor(1219),The exorcist was vanquished by the spirit.,-10.272136688232422,13
+tensor(1220),The barber shaved the old man.,-16.08158302307129,10
+tensor(1221),The old man shaved the barber.,-18.28849697113037,10
+tensor(1222),The old man was shaved by the barber.,-16.818790435791016,12
+tensor(1223),The barber was shaved by the old man.,-15.204732894897461,12
+tensor(1224),The paparazzi stalked the pop star.,-19.040916919708252,12
+tensor(1225),The pop star stalked the paparazzi.,-18.68538761138916,12
+tensor(1226),The pop star was stalked by the paparazzi.,-16.390845775604248,14
+tensor(1227),The paparazzi was stalked by the pop star.,-22.246142387390137,14
+tensor(1228),The brunette tipped the busboy.,-16.40503978729248,11
+tensor(1229),The busboy tipped the brunette.,-12.61000919342041,11
+tensor(1230),The busboy was tipped by the brunette.,-15.7584867477417,13
+tensor(1231),The brunette was tipped by the busboy.,-13.824860095977783,13
+tensor(1232),The roommate adopted the newborn.,-32.328054428100586,8
+tensor(1233),The newborn adopted the roommate.,-36.57691192626953,8
+tensor(1234),The newborn was adopted by the roommate.,-30.278376579284668,10
+tensor(1235),The roommate was adopted by the newborn.,-30.789119720458984,10
+tensor(1236),The cartoonist sketched the unicyclist.,-16.06245708465576,13
+tensor(1237),The unicyclist sketched the cartoonist.,-23.150394916534424,13
+tensor(1238),The unicyclist was sketched by the cartoonist.,-11.936708450317383,15
+tensor(1239),The cartoonist was sketched by the unicyclist.,-21.129216194152832,15
+tensor(1240),The streetwalker undercharged the seaman.,-35.088411808013916,12
+tensor(1241),The seaman undercharged the streetwalker.,-34.500356674194336,12
+tensor(1242),The seaman was undercharged by the streetwalker.,-37.50435447692871,14
+tensor(1243),The streetwalker was undercharged by the seaman.,-37.91243648529053,14
+tensor(1244),The urologist treated the widower.,-23.823888778686523,11
+tensor(1245),The widower treated the urologist.,-23.89066743850708,11
+tensor(1246),The widower was treated by the urologist.,-20.628491401672363,13
+tensor(1247),The urologist was treated by the widower.,-20.692954063415527,13
+tensor(1248),The jury acquitted the economist.,-18.953120231628418,8
+tensor(1249),The economist acquitted the jury.,-30.225177764892578,8
+tensor(1250),The economist was acquitted by the jury.,-15.412187576293945,10
+tensor(1251),The jury was acquitted by the economist.,-33.62601947784424,10
+tensor(1252),The freshman dodged the bully.,-11.321698188781738,10
+tensor(1253),The bully dodged the freshman.,-12.33603286743164,10
+tensor(1254),The bully was dodged by the freshman.,-11.31378173828125,12
+tensor(1255),The freshman was dodged by the bully.,-12.739789009094238,12
+tensor(1256),The nun reproached the hedonist.,-11.932726383209229,13
+tensor(1257),The hedonist reproached the nun.,-12.279190063476562,13
+tensor(1258),The hedonist was reproached by the nun.,-11.319918632507324,15
+tensor(1259),The nun was reproached by the hedonist.,-13.451146125793457,15
+tensor(1260),The librarian admonished the plagiarist.,-8.401554107666016,13
+tensor(1261),The plagiarist admonished the librarian.,-7.882576942443848,13
+tensor(1262),The plagiarist was admonished by the librarian.,-11.908505916595459,15
+tensor(1263),The librarian was admonished by the plagiarist.,-10.39213228225708,15
+tensor(1264),The colonel supervised the cadet.,-25.3411922454834,8
+tensor(1265),The cadet supervised the colonel.,-33.00283622741699,8
+tensor(1266),The cadet was supervised by the colonel.,-24.187875747680664,10
+tensor(1267),The colonel was supervised by the cadet.,-30.20470380783081,10
+tensor(1268),The abolitionist hid the slave.,-26.812676429748535,9
+tensor(1269),The slave hid the abolitionist.,-30.780107498168945,9
+tensor(1270),The slave was hidden by the abolitionist.,-26.320311069488525,11
+tensor(1271),The abolitionist was hidden by the slave.,-27.93256425857544,11
+tensor(1272),The personal trainer weighed the Olympian.,-33.41151189804077,10
+tensor(1273),The Olympian weighed the personal trainer.,-31.641028881072998,10
+tensor(1274),The Olympian was weighed by the personal trainer.,-23.480484008789062,12
+tensor(1275),The personal trainer was weighed by the Olympian.,-35.65725135803223,12
+tensor(1276),The zookeeper fed the giraffe.,-12.704176902770996,11
+tensor(1277),The giraffe fed the zookeeper.,-16.284716606140137,11
+tensor(1278),The giraffe was fed by the zookeeper.,-12.913618087768555,13
+tensor(1279),The zookeeper was fed by the giraffe.,-18.014902114868164,13
+tensor(1280),The masseuse relaxed the linebacker.,-20.549867630004883,10
+tensor(1281),The linebacker relaxed the masseuse.,-22.847548484802246,10
+tensor(1282),The linebacker was relaxed by the masseuse.,-25.748557090759277,12
+tensor(1283),The masseuse was relaxed by the linebacker.,-25.67622947692871,12
+tensor(1284),The page obeyed the noble.,-29.66567039489746,8
+tensor(1285),The noble obeyed the page.,-30.104846000671387,8
+tensor(1286),The noble was obeyed by the page.,-29.793417930603027,10
+tensor(1287),The page was obeyed by the noble.,-29.84933614730835,10
+tensor(1288),The lion chased the tour-guide.,-19.927221298217773,10
+tensor(1289),The tour-guide chased the lion.,-19.27074909210205,10
+tensor(1290),The tour-guide was chased by the lion.,-18.11980438232422,12
+tensor(1291),The lion was chased by the tour-guide.,-20.30912208557129,12
+tensor(1292),The caretaker quieted the orphan.,-24.818077087402344,9
+tensor(1293),The orphan quieted the caretaker.,-27.23341941833496,9
+tensor(1294),The orphan was quieted by the caretaker.,-28.020258903503418,11
+tensor(1295),The caretaker was quieted by the orphan.,-31.84219217300415,11
+tensor(1296),The tennis player thanked the chiropractor.,-16.472671508789062,12
+tensor(1297),The chiropractor thanked the tennis player.,-17.256468772888184,12
+tensor(1298),The chiropractor was thanked by the tennis player.,-15.928691387176514,14
+tensor(1299),The tennis player was thanked by the chiropractor.,-14.629256248474121,14
+tensor(1300),The experimenter recruited the subject.,-20.86736488342285,9
+tensor(1301),The subject recruited the experimenter.,-27.59775972366333,9
+tensor(1302),The subject was recruited by the experimenter.,-18.761523723602295,11
+tensor(1303),The experimenter was recruited by the subject.,-23.506061553955078,11
+tensor(1304),The mother disciplined the toddler.,-8.9819917678833,10
+tensor(1305),The toddler disciplined the mother.,-13.168527126312256,10
+tensor(1306),The toddler was disciplined by the mother.,-12.424144744873047,12
+tensor(1307),The mother was disciplined by the toddler.,-13.962324142456055,12
+tensor(1308),The assistant principal expelled the sociopath.,-31.781348705291748,10
+tensor(1309),The sociopath expelled the assistant principal.,-30.81914520263672,10
+tensor(1310),The sociopath was expelled by the assistant principal.,-28.566739082336426,12
+tensor(1311),The assistant principal was expelled by the sociopath.,-32.68400001525879,12
+tensor(1312),The channeler sensed the ghost.,-21.195043563842773,9
+tensor(1313),The ghost sensed the channeler.,-26.64582872390747,9
+tensor(1314),The ghost was sensed by the channeler.,-21.273374557495117,11
+tensor(1315),The channeler was sensed by the ghost.,-24.419437885284424,11
+tensor(1316),The union ousted the whistle-blower.,-7.509023666381836,12
+tensor(1317),The whistle-blower ousted the union.,-9.14846420288086,12
+tensor(1318),The whistle-blower was ousted by the union.,-7.2979278564453125,14
+tensor(1319),The union was ousted by the whistle-blower.,-7.7169694900512695,14
+tensor(1320),The huntsman trapped the deer.,-19.74499797821045,9
+tensor(1321),The deer trapped the huntsman.,-16.229366302490234,9
+tensor(1322),The deer was trapped by the huntsman.,-17.6066312789917,11
+tensor(1323),The huntsman was trapped by the deer.,-17.446874618530273,11
+tensor(1324),The cardiologist discredited the quack.,-6.373749732971191,14
+tensor(1325),The quack discredited the cardiologist.,-6.725259780883789,14
+tensor(1326),The quack was discredited by the cardiologist.,-9.6456937789917,16
+tensor(1327),The cardiologist was discredited by the quack.,-7.068840026855469,16
+tensor(1328),The bailiff released the ruffian.,-14.758229732513428,11
+tensor(1329),The ruffian released the bailiff.,-19.126221179962158,11
+tensor(1330),The ruffian was released by the bailiff.,-10.690901756286621,13
+tensor(1331),The bailiff was released by the ruffian.,-22.432716369628906,13
+tensor(1332),The shark mauled the snorkeler.,-5.7498297691345215,13
+tensor(1333),The snorkeler mauled the shark.,-7.993264198303223,13
+tensor(1334),The snorkeler was mauled by the shark.,-7.048552513122559,15
+tensor(1335),The shark was mauled by the snorkeler.,-9.121698379516602,15
+tensor(1336),The president pardoned the traitor.,-17.135730266571045,9
+tensor(1337),The traitor pardoned the president.,-24.352593898773193,9
+tensor(1338),The traitor was pardoned by the president.,-14.271902561187744,11
+tensor(1339),The president was pardoned by the traitor.,-24.84185266494751,11
+tensor(1340),The au pair spanked the girl.,-13.952239990234375,10
+tensor(1341),The girl spanked the au pair.,-16.042314052581787,10
+tensor(1342),The girl was spanked by the au pair.,-14.363516807556152,12
+tensor(1343),The au pair was spanked by the girl.,-17.521233558654785,12
+tensor(1344),The TV station head promoted the newsagent.,-28.69579315185547,12
+tensor(1345),The newsagent promoted the TV station head.,-28.519861221313477,12
+tensor(1346),The newsagent was promoted by the TV station head.,-23.9644775390625,14
+tensor(1347),The TV station head was promoted by the newsagent.,-29.889527797698975,14
+tensor(1348),The policewoman handcuffed the offender.,-5.407014846801758,12
+tensor(1349),The offender handcuffed the policewoman.,-4.186596870422363,12
+tensor(1350),The offender was handcuffed by the policewoman.,-10.082917213439941,14
+tensor(1351),The policewoman was handcuffed by the offender.,-8.614045143127441,14
+tensor(1352),The anthropologist studied the tribesman.,-20.262486457824707,9
+tensor(1353),The tribesman studied the anthropologist.,-24.256035804748535,9
+tensor(1354),The tribesman was studied by the anthropologist.,-19.135208129882812,11
+tensor(1355),The anthropologist was studied by the tribesman.,-26.665947914123535,11
+tensor(1356),The police chief rewarded the firefighter.,-16.18603801727295,10
+tensor(1357),The firefighter rewarded the police chief.,-20.926162719726562,10
+tensor(1358),The firefighter was rewarded by the police chief.,-16.514430046081543,12
+tensor(1359),The police chief was rewarded by the firefighter.,-25.94599723815918,12
+tensor(1360),The miscreant kidnapped the beneficiary.,-13.29537296295166,14
+tensor(1361),The beneficiary kidnapped the miscreant.,-14.478787422180176,14
+tensor(1362),The beneficiary was kidnapped by the miscreant.,-12.23431921005249,16
+tensor(1363),The miscreant was kidnapped by the beneficiary.,-11.48713731765747,16
+tensor(1364),The social worker comforted the abused woman.,-13.883004188537598,11
+tensor(1365),The abused woman comforted the social worker.,-17.58397388458252,11
+tensor(1366),The abused woman was comforted by the social worker.,-15.826547622680664,13
+tensor(1367),The social worker was comforted by the abused woman.,-15.023859024047852,13
+tensor(1368),The neuroscientist overwhelmed the lab assistant.,-19.174325942993164,14
+tensor(1369),The lab assistant overwhelmed the neuroscientist.,-23.687695503234863,14
+tensor(1370),The lab assistant was overwhelmed by the neuroscientist.,-17.97703266143799,16
+tensor(1371),The neuroscientist was overwhelmed by the lab assistant.,-19.671678066253662,16
+tensor(1372),The warmonger terrorized the gunsmith.,-19.856772422790527,12
+tensor(1373),The gunsmith terrorized the warmonger.,-21.68937397003174,12
+tensor(1374),The gunsmith was terrorized by the warmonger.,-17.975741386413574,14
+tensor(1375),The warmonger was terrorized by the gunsmith.,-19.35296058654785,14
+tensor(1376),The conductor tolerated the violinist.,-21.86628293991089,9
+tensor(1377),The violinist tolerated the conductor.,-23.48129940032959,9
+tensor(1378),The violinist was tolerated by the conductor.,-22.818023204803467,11
+tensor(1379),The conductor was tolerated by the violinist.,-23.81133270263672,11
+tensor(1380),The pitcher signaled the hitter.,-15.211632251739502,8
+tensor(1381),The hitter signaled the pitcher.,-20.07908010482788,8
+tensor(1382),The hitter was signaled by the pitcher.,-18.60396432876587,10
+tensor(1383),The pitcher was signaled by the hitter.,-21.54347801208496,10
+tensor(1384),The quarterback kissed the cheerleader.,-14.399577140808105,9
+tensor(1385),The cheerleader kissed the quarterback.,-15.810643672943115,9
+tensor(1386),The cheerleader was kissed by the quarterback.,-15.789994239807129,11
+tensor(1387),The quarterback was kissed by the cheerleader.,-17.4398136138916,11
+tensor(1388),The camper startled the bear.,-26.07712411880493,9
+tensor(1389),The bear startled the camper.,-24.002314567565918,9
+tensor(1390),The bear was startled by the camper.,-24.67039966583252,11
+tensor(1391),The camper was startled by the bear.,-23.004334449768066,11
+tensor(1392),The admiral accompanied the lieutenant.,-18.94327688217163,8
+tensor(1393),The lieutenant accompanied the admiral.,-18.058889389038086,8
+tensor(1394),The lieutenant was accompanied by the admiral.,-16.766470909118652,10
+tensor(1395),The admiral was accompanied by the lieutenant.,-15.078291893005371,10
+tensor(1396),The tenor loved the soprano.,-22.792150497436523,8
+tensor(1397),The soprano loved the tenor.,-22.82694435119629,8
+tensor(1398),The soprano was loved by the tenor.,-27.583343505859375,10
+tensor(1399),The tenor was loved by the soprano.,-27.918376922607422,10
+tensor(1400),The photographer paid the barrister.,-28.11014747619629,8
+tensor(1401),The barrister paid the photographer.,-24.399712562561035,8
+tensor(1402),The barrister was paid by the photographer.,-30.7515230178833,10
+tensor(1403),The photographer was paid by the barrister.,-25.249126434326172,10
+tensor(1404),The bachelor intrigued the blonde.,-26.816974639892578,8
+tensor(1405),The blonde intrigued the bachelor.,-27.205419063568115,8
+tensor(1406),The blonde was intrigued by the bachelor.,-21.989847660064697,10
+tensor(1407),The bachelor was intrigued by the blonde.,-20.43798542022705,10
+tensor(1408),The football player pursued the socialite.,-31.728014945983887,10
+tensor(1409),The socialite pursued the football player.,-28.13640308380127,10
+tensor(1410),The socialite was pursued by the football player.,-27.446497917175293,12
+tensor(1411),The football player was pursued by the socialite.,-23.62009334564209,12
+tensor(1412),The neurologist consulted the geneticist.,-12.548521995544434,11
+tensor(1413),The geneticist consulted the neurologist.,-13.346470832824707,11
+tensor(1414),The geneticist was consulted by the neurologist.,-7.436016082763672,13
+tensor(1415),The neurologist was consulted by the geneticist.,-7.250441551208496,13
+tensor(1416),The butcher accused the meatpacker.,-21.142606735229492,10
+tensor(1417),The meatpacker accused the butcher.,-17.30379009246826,10
+tensor(1418),The meatpacker was accused by the butcher.,-20.716604232788086,12
+tensor(1419),The butcher was accused by the meatpacker.,-16.75013303756714,12
+tensor(1420),The niece embarrassed the aunt.,-33.08720254898071,8
+tensor(1421),The aunt embarrassed the niece.,-30.052871227264404,8
+tensor(1422),The aunt was embarrassed by the niece.,-31.596542835235596,10
+tensor(1423),The niece was embarrassed by the aunt.,-31.013665676116943,10
+tensor(1424),The warlord hailed the mercenary.,-20.257893562316895,8
+tensor(1425),The mercenary hailed the warlord.,-23.41150188446045,8
+tensor(1426),The mercenary was hailed by the warlord.,-27.49368190765381,10
+tensor(1427),The warlord was hailed by the mercenary.,-32.262688636779785,10
+tensor(1428),The neighbor snubbed the newcomer.,-17.861098289489746,10
+tensor(1429),The newcomer snubbed the neighbor.,-20.666115760803223,10
+tensor(1430),The newcomer was snubbed by the neighbor.,-18.559160709381104,12
+tensor(1431),The neighbor was snubbed by the newcomer.,-18.17976140975952,12
+tensor(1432),The editor overheard the proofreader.,-24.659399032592773,10
+tensor(1433),The proofreader overheard the editor.,-26.545695304870605,10
+tensor(1434),The proofreader was overheard by the editor.,-18.45413112640381,12
+tensor(1435),The editor was overheard by the proofreader.,-23.566274642944336,12
+tensor(1436),The communist offended the capitalist.,-32.52801322937012,8
+tensor(1437),The capitalist offended the communist.,-33.43733024597168,8
+tensor(1438),The capitalist was offended by the communist.,-31.183857917785645,10
+tensor(1439),The communist was offended by the capitalist.,-30.4975643157959,10
+tensor(1440),The curator misinformed the sculptor.,-16.513522148132324,10
+tensor(1441),The sculptor misinformed the curator.,-16.064372062683105,10
+tensor(1442),The sculptor was misinformed by the curator.,-18.021220684051514,12
+tensor(1443),The curator was misinformed by the sculptor.,-19.12899875640869,12
+tensor(1444),The baker mentioned the miller.,-18.545686721801758,10
+tensor(1445),The miller mentioned the baker.,-21.483352661132812,10
+tensor(1446),The miller was mentioned by the baker.,-24.055697441101074,12
+tensor(1447),The baker was mentioned by the miller.,-23.905943870544434,12
+tensor(1448),The pollster shamed the statistician.,-17.992297172546387,13
+tensor(1449),The statistician shamed the pollster.,-17.52288293838501,13
+tensor(1450),The statistician was shamed by the pollster.,-14.500190734863281,15
+tensor(1451),The pollster was shamed by the statistician.,-14.73600959777832,15
+tensor(1452),The screenwriter emailed the actor.,-17.738348960876465,9
+tensor(1453),The actor emailed the screenwriter.,-20.17826557159424,9
+tensor(1454),The actor was emailed by the screenwriter.,-27.252365112304688,11
+tensor(1455),The screenwriter was emailed by the actor.,-25.582834243774414,11
+tensor(1456),The dermatologist contradicted the pathologist.,-3.720597267150879,14
+tensor(1457),The pathologist contradicted the dermatologist.,-3.44277286529541,14
+tensor(1458),The pathologist was contradicted by the dermatologist.,-4.395804405212402,16
+tensor(1459),The dermatologist was contradicted by the pathologist.,-3.6312732696533203,16
+tensor(1460),The sharecropper misled the fieldworker.,-9.869812965393066,15
+tensor(1461),The fieldworker misled the sharecropper.,-10.324239730834961,15
+tensor(1462),The fieldworker was misled by the sharecropper.,-9.385744094848633,17
+tensor(1463),The sharecropper was misled by the fieldworker.,-8.766826629638672,17
+tensor(1464),The patriot saluted the veteran.,-9.676514625549316,10
+tensor(1465),The veteran saluted the patriot.,-10.166192054748535,10
+tensor(1466),The veteran was saluted by the patriot.,-13.545665740966797,12
+tensor(1467),The patriot was saluted by the veteran.,-14.561298370361328,12
+tensor(1468),The welder visited the milkman.,-22.704758644104004,10
+tensor(1469),The milkman visited the welder.,-19.334519386291504,10
+tensor(1470),The milkman was visited by the welder.,-20.36106538772583,12
+tensor(1471),The welder was visited by the milkman.,-18.626347541809082,12
+tensor(1472),The teenager mortified the parent.,-20.565872192382812,10
+tensor(1473),The parent mortified the teenager.,-21.555699825286865,10
+tensor(1474),The parent was mortified by the teenager.,-20.673211097717285,12
+tensor(1475),The teenager was mortified by the parent.,-25.614686489105225,12
+tensor(1476),The surfer impressed the swimmer.,-26.403061866760254,9
+tensor(1477),The swimmer impressed the surfer.,-24.724088668823242,9
+tensor(1478),The swimmer was impressed by the surfer.,-20.944485664367676,11
+tensor(1479),The surfer was impressed by the swimmer.,-18.62088108062744,11
+tensor(1480),The miser antagonized the landlady.,-4.464421272277832,13
+tensor(1481),The landlady antagonized the miser.,-2.0723772048950195,13
+tensor(1482),The landlady was antagonized by the miser.,-3.986175537109375,15
+tensor(1483),The miser was antagonized by the landlady.,-4.462010383605957,15
+tensor(1484),The infantryman upset the loyalist.,-27.216978549957275,10
+tensor(1485),The loyalist upset the infantryman.,-28.315608978271484,10
+tensor(1486),The loyalist was upset by the infantryman.,-27.657363891601562,12
+tensor(1487),The infantryman was upset by the loyalist.,-30.810124397277832,12
+tensor(1488),The florist invoiced the grocer.,-2.0974836349487305,15
+tensor(1489),The grocer invoiced the florist.,-2.952503204345703,15
+tensor(1490),The grocer was invoiced by the florist.,-4.63188362121582,17
+tensor(1491),The florist was invoiced by the grocer.,-3.834199905395508,17
+tensor(1492),The claims adjuster harassed the retailer.,-24.00005578994751,11
+tensor(1493),The retailer harassed the claims adjuster.,-21.151055335998535,11
+tensor(1494),The retailer was harassed by the claims adjuster.,-18.745885848999023,13
+tensor(1495),The claims adjuster was harassed by the retailer.,-19.968775272369385,13
+tensor(1496),The ex-wife punched the girlfriend.,-32.98119592666626,10
+tensor(1497),The girlfriend punched the ex-wife.,-30.250985622406006,10
+tensor(1498),The girlfriend was punched by the ex-wife.,-25.04965353012085,12
+tensor(1499),The ex-wife was punched by the girlfriend.,-25.109601974487305,12
+tensor(1500),The defender blamed the goalkeeper.,-25.55410671234131,8
+tensor(1501),The goalkeeper blamed the defender.,-25.79833698272705,8
+tensor(1502),The goalkeeper was blamed by the defender.,-25.160186290740967,10
+tensor(1503),The defender was blamed by the goalkeeper.,-25.982389450073242,10
+tensor(1504),The geologist reassured the excavator.,-8.820948123931885,12
+tensor(1505),The excavator reassured the geologist.,-6.781002044677734,12
+tensor(1506),The excavator was reassured by the geologist.,-13.716371536254883,14
+tensor(1507),The geologist was reassured by the excavator.,-8.281710624694824,14
+tensor(1508),The physicist nagged the mathematician.,-24.942047119140625,9
+tensor(1509),The mathematician nagged the physicist.,-24.351955890655518,9
+tensor(1510),The mathematician was nagged by the physicist.,-20.131046295166016,11
+tensor(1511),The physicist was nagged by the mathematician.,-19.416895389556885,11
+tensor(1512),The employee watched the embezzler.,-21.74329662322998,11
+tensor(1513),The embezzler watched the employee.,-20.413798332214355,11
+tensor(1514),The embezzler was watched by the employee.,-23.536879062652588,13
+tensor(1515),The employee was watched by the embezzler.,-18.970626831054688,13
+tensor(1516),The programmer distrusted the volunteer.,-20.246776580810547,11
+tensor(1517),The volunteer distrusted the programmer.,-20.772343635559082,11
+tensor(1518),The volunteer was distrusted by the programmer.,-24.488990783691406,13
+tensor(1519),The programmer was distrusted by the volunteer.,-23.947938919067383,13
+tensor(1520),The interviewer befriended the chairman.,-22.234070777893066,9
+tensor(1521),The chairman befriended the interviewer.,-22.500659942626953,9
+tensor(1522),The chairman was befriended by the interviewer.,-23.971182823181152,11
+tensor(1523),The interviewer was befriended by the chairman.,-21.708276748657227,11
+tensor(1524),The cinematographer favored the movie star.,-30.78729009628296,9
+tensor(1525),The movie star favored the cinematographer.,-30.103551864624023,9
+tensor(1526),The movie star was favored by the cinematographer.,-29.959943294525146,11
+tensor(1527),The cinematographer was favored by the movie star.,-27.735129356384277,11
+tensor(1528),The hockey player aggravated the skater.,-23.496975421905518,12
+tensor(1529),The skater aggravated the hockey player.,-20.778011798858643,12
+tensor(1530),The skater was aggravated by the hockey player.,-22.874353408813477,14
+tensor(1531),The hockey player was aggravated by the skater.,-23.042502880096436,14
+tensor(1532),The bricklayer outraged the crane operator.,-15.298083305358887,11
+tensor(1533),The crane operator outraged the bricklayer.,-19.54758882522583,11
+tensor(1534),The crane operator was outraged by the bricklayer.,-20.831000328063965,13
+tensor(1535),The bricklayer was outraged by the crane operator.,-22.70504665374756,13
+tensor(1536),The candidate approved the nominee.,-28.017683029174805,8
+tensor(1537),The nominee approved the candidate.,-26.94557476043701,8
+tensor(1538),The nominee was approved by the candidate.,-24.601187705993652,10
+tensor(1539),The candidate was approved by the nominee.,-26.90849781036377,10
+tensor(1540),The entomologist disparaged the biologist.,-7.171361446380615,13
+tensor(1541),The biologist disparaged the entomologist.,-7.814243316650391,13
+tensor(1542),The biologist was disparaged by the entomologist.,-10.130146980285645,15
+tensor(1543),The entomologist was disparaged by the biologist.,-10.371273040771484,15
+tensor(1544),The hypochondriac hounded the medic.,-9.114155769348145,17
+tensor(1545),The medic hounded the hypochondriac.,-13.192223072052002,17
+tensor(1546),The medic was hounded by the hypochondriac.,-4.398573875427246,19
+tensor(1547),The hypochondriac was hounded by the medic.,-4.418252944946289,19
+tensor(1548),The chemist suspected the pharmacist.,-20.99083137512207,11
+tensor(1549),The pharmacist suspected the chemist.,-22.662248611450195,11
+tensor(1550),The pharmacist was suspected by the chemist.,-21.712778091430664,13
+tensor(1551),The chemist was suspected by the pharmacist.,-18.69059133529663,13
+tensor(1552),The litigator begged the citizen.,-26.185890197753906,10
+tensor(1553),The citizen begged the litigator.,-25.163393020629883,10
+tensor(1554),The citizen was begged by the litigator.,-26.400242805480957,12
+tensor(1555),The litigator was begged by the citizen.,-26.992895126342773,12
+tensor(1556),The plumber devastated the foreman.,-22.991419792175293,10
+tensor(1557),The foreman devastated the plumber.,-23.517996788024902,10
+tensor(1558),The foreman was devastated by the plumber.,-22.202701568603516,12
+tensor(1559),The plumber was devastated by the foreman.,-23.13916254043579,12
+tensor(1560),The sergeant identified the sniper.,-16.696263313293457,8
+tensor(1561),The sniper identified the sergeant.,-21.835776805877686,8
+tensor(1562),The sniper was identified by the sergeant.,-16.818658351898193,10
+tensor(1563),The sergeant was identified by the sniper.,-26.104161262512207,10
