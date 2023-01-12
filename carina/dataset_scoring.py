@@ -7,6 +7,7 @@ import os
 import argparse
 from tqdm import tqdm
 import re
+import pickle
 
 
 def main():
@@ -20,7 +21,7 @@ def main():
             word to which the current token belongs for multi-token words
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', required=True, help="Can be LibriSpeech or EventsAdapt")
+    parser.add_argument('--dataset', required=True, help="Can be LibriSpeech, EventsAdapt or Brown")
     parser.add_argument('--model', required=True)
     parser.add_argument('--batch_size', type=int,
                         default=200)
@@ -29,7 +30,7 @@ def main():
                              "Other options are 'within_word_l2r' and 'within_word_mlm'")
     args = parser.parse_args()
 
-    assert args.dataset in ["LibriSpeech", "EventsAdapt"], "dataset has to be LibriSpeech or EventsAdapt"
+    assert args.dataset in ["LibriSpeech", "EventsAdapt", "Brown"], "dataset has to be LibriSpeech, EventsAdapt or Brown"
 
     if not args.which_masking == "original":
         assert not args.model.startswith('gpt'), 'Adjusted PLL metric is only defined for MLM models!'
@@ -58,6 +59,15 @@ def main():
             for sent_idx, value in corpus.items():
                 ref_stimulus = _apply_tokenizer_opts(value["ref"]) # Only scoring ref sentences so far
                 stimuli.append([sent_idx, ref_stimulus])
+
+    elif args.dataset == "Brown":
+        with open('brown/brown_stimuli.pkl', 'rb') as f:
+            df = pickle.load(f)
+        sentences = df["sentence"].values
+        sentence_ids = list(df["sentence"].index)
+        for sent_idx, sent in list(zip(sentence_ids, sentences)):
+            stimuli.append([sent_idx, sent])
+
     else:
         df = pd.read_csv(os.path.abspath("eventsAdapt/clean_EventsAdapt_SentenceSet.csv"))
         sentences = df["Sentence"]
