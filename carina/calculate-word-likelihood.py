@@ -84,6 +84,7 @@ if __name__ == '__main__':
     parser.add_argument('--which_masking', help="Can be original, within_word_l2r or within_word_mlm")
     args = parser.parse_args()
 
-    contexts = ["I opened the dictionary and picked the word", "My word is"] #""
+    contexts = ["I opened a dictionary and randomly picked a word. It was"]
+    #contexts = ["I opened the dictionary and picked the word", "My word is"]
     for context in contexts:
         main(args, context)
