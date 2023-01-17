@@ -25,6 +25,8 @@ def main(args, context):
     if not context == "":
         words = [f'{context} "{word}".' for word in words]
 
+    words = words[:5]
+
     if args.which_masking:
         word_token_scores = model.token_score(words, which_masking=args.which_masking)
     else:
@@ -36,9 +38,11 @@ def main(args, context):
         #CK NOTE: using [1:] because I'm ignoring the EOS token for which the prob is being ignored scorer.py l. 920
 
 
-    exclude_context = model.tokenizer.tokenize(context) + ['.', '"']
+    exclude_context = model.tokenizer.tokenize(context)
+    exclude_context += ['.', '"', '".']
+    exclude_context = [elm.lstrip('Ġ') for elm in exclude_context]
     word_token_scores = [[elm for elm in score_list if elm[0] not in exclude_context] for score_list in word_token_scores]
-    words = ["".join([x[0].lstrip("##").rstrip(".") for x in elm]) for elm in word_token_scores]
+    words = ["".join([x[0].lstrip("##").lstrip("Ġ").rstrip(".") for x in elm]) for elm in word_token_scores]
 
     nr_tokens = [len(elm) for elm in word_token_scores]
     tokens = ["_".join([x[0] for x in elm]) for elm in word_token_scores]
@@ -84,7 +88,6 @@ if __name__ == '__main__':
     parser.add_argument('--which_masking', help="Can be original, within_word_l2r or within_word_mlm")
     args = parser.parse_args()
 
-    contexts = ["I opened a dictionary and randomly picked a word. It was"]
-    #contexts = ["I opened the dictionary and picked the word", "My word is"]
+    contexts = ["I opened a dictionary and randomly picked a word. It was", "I opened the dictionary and picked the word", "My word is"]
     for context in contexts:
         main(args, context)
