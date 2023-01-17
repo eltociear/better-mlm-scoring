@@ -995,8 +995,6 @@ class IncrementalLMScorer(LMScorer):
         if output_num_tokens:
             return reduced, token_lengths
         else:
-            # FIXME CK: apparently the code from the docs doesn't work here for reduction for LL?
-            # FIXME CK: https://github.com/kanishkamisra/minicons/blob/master/examples/surprisals.md
             return reduced
 
     def token_score(self, batch: Union[str, List[str]], surprisal: bool = False, prob: bool = False, base_two: bool = False, rank: bool = False) -> Union[List[Tuple[str, float]], List[Tuple[str, float, int]]]:
