@@ -25,8 +25,6 @@ def main(args, context):
     if not context == "":
         words = [f'{context} "{word}".' for word in words]
 
-    words = words[:5]
-
     if args.which_masking:
         word_token_scores = model.token_score(words, which_masking=args.which_masking)
     else:
