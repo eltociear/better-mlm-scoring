@@ -22,8 +22,6 @@ def main(args, context):
     with open(filepath) as file:
         words = [line.rstrip() for line in file]
 
-    words = words[:5]
-
     if not context == "":
         words = [f'{context} "{word}".' for word in words]
 
