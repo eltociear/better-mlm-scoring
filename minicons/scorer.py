@@ -342,6 +342,7 @@ class MaskedLMScorer(LMScorer):
             * if "within_word_l2r" = we mask out all subtokens belonging to the same word that are
                     to the right of the token to be currently predicted (see below)
             * if "within_word_mlm" = we mask out all subtokens belonging to the same word
+            * if "global_l2r" = we mask all tokens to the right of the token to be currently predicted
 
         :return: Batch of formatted input that can be passed to `logprob`
         """
@@ -413,6 +414,9 @@ class MaskedLMScorer(LMScorer):
 
             elif which_masking == "original": # original token-by-token-masking
                 mask_indices = [[mask_pos] for mask_pos in range(effective_length+2)]
+
+            elif which_masking == "global_l2r": # mask all tokens to the right of the current token
+                mask_indices = [[j for j in range(mask_pos, effective_length+2)] for mask_pos in range(effective_length+2)]
 
             else:
                 raise NotImplementedError
