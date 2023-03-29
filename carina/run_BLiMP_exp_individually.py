@@ -96,6 +96,8 @@ def main():
             savename += f"blimp_{dataset_name}_AdjustedPLL_l2r"
         elif args.which_masking == "within_word_mlm":
             savename += f"blimp_{dataset_name}_AdjustedPLL_mlm"
+        elif args.which_masking == "global_l2r":
+            savename += f"blimp_{dataset_name}_AdjustedPLL_global_l2r"
         else:
             savename += f"blimp_{dataset_name}_OriginalPLL"
     else:
