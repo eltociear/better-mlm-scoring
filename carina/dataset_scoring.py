@@ -19,6 +19,7 @@ def main():
             for multi-token words
         > if set to 'within_word_mlm' it calculates the PLL metric for a given sentence, masking out all tokens of the
             word to which the current token belongs for multi-token words
+        > if set to 'global_l2r' it calculates the PLL metric for a given sentence, masking out all future sentence tokens
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', required=True, help="Can be LibriSpeech, EventsAdapt or Brown")
@@ -27,7 +28,7 @@ def main():
                         default=200)
     parser.add_argument('--which_masking', type=str, default="original",
                         help="whether to use the original or adjusted PLL metric or not, default is 'original'."
-                             "Other options are 'within_word_l2r' and 'within_word_mlm'")
+                             "Other options are 'within_word_l2r', 'global_l2r' and 'within_word_mlm'")
     args = parser.parse_args()
 
     assert args.dataset in ["LibriSpeech", "EventsAdapt", "Brown"], "dataset has to be LibriSpeech, EventsAdapt or Brown"
@@ -129,6 +130,8 @@ def main():
             savename += f"{args.dataset}_AdjustedPLL_mlm"
         elif args.which_masking == "original":
             savename += f"{args.dataset}_OriginalPLL"
+        elif args.which_masking == "global_l2r":
+            savename += f"{args.dataset}_AdjustedPLL_globall2r"
         else:
             raise NotImplementedError
     else:
