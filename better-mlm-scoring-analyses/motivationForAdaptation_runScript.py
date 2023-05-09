@@ -44,7 +44,7 @@ custom_params = {"axes.spines.right": False,
                  'xtick.bottom': True,
                 'grid.linestyle': "" #gets rid of horizontal lines
                 }
-sns.set_theme(font_scale=1.4, style="white", rc=custom_params)
+sns.set_theme(font_scale=1.5, style="white", rc=custom_params)
 plt.style.use('seaborn-dark-palette')
 
 import matplotlib.patches as patches
