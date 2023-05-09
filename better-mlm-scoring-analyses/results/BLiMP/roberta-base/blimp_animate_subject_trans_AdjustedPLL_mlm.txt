@@ -1,1 +1,0 @@
-animate_subject_trans, 0.664

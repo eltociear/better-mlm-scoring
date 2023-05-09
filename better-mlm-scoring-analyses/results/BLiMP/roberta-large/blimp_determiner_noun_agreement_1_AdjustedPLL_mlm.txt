@@ -1,1 +1,0 @@
-determiner_noun_agreement_1, 0.994

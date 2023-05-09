@@ -1,1 +1,0 @@
-animate_subject_passive, 0.768

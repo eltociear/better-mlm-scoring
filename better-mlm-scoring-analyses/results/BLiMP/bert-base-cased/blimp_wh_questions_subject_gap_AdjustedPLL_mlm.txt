@@ -1,1 +1,0 @@
-wh_questions_subject_gap, 0.94

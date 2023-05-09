@@ -1,1 +1,0 @@
-coordinate_structure_constraint_complex_left_branch, 0.912

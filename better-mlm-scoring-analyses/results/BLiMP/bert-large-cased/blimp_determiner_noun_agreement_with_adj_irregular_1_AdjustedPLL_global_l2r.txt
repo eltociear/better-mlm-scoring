@@ -1,1 +1,0 @@
-determiner_noun_agreement_with_adj_irregular_1, 0.697
