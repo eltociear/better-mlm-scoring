@@ -1,0 +1,17 @@
+16:11:07
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  30
+FILE NAME:  blimp/data/matrix_question_npi_licensor_present.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+matrix_question_npi_licensor_present
+Had Bruce ever played? vs. Bruce had ever played.
+Had Patrick ever answered? vs. Patrick had ever answered.
+Do some carts ever accelerate? vs. Some carts do ever accelerate.
+Will Dawn ever know Jeffrey? vs. Dawn will ever know Jeffrey.
+Should Monica ever grin? vs. Monica should ever grin.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [05:43<05:43, 343.64s/it]100%|██████████| 2/2 [13:12<00:00, 405.71s/it]100%|██████████| 2/2 [13:12<00:00, 396.40s/it]
+16:24:25
+All complete!

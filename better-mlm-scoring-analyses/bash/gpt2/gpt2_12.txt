@@ -1,0 +1,8 @@
+determiner_noun_agreement_irregular_2
+All boys boast about that child. vs. All boys boast about those child.
+Candice has taken that axis. vs. Candice has taken those axis.
+Those ladies walk through those oases. vs. Those ladies walk through that oases.
+The legislatures praise this woman. vs. The legislatures praise these woman.
+Many icicles do bore that child. vs. Many icicles do bore those child.
+
+

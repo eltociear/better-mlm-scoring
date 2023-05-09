@@ -1,0 +1,8 @@
+distractor_agreement_relative_clause
+This customer who had visited most children has worn some shoes. vs. This customer who had visited most children have worn some shoes.
+This boy that didn't question all guests has forgotten about what wasn't vaporizing. vs. This boy that didn't question all guests have forgotten about what wasn't vaporizing.
+Boys that aren't disturbing Natalie suffer. vs. Boys that aren't disturbing Natalie suffers.
+Some customers who irritates Amelia do persuade Galileo to come here. vs. Some customers who irritates Amelia does persuade Galileo to come here.
+Many children that had questioned this government do cooperate. vs. Many children that had questioned this government does cooperate.
+
+

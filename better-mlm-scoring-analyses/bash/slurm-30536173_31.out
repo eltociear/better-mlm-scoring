@@ -1,0 +1,17 @@
+19:12:41
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  31
+FILE NAME:  blimp/data/npi_present_1.jsonl
+MODEL NAME:  roberta-large
+MASKING:  global_l2r
+npi_present_1
+Even Suzanne has really joked around. vs. Even Suzanne has ever joked around.
+Even many teenagers clearly boycott those legislatures. vs. Even many teenagers ever boycott those legislatures.
+Even every cashier had clearly found out who hasn't sung. vs. Even every cashier had ever found out who hasn't sung.
+Even Mark might often irritate the pedestrians. vs. Even Mark might ever irritate the pedestrians.
+Even Tara had really baked. vs. Even Tara had ever baked.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [54:26<54:26, 3266.93s/it]100%|██████████| 2/2 [1:53:12<00:00, 3418.90s/it]100%|██████████| 2/2 [1:53:12<00:00, 3396.10s/it]
+21:06:00
+All complete!

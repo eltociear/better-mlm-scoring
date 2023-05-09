@@ -1,0 +1,15 @@
+11:24:37
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  59
+FILE NAME:  blimp/data/wh_vs_that_with_gap_long_distance.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+wh_vs_that_with_gap_long_distance
+Kayla concealed who a lot of guests that were scaring many people complain about. vs. Kayla concealed that a lot of guests that were scaring many people complain about.
+Martin did find out what every cashier that shouldn't drink wore. vs. Martin did find out that every cashier that shouldn't drink wore.
+The Borgias haven't figured out what blouses that have disgusted Kenneth look like. vs. The Borgias haven't figured out that blouses that have disgusted Kenneth look like.
+Colleen has revealed what every print that isn't existing looked like. vs. Colleen has revealed that every print that isn't existing looked like.
+All banks forget what many steps that couldn't irritate Carrie resemble. vs. All banks forget that many steps that couldn't irritate Carrie resemble.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [19:05<19:05, 1145.58s/it]

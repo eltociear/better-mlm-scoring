@@ -1,0 +1,17 @@
+19:50:33
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  1
+FILE NAME:  blimp/data/existential_there_object_raising.jsonl
+MASKING NAME:  global_l2r
+MODEL NAME:  bert-large-cased
+existential_there_object_raising
+William has declared there to be no guests getting fired. vs. William has obliged there to be no guests getting fired.
+Richard believed there to be many boxes stunning Ellen. vs. Richard sways there to be many boxes stunning Ellen.
+Teresa finds there to be many bananas stunning Claire. vs. Teresa swayed there to be many bananas stunning Claire.
+Mary can declare there to be some ladders falling. vs. Mary can entreat there to be some ladders falling.
+An actress wouldn't declare there to be a print looking like that ice. vs. An actress wouldn't command there to be a print looking like that ice.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [3:50:03<3:50:03, 13803.89s/it]100%|██████████| 2/2 [6:57:00<00:00, 12282.01s/it]  100%|██████████| 2/2 [6:57:00<00:00, 12510.29s/it]
+02:47:44
+All complete!

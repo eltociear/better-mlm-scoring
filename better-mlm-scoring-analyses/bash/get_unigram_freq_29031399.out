@@ -1,0 +1,7 @@
+Executing get_unigram_freq
+14:33:14
+SLURM_ARRAY_TASK_ID:  4
+DATASET:  Brown
+CHUNK:  5
+14:52:20
+All complete!

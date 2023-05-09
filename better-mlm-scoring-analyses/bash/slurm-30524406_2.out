@@ -1,0 +1,17 @@
+15:36:30
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  2
+FILE NAME:  blimp/data/anaphor_number_agreement.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+anaphor_number_agreement
+Susan revealed herself. vs. Susan revealed themselves.
+Renee hasn't hurt herself. vs. Renee hasn't hurt themselves.
+These patients do respect themselves. vs. These patients do respect himself.
+Mary should criticize herself. vs. Mary should criticize themselves.
+Kristin irritated herself. vs. Kristin irritated themselves.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [12:20<12:20, 740.85s/it]100%|██████████| 2/2 [26:45<00:00, 813.49s/it]100%|██████████| 2/2 [26:45<00:00, 802.59s/it]
+16:03:21
+All complete!

@@ -1,0 +1,17 @@
+15:36:25
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  12
+FILE NAME:  blimp/data/sentential_negation_npi_scope.jsonl
+MASKING NAME:  original
+MODEL NAME:  roberta-base
+sentential_negation_npi_scope
+The associations that had worried Cynthia have not ever planned to shock every actress. vs. The associations that had not worried Cynthia have ever planned to shock every actress.
+Every son of Jerry who has insulted Jerry can not ever die. vs. Every son of Jerry who has not insulted Jerry can ever die.
+Most pedestrians' tutors that have hired Alice can not ever kiss. vs. Most pedestrians' tutors that have not hired Alice can ever kiss.
+The doctor that has referenced Diane might not ever move. vs. The doctor that has not referenced Diane might ever move.
+Some glasses that did disturb Craig could not ever flatten. vs. Some glasses that did not disturb Craig could ever flatten.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [19:40<19:40, 1180.38s/it]100%|██████████| 2/2 [40:30<00:00, 1221.17s/it]100%|██████████| 2/2 [40:30<00:00, 1215.05s/it]
+16:17:01
+All complete!

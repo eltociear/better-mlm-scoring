@@ -1,0 +1,17 @@
+10:43:32
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  36
+FILE NAME:  blimp/data/passive_2.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  global_l2r
+passive_2
+A lot of nieces of some actor aren't scared. vs. A lot of nieces of some actor aren't wept.
+Mitchell's grandfathers are forgotten. vs. Mitchell's grandfathers are concurred.
+The Clintons were attacked. vs. The Clintons were replied.
+Most cashiers are disliked. vs. Most cashiers are flirted.
+A lot of libraries were distracted. vs. A lot of libraries were communicated.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [15:09<15:09, 909.48s/it]100%|██████████| 2/2 [30:30<00:00, 916.31s/it]100%|██████████| 2/2 [30:30<00:00, 915.28s/it]
+11:14:09
+All complete!

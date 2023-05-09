@@ -1,0 +1,17 @@
+11:07:34
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  25
+FILE NAME:  blimp/data/irregular_past_participle_verbs.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+irregular_past_participle_verbs
+The Borgias wore a lot of scarves. vs. The Borgias worn a lot of scarves.
+Teresa hid every senator. vs. Teresa hidden every senator.
+The mushroom went bad. vs. The mushroom gone bad.
+Cheryl came here. vs. Cheryl come here.
+Christopher hid a spotlight. vs. Christopher hidden a spotlight.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [03:23<03:23, 203.55s/it]100%|██████████| 2/2 [06:42<00:00, 200.60s/it]100%|██████████| 2/2 [06:42<00:00, 201.04s/it]
+11:14:24
+All complete!

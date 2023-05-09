@@ -1,0 +1,8 @@
+superlative_quantifiers_2
+The teenager does tour at most nine restaurants. vs. No teenager does tour at most nine restaurants.
+That car looks like at least seven prints. vs. No car looks like at least seven prints.
+The doctor brought at most eight gates. vs. No doctor brought at most eight gates.
+An actor arrived at at most six lakes. vs. No actor arrived at at most six lakes.
+Every senator notices at most four windows. vs. No senator notices at most four windows.
+
+

@@ -1,0 +1,8 @@
+anaphor_number_agreement
+Susan revealed herself. vs. Susan revealed themselves.
+Renee hasn't hurt herself. vs. Renee hasn't hurt themselves.
+These patients do respect themselves. vs. These patients do respect himself.
+Mary should criticize herself. vs. Mary should criticize themselves.
+Kristin irritated herself. vs. Kristin irritated themselves.
+
+

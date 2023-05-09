@@ -1,0 +1,17 @@
+16:14:59
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  39
+FILE NAME:  blimp/data/principle_A_c_command.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+principle_A_c_command
+A lot of patients who can sell some couch didn't investigate themselves. vs. A lot of patients who can sell some couch didn't investigate itself.
+A lot of actresses that thought about Alice healed themselves. vs. A lot of actresses that thought about Alice healed herself.
+A guy that has seen the wheelbarrow notices himself. vs. A guy that has seen the wheelbarrow notices itself.
+The children that were complaining about Gregory hated themselves. vs. The children that were complaining about Gregory hated himself.
+Every boy that isn't selling the grocery stores isn't healing himself. vs. Every boy that isn't selling the grocery stores isn't healing themselves.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [11:46<11:46, 706.60s/it]100%|██████████| 2/2 [23:12<00:00, 694.33s/it]100%|██████████| 2/2 [23:12<00:00, 696.17s/it]
+16:38:19
+All complete!

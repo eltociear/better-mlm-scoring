@@ -1,0 +1,10 @@
+Calculating BLiMP scores for gpt2
+10:13:11
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  17
+FILE NAME:  blimp/data/distractor_agreement_relational_noun.jsonl
+MODEL NAME:  gpt2
+Using pad_token, but it is not set yet.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:51<00:51, 51.23s/it]100%|██████████| 2/2 [01:51<00:00, 56.35s/it]100%|██████████| 2/2 [01:51<00:00, 55.58s/it]
+10:15:13
+All complete!

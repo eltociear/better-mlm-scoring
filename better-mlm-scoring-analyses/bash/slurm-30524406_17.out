@@ -1,0 +1,17 @@
+15:50:10
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  17
+FILE NAME:  blimp/data/distractor_agreement_relative_clause.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+distractor_agreement_relative_clause
+This customer who had visited most children has worn some shoes. vs. This customer who had visited most children have worn some shoes.
+This boy that didn't question all guests has forgotten about what wasn't vaporizing. vs. This boy that didn't question all guests have forgotten about what wasn't vaporizing.
+Boys that aren't disturbing Natalie suffer. vs. Boys that aren't disturbing Natalie suffers.
+Some customers who irritates Amelia do persuade Galileo to come here. vs. Some customers who irritates Amelia does persuade Galileo to come here.
+Many children that had questioned this government do cooperate. vs. Many children that had questioned this government does cooperate.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [13:25<13:25, 805.29s/it]100%|██████████| 2/2 [25:00<00:00, 740.43s/it]100%|██████████| 2/2 [25:00<00:00, 750.16s/it]
+16:15:16
+All complete!

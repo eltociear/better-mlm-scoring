@@ -1,0 +1,17 @@
+11:15:39
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  46
+FILE NAME:  blimp/data/sentential_negation_npi_licensor_present.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+sentential_negation_npi_licensor_present
+Teresa had not ever sold a movie theater. vs. Teresa had probably ever sold a movie theater.
+Allison has not ever taken that ice cream. vs. Allison has fortunately ever taken that ice cream.
+Teresa would not ever ascertain Carmen to remember Jessica. vs. Teresa would fortunately ever ascertain Carmen to remember Jessica.
+Sharon might not ever argue. vs. Sharon might probably ever argue.
+Those banks had not ever lied. vs. Those banks had really ever lied.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [09:19<09:19, 559.31s/it]100%|██████████| 2/2 [18:53<00:00, 568.15s/it]100%|██████████| 2/2 [18:53<00:00, 566.82s/it]
+11:34:44
+All complete!

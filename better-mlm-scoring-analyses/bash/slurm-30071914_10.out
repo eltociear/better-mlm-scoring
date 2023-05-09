@@ -1,0 +1,17 @@
+10:59:36
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  10
+FILE NAME:  blimp/data/determiner_noun_agreement_irregular_1.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+determiner_noun_agreement_irregular_1
+Laurie hasn't lifted those cacti. vs. Laurie hasn't lifted those cactus.
+Adam hadn't discussed these analyses. vs. Adam hadn't discussed these analysis.
+Some customers know these men. vs. Some customers know these man.
+Phillip was lifting this mouse. vs. Phillip was lifting this mice.
+The driver reveals these mice. vs. The driver reveals these mouse.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [06:36<06:36, 396.68s/it]100%|██████████| 2/2 [12:25<00:00, 368.73s/it]100%|██████████| 2/2 [12:25<00:00, 372.93s/it]
+11:12:15
+All complete!

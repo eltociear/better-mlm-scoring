@@ -1,0 +1,10 @@
+Calculating BLiMP scores for gpt2
+10:13:12
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  8
+FILE NAME:  blimp/data/coordinate_structure_constraint_object_extraction.jsonl
+MODEL NAME:  gpt2
+Using pad_token, but it is not set yet.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:30<00:30, 30.98s/it]100%|██████████| 2/2 [01:03<00:00, 31.98s/it]100%|██████████| 2/2 [01:03<00:00, 31.83s/it]
+10:14:25
+All complete!

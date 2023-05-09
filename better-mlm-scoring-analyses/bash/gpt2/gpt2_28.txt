@@ -1,0 +1,8 @@
+intransitive
+Todd can't yawn. vs. Todd can't walk through.
+Some guests hadn't left. vs. Some guests hadn't boasted about.
+This niece of Elizabeth protests. vs. This niece of Elizabeth walks through.
+Regina is shouting. vs. Regina is boasting about.
+This guest's plumber complains. vs. This guest's plumber wore.
+
+

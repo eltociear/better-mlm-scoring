@@ -1,0 +1,12 @@
+16:30:42
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  60
+FILE NAME: 
+MODEL NAME: 
+MASKING:  global_l2r
+usage: run_BLiMP_exp_individually.py [-h] --model MODEL --file FILE
+                                     [--batch_size BATCH_SIZE]
+                                     [--which_masking WHICH_MASKING]
+run_BLiMP_exp_individually.py: error: argument --model: expected one argument
+16:30:45
+All complete!

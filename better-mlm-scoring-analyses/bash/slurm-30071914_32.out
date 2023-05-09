@@ -1,0 +1,17 @@
+11:11:23
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  32
+FILE NAME:  blimp/data/npi_present_2.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+npi_present_2
+Tamara really exited those mountains. vs. Tamara ever exited those mountains.
+Karen could certainly boycott this association. vs. Karen could ever boycott this association.
+Every committee could often sell a river. vs. Every committee could ever sell a river.
+Charles had often arrived at those restaurants. vs. Charles had ever arrived at those restaurants.
+Many skateboards also roll. vs. Many skateboards ever roll.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [21:06<21:06, 1266.32s/it]100%|██████████| 2/2 [38:29<00:00, 1134.83s/it]100%|██████████| 2/2 [38:29<00:00, 1154.56s/it]
+11:50:00
+All complete!

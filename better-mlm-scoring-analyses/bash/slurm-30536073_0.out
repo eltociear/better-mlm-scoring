@@ -1,0 +1,17 @@
+16:49:57
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  0
+FILE NAME:  blimp/data/adjunct_island.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+adjunct_island
+Who should Derek hug after shocking Richard? vs. Who should Derek hug Richard after shocking?
+What had Theresa walked through while talking about that high school? vs. What had Theresa walked through that high school while talking about?
+Who will Katherine discover without hiring Erin? vs. Who will Katherine discover Erin without hiring?
+Who has Colleen aggravated before kissing Judy? vs. Who has Colleen aggravated Judy before kissing?
+What could a lot of cats break while finding all convertibles? vs. What could a lot of cats break all convertibles while finding?
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [1:09:33<1:09:33, 4173.30s/it]100%|██████████| 2/2 [2:23:05<00:00, 4314.09s/it]  100%|██████████| 2/2 [2:23:05<00:00, 4292.97s/it]
+19:13:18
+All complete!

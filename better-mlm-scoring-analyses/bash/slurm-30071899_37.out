@@ -1,0 +1,17 @@
+10:44:01
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  37
+FILE NAME:  blimp/data/principle_A_case_1.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  global_l2r
+principle_A_case_1
+The teenagers explain that they aren't breaking all glasses. vs. The teenagers explain that themselves aren't breaking all glasses.
+Carl can't imagine that he complained about Lisa. vs. Carl can't imagine that himself complained about Lisa.
+Angela wasn't thinking that she likes Susan. vs. Angela wasn't thinking that herself likes Susan.
+Tara thinks that she sounded like Wayne. vs. Tara thinks that herself sounded like Wayne.
+Those waiters explain that they did climb down mountains. vs. Those waiters explain that themselves did climb down mountains.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [07:22<07:22, 442.70s/it]100%|██████████| 2/2 [14:58<00:00, 450.41s/it]100%|██████████| 2/2 [14:58<00:00, 449.26s/it]
+10:59:06
+All complete!

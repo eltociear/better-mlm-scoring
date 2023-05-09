@@ -1,0 +1,8 @@
+MODEL:  bert-base-cased
+MASKING:  within_word_l2r
+DATASET:  LibriSpeech
+Calculating word likelihoods
+16:21:01
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+18:22:42
+All complete!

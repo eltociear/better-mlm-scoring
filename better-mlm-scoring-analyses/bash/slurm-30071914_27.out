@@ -1,0 +1,17 @@
+11:09:36
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  27
+FILE NAME:  blimp/data/irregular_plural_subject_verb_agreement_2.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+irregular_plural_subject_verb_agreement_2
+The women meet. vs. The woman meet.
+The child isn't attacking Becky. vs. The children isn't attacking Becky.
+The woman cleans every public park. vs. The women cleans every public park.
+The man works with some pedestrian. vs. The men works with some pedestrian.
+The men have revealed Christina. vs. The man have revealed Christina.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [04:19<04:19, 259.93s/it]100%|██████████| 2/2 [08:53<00:00, 267.99s/it]100%|██████████| 2/2 [08:53<00:00, 266.78s/it]
+11:18:42
+All complete!

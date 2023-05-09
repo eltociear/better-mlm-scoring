@@ -1,0 +1,17 @@
+11:21:09
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  52
+FILE NAME:  blimp/data/transitive.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+transitive
+Some turtles alarm Kimberley. vs. Some turtles come here Kimberley.
+Diane watched Alan. vs. Diane screamed Alan.
+This cousin of Theodore buys some mushroom. vs. This cousin of Theodore wept some mushroom.
+Rhonda was arguing about this nephew of Dana. vs. Rhonda was going fishing this nephew of Dana.
+A lot of actresses' nieces have toured that art gallery. vs. A lot of actresses' nieces have coped that art gallery.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [08:39<08:39, 519.43s/it]100%|██████████| 2/2 [16:06<00:00, 476.78s/it]100%|██████████| 2/2 [16:06<00:00, 483.18s/it]
+11:37:22
+All complete!

@@ -1,4 +1,0 @@
-
-[submodule "carina/blimp"]
-	path = carina/blimp
-	url = https://github.com/alexwarstadt/blimp.git

@@ -1,0 +1,17 @@
+11:05:14
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  16
+FILE NAME:  blimp/data/distractor_agreement_relational_noun.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+distractor_agreement_relational_noun
+A niece of most senators hasn't descended most slopes. vs. A niece of most senators haven't descended most slopes.
+The sketch of those trucks hasn't hurt Alan. vs. The sketch of those trucks haven't hurt Alan.
+A newspaper article about the Borgias has disagreed with Marcus. vs. A newspaper article about the Borgias have disagreed with Marcus.
+The niece of most guests has cleaned every college campus. vs. The niece of most guests have cleaned every college campus.
+A sketch of lights doesn't appear. vs. A sketch of lights don't appear.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [34:54<34:54, 2094.59s/it]100%|██████████| 2/2 [1:12:26<00:00, 2187.40s/it]100%|██████████| 2/2 [1:12:26<00:00, 2173.49s/it]
+12:17:54
+All complete!

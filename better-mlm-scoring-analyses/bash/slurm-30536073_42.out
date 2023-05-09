@@ -1,0 +1,17 @@
+16:50:56
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  42
+FILE NAME:  blimp/data/principle_A_domain_3.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+principle_A_domain_3
+Steven explains Kayla won't hurt herself. vs. Kayla explains Steven won't hurt herself.
+Gina explains Alan fires himself. vs. Alan explains Gina fires himself.
+Paul did think Alice hugs herself. vs. Alice did think Paul hugs herself.
+Beverly imagines Carla's ex-boyfriend hates himself. vs. Carla's ex-boyfriend imagines Beverly hates himself.
+Randolf imagines Kayla sounds like herself. vs. Kayla imagines Randolf sounds like herself.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [56:48<56:48, 3408.97s/it]100%|██████████| 2/2 [1:43:06<00:00, 3037.75s/it]100%|██████████| 2/2 [1:43:06<00:00, 3093.43s/it]
+18:34:13
+All complete!

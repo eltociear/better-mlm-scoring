@@ -1,0 +1,17 @@
+15:41:14
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  11
+FILE NAME:  blimp/data/determiner_noun_agreement_irregular_2.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+determiner_noun_agreement_irregular_2
+All boys boast about that child. vs. All boys boast about those child.
+Candice has taken that axis. vs. Candice has taken those axis.
+Those ladies walk through those oases. vs. Those ladies walk through that oases.
+The legislatures praise this woman. vs. The legislatures praise these woman.
+Many icicles do bore that child. vs. Many icicles do bore those child.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [04:27<04:27, 267.36s/it]100%|██████████| 2/2 [08:48<00:00, 263.88s/it]100%|██████████| 2/2 [08:48<00:00, 264.40s/it]
+15:50:09
+All complete!

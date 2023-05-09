@@ -1,0 +1,17 @@
+19:51:10
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  4
+FILE NAME:  blimp/data/complex_NP_island.jsonl
+MASKING NAME:  original
+MODEL NAME:  bert-large-cased
+complex_NP_island
+Who aren't most hospitals that hadn't talked about most waitresses alarming? vs. Who aren't most waitresses alarming most hospitals that hadn't talked about?
+Who hasn't this sister of these dancers who shocked Cheryl attacked? vs. Who hasn't Cheryl attacked this sister of these dancers who shocked?
+Who should Lawrence's lawyers who have scared some grandsons of Janice hate? vs. Who should some grandsons of Janice hate Lawrence's lawyers who have scared?
+Who hadn't some driver who would fire Jennifer's colleague embarrassed? vs. Who hadn't Jennifer's colleague embarrassed some driver who would fire?
+Who haven't these fathers of Gerald who impressed Deborah's tutors loved? vs. Who haven't Deborah's tutors loved these fathers of Gerald who impressed?
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [2:48:17<2:48:17, 10097.93s/it]100%|██████████| 2/2 [5:29:18<00:00, 9840.54s/it]   100%|██████████| 2/2 [5:29:18<00:00, 9879.15s/it]
+01:20:34
+All complete!

@@ -1,0 +1,4 @@
+  File "get_ngram_frequencies_anya.py", line 46
+    with open(os.path.abspath(f"results/unigram_frequencies_anya/{args.dataset}_unigram_frequencies.txt"), "w") as fout:
+                                                                                                       ^
+SyntaxError: invalid syntax

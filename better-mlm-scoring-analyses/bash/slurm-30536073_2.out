@@ -1,0 +1,17 @@
+16:50:01
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  2
+FILE NAME:  blimp/data/anaphor_number_agreement.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+anaphor_number_agreement
+Susan revealed herself. vs. Susan revealed themselves.
+Renee hasn't hurt herself. vs. Renee hasn't hurt themselves.
+These patients do respect themselves. vs. These patients do respect himself.
+Mary should criticize herself. vs. Mary should criticize themselves.
+Kristin irritated herself. vs. Kristin irritated themselves.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [26:05<26:05, 1565.49s/it]100%|██████████| 2/2 [51:52<00:00, 1554.87s/it]100%|██████████| 2/2 [51:52<00:00, 1556.46s/it]
+17:42:11
+All complete!

@@ -1,0 +1,17 @@
+15:36:16
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  9
+FILE NAME:  blimp/data/ellipsis_n_bar_1.jsonl
+MASKING NAME:  global_l2r
+MODEL NAME:  roberta-base
+ellipsis_n_bar_1
+Dawn's ex-husband wasn't going to one rough grocery store and Becca wasn't going to many. vs. Dawn's ex-husband wasn't going to one grocery store and Becca wasn't going to many rough.
+Most men irritates two happy students and a snake irritates three. vs. Most men irritates two students and a snake irritates three happy.
+A pedestrian's brothers had loved one smart dancer and Phillip's mother had loved few. vs. A pedestrian's brothers had loved one dancer and Phillip's mother had loved few smart.
+Brad passed one big museum and Eva passed several. vs. Brad passed one museum and Eva passed several big.
+The daughters of Michelle weren't hurting one displeased ex-wife and Stephanie's classmates weren't hurting three. vs. The daughters of Michelle weren't hurting one ex-wife and Stephanie's classmates weren't hurting three displeased.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [1:12:42<1:12:42, 4362.34s/it]100%|██████████| 2/2 [2:37:41<00:00, 4795.50s/it]  100%|██████████| 2/2 [2:37:41<00:00, 4730.53s/it]
+18:14:01
+All complete!

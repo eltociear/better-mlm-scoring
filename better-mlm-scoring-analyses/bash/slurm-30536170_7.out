@@ -1,0 +1,17 @@
+21:38:44
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  7
+FILE NAME:  blimp/data/ellipsis_n_bar_2.jsonl
+MASKING NAME:  global_l2r
+MODEL NAME:  roberta-large
+ellipsis_n_bar_2
+A friend of Pamela hasn't attacked one person and Ann hasn't attacked more unsure person. vs. A friend of Pamela hasn't attacked one unemployed person and Ann hasn't attacked more unsure.
+Larry talked to five dermatologists and Rose talked to four displeased dermatologists. vs. Larry talked to five small dermatologists and Rose talked to four displeased.
+That legislature has three peppers and Charles has at least as many small peppers. vs. That legislature has three hidden peppers and Charles has at least as many small.
+A picture does look like four shawls and the photographs of Douglas couldn't look like five red shawls. vs. A picture does look like four blue shawls and the photographs of Douglas couldn't look like five red.
+Bill's associate fires a lot of adults and Galileo fires a few old adults. vs. Bill's associate fires a lot of popular adults and Galileo fires a few old.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [3:41:36<3:41:36, 13296.13s/it]100%|██████████| 2/2 [7:13:57<00:00, 12969.83s/it]  100%|██████████| 2/2 [7:13:57<00:00, 13018.80s/it]
+04:52:48
+All complete!

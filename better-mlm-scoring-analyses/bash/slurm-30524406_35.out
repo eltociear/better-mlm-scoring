@@ -1,0 +1,17 @@
+16:12:24
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  35
+FILE NAME:  blimp/data/passive_1.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+passive_1
+Lucille's sisters are confused by Amy. vs. Lucille's sisters are communicated by Amy.
+A lot of hospitals were astounded by some actress. vs. A lot of hospitals were cooperated by some actress.
+Larry's oncologists aren't helped by Spain. vs. Larry's oncologists aren't struggled by Spain.
+Jeffrey's sons are insulted by Tina's supervisor. vs. Jeffrey's sons are smiled by Tina's supervisor.
+Tracy isn't fired by Jodi's daughter. vs. Tracy isn't muttered by Jodi's daughter.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [36:13<36:13, 2173.09s/it]100%|██████████| 2/2 [1:06:40<00:00, 1969.57s/it]100%|██████████| 2/2 [1:06:40<00:00, 2000.10s/it]
+17:19:11
+All complete!

@@ -1,0 +1,17 @@
+10:34:02
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  24
+FILE NAME:  blimp/data/irregular_past_participle_adjectives.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  global_l2r
+irregular_past_participle_adjectives
+The hidden offspring aren't confident. vs. The hid offspring aren't confident.
+The hidden bicycles weren't exposed. vs. The hid bicycles weren't exposed.
+The hidden glass was big. vs. The hid glass was big.
+The worn skirts aren't important. vs. The wore skirts aren't important.
+The worn hats aren't big. vs. The wore hats aren't big.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [03:28<03:28, 208.33s/it]100%|██████████| 2/2 [07:29<00:00, 227.75s/it]100%|██████████| 2/2 [07:29<00:00, 224.83s/it]
+10:41:38
+All complete!

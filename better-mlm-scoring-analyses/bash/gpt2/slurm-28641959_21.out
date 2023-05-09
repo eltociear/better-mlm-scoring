@@ -1,0 +1,10 @@
+Calculating BLiMP scores for gpt2
+10:13:12
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  21
+FILE NAME:  blimp/data/ellipsis_n_bar_2.jsonl
+MODEL NAME:  gpt2
+Using pad_token, but it is not set yet.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [01:27<01:27, 87.74s/it]100%|██████████| 2/2 [02:42<00:00, 80.07s/it]100%|██████████| 2/2 [02:42<00:00, 81.22s/it]
+10:16:05
+All complete!

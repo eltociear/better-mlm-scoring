@@ -1,0 +1,17 @@
+14:45:44
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  0
+FILE NAME:  blimp/data/wh_vs_that_no_gap.jsonl
+MASKING NAME:  original
+MODEL NAME:  bert-base-cased
+wh_vs_that_no_gap
+Mark figured out that most governments appreciate Steve. vs. Mark figured out who most governments appreciate Steve.
+Danielle finds out that many organizations have alarmed Chad. vs. Danielle finds out who many organizations have alarmed Chad.
+Veronica investigated that students might remember Julie. vs. Veronica investigated who students might remember Julie.
+The Impressionists learn that some stories can't sound like Carl. vs. The Impressionists learn who some stories can't sound like Carl.
+The waiters learn that most guests wouldn't have every hospital. vs. The waiters learn what most guests wouldn't have every hospital.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [30:59<30:59, 1859.80s/it]100%|██████████| 2/2 [59:37<00:00, 1776.05s/it]100%|██████████| 2/2 [59:37<00:00, 1788.61s/it]
+15:45:34
+All complete!

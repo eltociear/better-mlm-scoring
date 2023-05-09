@@ -1,0 +1,8 @@
+superlative_quantifiers_1
+No girl attacked fewer than two waiters. vs. No girl attacked at most two waiters.
+No person would bring fewer than three gates. vs. No person would bring at most three gates.
+No actor had driven to fewer than four malls. vs. No actor had driven to at most four malls.
+No pedestrian is observing more than seven waiters. vs. No pedestrian is observing at least seven waiters.
+No boy could reference fewer than nine drivers. vs. No boy could reference at most nine drivers.
+
+

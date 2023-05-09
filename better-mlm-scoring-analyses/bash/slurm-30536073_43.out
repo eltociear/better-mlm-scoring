@@ -1,0 +1,17 @@
+16:50:56
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  43
+FILE NAME:  blimp/data/principle_A_reconstruction.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+principle_A_reconstruction
+It's himself that this cashier attacked. vs. It's himself that attacked this cashier.
+It's herself that Andrea attacked. vs. It's herself that attacked Andrea.
+It's herself that Sharon talked about. vs. It's herself that talked about Sharon.
+It's himself that Todd described. vs. It's himself that described Todd.
+It's themselves that some spotlights astounded. vs. It's themselves that astounded some spotlights.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [1:07:09<1:07:09, 4029.24s/it]100%|██████████| 2/2 [2:21:36<00:00, 4286.79s/it]  100%|██████████| 2/2 [2:21:36<00:00, 4248.16s/it]
+19:12:40
+All complete!

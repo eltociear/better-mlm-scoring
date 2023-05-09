@@ -1,0 +1,17 @@
+17:21:39
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  53
+FILE NAME:  blimp/data/wh_island.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+wh_island
+Who have those men revealed they helped? vs. Who have those men revealed who helped?
+Who isn't Craig realizing he kisses? vs. Who isn't Craig realizing who kisses?
+Who are those associations discovering they saw? vs. Who are those associations discovering who saw?
+What wasn't Nicole discovering she climbed down? vs. What wasn't Nicole discovering who climbed down?
+What could Alan discover he has run around? vs. What could Alan discover who has run around?
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [17:44<17:44, 1064.87s/it]100%|██████████| 2/2 [39:16<00:00, 1198.39s/it]100%|██████████| 2/2 [39:16<00:00, 1178.37s/it]
+18:01:05
+All complete!

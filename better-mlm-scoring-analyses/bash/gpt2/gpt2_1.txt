@@ -1,0 +1,8 @@
+anaphor_gender_agreement
+Katherine can't help herself. vs. Katherine can't help himself.
+Karla could listen to herself. vs. Karla could listen to himself.
+Marie won't think about herself. vs. Marie won't think about itself.
+Mark hasn't discussed himself. vs. Mark hasn't discussed itself.
+Stephen impressed himself. vs. Stephen impressed itself.
+
+

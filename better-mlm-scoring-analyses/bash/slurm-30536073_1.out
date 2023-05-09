@@ -1,0 +1,28 @@
+16:49:57
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  1
+FILE NAME:  blimp/data/anaphor_gender_agreement.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+Traceback (most recent call last):
+  File "/nese/mit/group/evlab/u/ckauf/minicons/carina/run_BLiMP_exp_individually.py", line 113, in <module>
+    main()
+  File "/nese/mit/group/evlab/u/ckauf/minicons/carina/run_BLiMP_exp_individually.py", line 46, in main
+    model = scorer.MaskedLMScorer(args.model, 'cpu')
+  File "/nese/mit/group/evlab/u/ckauf/minicons/minicons/scorer.py", line 244, in __init__
+    super(MaskedLMScorer, self).__init__(model_name, device)
+  File "/nese/mit/group/evlab/u/ckauf/minicons/minicons/scorer.py", line 37, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast = True)
+  File "/om2/user/ckauf/anaconda39/envs/minicons-env/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 597, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/om2/user/ckauf/anaconda39/envs/minicons-env/lib/python3.9/site-packages/transformers/models/auto/configuration_auto.py", line 809, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/om2/user/ckauf/anaconda39/envs/minicons-env/lib/python3.9/site-packages/transformers/configuration_utils.py", line 559, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/om2/user/ckauf/anaconda39/envs/minicons-env/lib/python3.9/site-packages/transformers/configuration_utils.py", line 644, in _get_config_dict
+    config_dict = cls._dict_from_json_file(resolved_config_file)
+  File "/om2/user/ckauf/anaconda39/envs/minicons-env/lib/python3.9/site-packages/transformers/configuration_utils.py", line 730, in _dict_from_json_file
+    with open(json_file, "r", encoding="utf-8") as reader:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ckauf/.cache/huggingface/hub/models--bert-large-cased/snapshots/0879dca57dc16fa0f759392a4dde1250698570aa/config.json'
+16:50:06
+All complete!

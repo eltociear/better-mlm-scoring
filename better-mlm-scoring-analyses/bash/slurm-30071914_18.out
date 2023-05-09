@@ -1,0 +1,17 @@
+11:05:14
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  18
+FILE NAME:  blimp/data/drop_argument.jsonl
+MODEL NAME:  bert-base-cased
+MASKING:  original
+drop_argument
+Travis is touring. vs. Travis is revealing.
+Noah approached. vs. Noah works with.
+The Lutherans couldn't skate around. vs. The Lutherans couldn't disagree with.
+A lot of teenagers haven't left. vs. A lot of teenagers haven't arrived at.
+Rhonda's employees hadn't run around. vs. Rhonda's employees hadn't boasted about.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [12:19<12:19, 739.41s/it]100%|██████████| 2/2 [24:58<00:00, 750.95s/it]100%|██████████| 2/2 [24:58<00:00, 749.22s/it]
+11:30:20
+All complete!

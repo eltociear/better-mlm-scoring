@@ -1,0 +1,17 @@
+16:50:38
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  28
+FILE NAME:  blimp/data/left_branch_island_echo_question.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+left_branch_island_echo_question
+Irene had messed up whose rug? vs. Whose had Irene messed up rug?
+Edward has returned to which customers? vs. Which has Edward returned to customers?
+Holly is taking which blouse? vs. Which is Holly taking blouse?
+All women had known what teachers? vs. What had all women known teachers?
+That truck will hurt which senator? vs. Which will that truck hurt senator?
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [50:52<50:52, 3052.79s/it]100%|██████████| 2/2 [1:49:38<00:00, 3331.06s/it]100%|██████████| 2/2 [1:49:38<00:00, 3289.32s/it]
+18:40:26
+All complete!

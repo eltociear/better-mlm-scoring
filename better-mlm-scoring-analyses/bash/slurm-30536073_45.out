@@ -1,0 +1,17 @@
+16:51:03
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  45
+FILE NAME:  blimp/data/regular_plural_subject_verb_agreement_2.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+regular_plural_subject_verb_agreement_2
+The students perform. vs. The student perform.
+The associations talk about Stacey. vs. The association talk about Stacey.
+The glove tightens. vs. The gloves tightens.
+The actresses compromise. vs. The actress compromise.
+The customer is suffering. vs. The customers is suffering.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [27:44<27:44, 1664.82s/it]100%|██████████| 2/2 [50:29<00:00, 1488.22s/it]100%|██████████| 2/2 [50:29<00:00, 1514.71s/it]
+17:41:47
+All complete!

@@ -1,0 +1,8 @@
+MODEL:  bert-base-cased
+MASKING:  within_word_mlm
+DATASET:  Brown
+Calculating word likelihoods
+15:27:56
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+20:59:56
+All complete!

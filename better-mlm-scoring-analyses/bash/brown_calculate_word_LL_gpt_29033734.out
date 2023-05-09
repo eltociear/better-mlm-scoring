@@ -1,0 +1,8 @@
+MODEL:  gpt2-medium
+DATASET:  Brown
+CHUNK:  5
+Calculating word likelihoods
+17:02:27
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+17:20:17
+All complete!

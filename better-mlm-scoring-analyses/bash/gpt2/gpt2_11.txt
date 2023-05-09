@@ -1,0 +1,8 @@
+determiner_noun_agreement_irregular_1
+Laurie hasn't lifted those cacti. vs. Laurie hasn't lifted those cactus.
+Adam hadn't discussed these analyses. vs. Adam hadn't discussed these analysis.
+Some customers know these men. vs. Some customers know these man.
+Phillip was lifting this mouse. vs. Phillip was lifting this mice.
+The driver reveals these mice. vs. The driver reveals these mouse.
+
+

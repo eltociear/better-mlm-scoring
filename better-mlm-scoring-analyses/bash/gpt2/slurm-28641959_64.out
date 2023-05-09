@@ -1,0 +1,10 @@
+Calculating BLiMP scores for gpt2
+10:13:12
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  64
+FILE NAME:  blimp/data/wh_vs_that_no_gap_long_distance.jsonl
+MODEL NAME:  gpt2
+Using pad_token, but it is not set yet.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [01:18<01:18, 78.59s/it]100%|██████████| 2/2 [02:36<00:00, 78.42s/it]100%|██████████| 2/2 [02:36<00:00, 78.44s/it]
+10:16:01
+All complete!

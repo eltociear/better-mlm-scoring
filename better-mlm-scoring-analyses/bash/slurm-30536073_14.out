@@ -1,0 +1,17 @@
+16:50:23
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  14
+FILE NAME:  blimp/data/determiner_noun_agreement_with_adj_irregular_1.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+determiner_noun_agreement_with_adj_irregular_1
+Some waiters broke this lost foot. vs. Some waiters broke this lost feet.
+The company talks about those big women. vs. The company talks about those big woman.
+This blouse astounds this lost woman. vs. This blouse astounds this lost women.
+David wasn't kissing these standing children. vs. David wasn't kissing these standing child.
+This person shouldn't criticize this upset child. vs. This person shouldn't criticize this upset children.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [1:16:57<1:16:57, 4617.67s/it]100%|██████████| 2/2 [2:35:14<00:00, 4664.10s/it]  100%|██████████| 2/2 [2:35:14<00:00, 4657.13s/it]
+19:25:45
+All complete!

@@ -1,0 +1,1 @@
+sentential_negation_npi_scope, 0.819

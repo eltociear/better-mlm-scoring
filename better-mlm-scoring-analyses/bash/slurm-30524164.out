@@ -1,0 +1,12 @@
+MODEL NAME:  bert-base-cased
+DATASET:  EventsAdapt
+MASKING:  global_l2r
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+0 | The raider caught the illness.
+1 | The illness caught the raider.
+2 | The illness was caught by the raider.
+3 | The raider was caught by the illness.
+4 | The marauder contracted the disease.
+
+
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [03:22<23:38, 202.64s/it] 25%|██▌       | 2/8 [07:18<22:12, 222.16s/it]slurmstepd: error: *** JOB 30524164 ON node103 CANCELLED AT 2023-05-02T15:41:14 ***

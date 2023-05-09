@@ -1,0 +1,8 @@
+determiner_noun_agreement_2
+Some dog stunned this committee. vs. Some dog stunned these committee.
+Tracy passed these art galleries. vs. Tracy passed this art galleries.
+Sarah has sounded like these children. vs. Sarah has sounded like this children.
+Craig had cared for that dancer. vs. Craig had cared for those dancer.
+Most children return to those senators. vs. Most children return to that senators.
+
+

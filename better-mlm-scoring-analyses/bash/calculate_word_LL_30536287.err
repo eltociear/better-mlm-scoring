@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/nese/mit/group/evlab/u/ckauf/minicons/carina/calculate-word-likelihood.py", line 99, in <module>
+    main(args, context)
+  File "/nese/mit/group/evlab/u/ckauf/minicons/carina/calculate-word-likelihood.py", line 71, in main
+    raise NotImplementedError("No masking option supplied!")
+NotImplementedError: No masking option supplied!

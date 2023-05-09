@@ -1,0 +1,17 @@
+16:03:22
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  23
+FILE NAME:  blimp/data/intransitive.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+intransitive
+Todd can't yawn. vs. Todd can't walk through.
+Some guests hadn't left. vs. Some guests hadn't boasted about.
+This niece of Elizabeth protests. vs. This niece of Elizabeth walks through.
+Regina is shouting. vs. Regina is boasting about.
+This guest's plumber complains. vs. This guest's plumber wore.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [14:26<14:26, 866.79s/it]100%|██████████| 2/2 [28:56<00:00, 868.52s/it]100%|██████████| 2/2 [28:56<00:00, 868.26s/it]
+16:32:28
+All complete!

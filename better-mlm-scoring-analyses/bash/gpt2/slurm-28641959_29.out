@@ -1,0 +1,10 @@
+Calculating BLiMP scores for gpt2
+10:13:12
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  29
+FILE NAME:  blimp/data/irregular_past_participle_adjectives.jsonl
+MODEL NAME:  gpt2
+Using pad_token, but it is not set yet.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:45<00:45, 45.83s/it]100%|██████████| 2/2 [01:34<00:00, 47.53s/it]100%|██████████| 2/2 [01:34<00:00, 47.28s/it]
+10:15:02
+All complete!

@@ -1,0 +1,15 @@
+17:57:28
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  57
+FILE NAME:  blimp/data/wh_vs_that_no_gap_long_distance.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+wh_vs_that_no_gap_long_distance
+Every association figured out that most drivers that forfeit investigated Irene. vs. Every association figured out who most drivers that forfeit investigated Irene.
+Kathleen was revealing that this actress that can sit down was skated around this museum. vs. Kathleen was revealing what this actress that can sit down was skated around this museum.
+Jodi was learning that a library that hadn't communicated was working with Randolf. vs. Jodi was learning who a library that hadn't communicated was working with Randolf.
+Drivers remembered that those hospitals that should waste away are listening to Angela. vs. Drivers remembered who those hospitals that should waste away are listening to Angela.
+Every cashier wouldn't investigate that some birds that weren't distracting Steve broke some unicycles. vs. Every cashier wouldn't investigate what some birds that weren't distracting Steve broke some unicycles.
+
+
+  0%|          | 0/2 [00:00<?, ?it/s]slurmstepd: error: *** JOB 30536892 ON node105 CANCELLED AT 2023-05-03T20:57:30 DUE TO TIME LIMIT ***

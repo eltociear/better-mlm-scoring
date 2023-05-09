@@ -1,0 +1,17 @@
+16:24:56
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  53
+FILE NAME:  blimp/data/wh_island.jsonl
+MODEL NAME:  roberta-base
+MASKING:  global_l2r
+wh_island
+Who have those men revealed they helped? vs. Who have those men revealed who helped?
+Who isn't Craig realizing he kisses? vs. Who isn't Craig realizing who kisses?
+Who are those associations discovering they saw? vs. Who are those associations discovering who saw?
+What wasn't Nicole discovering she climbed down? vs. What wasn't Nicole discovering who climbed down?
+What could Alan discover he has run around? vs. What could Alan discover who has run around?
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [23:31<23:31, 1411.73s/it]100%|██████████| 2/2 [49:31<00:00, 1498.79s/it]100%|██████████| 2/2 [49:31<00:00, 1485.73s/it]
+17:14:33
+All complete!

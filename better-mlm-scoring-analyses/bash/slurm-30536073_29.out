@@ -1,0 +1,17 @@
+16:50:38
+SOURCING minicons-env ENVIRONMENT (ANACONDA39)
+SLURM_ARRAY_TASK_ID:  29
+FILE NAME:  blimp/data/left_branch_island_simple_question.jsonl
+MODEL NAME:  bert-large-cased
+MASKING:  global_l2r
+left_branch_island_simple_question
+Whose museums had Dana alarmed? vs. Whose had Dana alarmed museums?
+Whose hat should Tonya wear? vs. Whose should Tonya wear hat?
+What movies is Renee concealing? vs. What is Renee concealing movies?
+What bicycle was Rebecca noticing? vs. What was Rebecca noticing bicycle?
+Which senator should Jesus visit? vs. Which should Jesus visit senator?
+
+
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [51:02<51:02, 3062.10s/it]100%|██████████| 2/2 [1:44:57<00:00, 3163.99s/it]100%|██████████| 2/2 [1:44:57<00:00, 3148.71s/it]
+18:35:44
+All complete!
