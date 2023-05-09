@@ -1,17 +1,0 @@
-16:50:23
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  15
-FILE NAME:  blimp/data/determiner_noun_agreement_with_adj_irregular_2.jsonl
-MODEL NAME:  bert-large-cased
-MASKING:  global_l2r
-determiner_noun_agreement_with_adj_irregular_2
-Alexander didn't walk through that new oasis. vs. Alexander didn't walk through those new oasis.
-This hair irritates these old alumni. vs. This hair irritates this old alumni.
-Winston Churchill was escaping from this serious person. vs. Winston Churchill was escaping from these serious person.
-Anna walks through these purple oases. vs. Anna walks through this purple oases.
-Alicia sounded like this good analysis. vs. Alicia sounded like these good analysis.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [57:12<57:12, 3432.90s/it]100%|██████████| 2/2 [1:52:38<00:00, 3369.50s/it]100%|██████████| 2/2 [1:52:38<00:00, 3379.01s/it]
-18:43:12
-All complete!

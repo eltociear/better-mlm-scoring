@@ -1,8 +1,0 @@
-MODEL:  bert-base-cased
-MASKING:  original
-DATASET:  Brown
-Calculating word likelihoods
-10:24:21
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-11:05:25
-All complete!

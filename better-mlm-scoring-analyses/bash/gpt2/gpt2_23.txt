@@ -1,8 +1,0 @@
-existential_there_quantifiers_1
-There was a documentary about music irritating Allison. vs. There was each documentary about music irritating Allison.
-There were no legislatures working hard. vs. There were most legislatures working hard.
-There was a sweater shocking David. vs. There was each sweater shocking David.
-There are some brothers of Rachel arriving at a library. vs. There are all brothers of Rachel arriving at a library.
-There aren't many lights darkening. vs. There aren't all lights darkening.
-
-

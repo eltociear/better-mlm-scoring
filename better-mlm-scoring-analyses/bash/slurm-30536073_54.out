@@ -1,17 +1,0 @@
-17:36:24
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  54
-FILE NAME:  blimp/data/wh_questions_object_gap.jsonl
-MODEL NAME:  bert-large-cased
-MASKING:  global_l2r
-wh_questions_object_gap
-Joel discovered the vase that Patricia might take. vs. Joel discovered what Patricia might take the vase.
-Rodney thought about many paintings that Wendy had thought about. vs. Rodney thought about what Wendy had thought about many paintings.
-Susan wasn't thinking about the rivers that Kenneth wasn't bringing. vs. Susan wasn't thinking about what Kenneth wasn't bringing the rivers.
-A driver has thought about those deer that many pictures look like. vs. A driver has thought about what many pictures look like those deer.
-Amy has seen every skateboard that all guests see. vs. Amy has seen what all guests see every skateboard.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [26:14<26:14, 1574.87s/it]100%|██████████| 2/2 [52:19<00:00, 1569.02s/it]100%|██████████| 2/2 [52:19<00:00, 1569.90s/it]
-18:28:52
-All complete!

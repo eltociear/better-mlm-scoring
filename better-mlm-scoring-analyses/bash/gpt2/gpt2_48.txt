@@ -1,8 +1,0 @@
-principle_A_reconstruction
-It's himself that this cashier attacked. vs. It's himself that attacked this cashier.
-It's herself that Andrea attacked. vs. It's herself that attacked Andrea.
-It's herself that Sharon talked about. vs. It's herself that talked about Sharon.
-It's himself that Todd described. vs. It's himself that described Todd.
-It's themselves that some spotlights astounded. vs. It's themselves that astounded some spotlights.
-
-

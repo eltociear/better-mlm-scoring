@@ -1,17 +1,0 @@
-10:53:50
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  55
-FILE NAME:  blimp/data/wh_questions_subject_gap.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-wh_questions_subject_gap
-Brian had questioned an association that can astound Diana. vs. Brian had questioned who an association can astound Diana.
-Leslie remembered some guest that has bothered women. vs. Leslie remembered who some guest has bothered women.
-Deanna discovers all essays that hadn't bored Elaine. vs. Deanna discovers who all essays hadn't bored Elaine.
-The woman hadn't thought about those screens that aren't worrying Andrew. vs. The woman hadn't thought about who those screens aren't worrying Andrew.
-Phillip sees some teeth that are upsetting Kendra. vs. Phillip sees who some teeth are upsetting Kendra.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [08:39<08:39, 519.68s/it]100%|██████████| 2/2 [17:19<00:00, 519.95s/it]100%|██████████| 2/2 [17:19<00:00, 519.91s/it]
-11:11:16
-All complete!

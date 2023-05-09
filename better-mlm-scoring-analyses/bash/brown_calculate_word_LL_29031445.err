@@ -1,2 +1,0 @@
-/var/slurm/slurmd/job29031445/slurm_script: line 21: syntax error near unexpected token `chunk_list[$i]="$chunk"'
-/var/slurm/slurmd/job29031445/slurm_script: line 21: `    chunk_list[$i]="$chunk"'

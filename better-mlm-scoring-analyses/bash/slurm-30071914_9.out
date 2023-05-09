@@ -1,17 +1,0 @@
-10:59:19
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  9
-FILE NAME:  blimp/data/determiner_noun_agreement_2.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  original
-determiner_noun_agreement_2
-Some dog stunned this committee. vs. Some dog stunned these committee.
-Tracy passed these art galleries. vs. Tracy passed this art galleries.
-Sarah has sounded like these children. vs. Sarah has sounded like this children.
-Craig had cared for that dancer. vs. Craig had cared for those dancer.
-Most children return to those senators. vs. Most children return to that senators.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [03:22<03:22, 202.25s/it]100%|██████████| 2/2 [07:04<00:00, 214.00s/it]100%|██████████| 2/2 [07:04<00:00, 212.24s/it]
-11:06:28
-All complete!

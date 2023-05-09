@@ -1,17 +1,0 @@
-11:02:52
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  13
-FILE NAME:  blimp/data/determiner_noun_agreement_with_adjective_1.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  original
-determiner_noun_agreement_with_adjective_1
-Rebecca was criticizing those good documentaries. vs. Rebecca was criticizing those good documentary.
-Some college campus embarrassed those bad legislatures. vs. Some college campus embarrassed those bad legislature.
-All men weren't questioning these unemployed cashiers. vs. All men weren't questioning these unemployed cashier.
-Sara hasn't bored this displeased senator. vs. Sara hasn't bored this displeased senators.
-A lot of pedestrians kiss this displeased teenager. vs. A lot of pedestrians kiss this displeased teenagers.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [05:05<05:05, 305.83s/it]100%|██████████| 2/2 [09:59<00:00, 298.91s/it]100%|██████████| 2/2 [09:59<00:00, 299.95s/it]
-11:12:59
-All complete!

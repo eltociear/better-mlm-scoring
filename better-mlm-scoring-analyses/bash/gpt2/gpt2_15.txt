@@ -1,8 +1,0 @@
-determiner_noun_agreement_with_adj_irregular_1
-Some waiters broke this lost foot. vs. Some waiters broke this lost feet.
-The company talks about those big women. vs. The company talks about those big woman.
-This blouse astounds this lost woman. vs. This blouse astounds this lost women.
-David wasn't kissing these standing children. vs. David wasn't kissing these standing child.
-This person shouldn't criticize this upset child. vs. This person shouldn't criticize this upset children.
-
-

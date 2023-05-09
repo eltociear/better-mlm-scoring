@@ -1,4 +1,6 @@
-from minicons import scorer
+import sys
+sys.path.append("..")
+from adapted_minicons import scorer
 from torch.utils.data import DataLoader
 import numpy as np
 import json

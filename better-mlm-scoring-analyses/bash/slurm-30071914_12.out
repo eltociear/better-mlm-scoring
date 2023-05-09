@@ -1,17 +1,0 @@
-11:02:00
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  12
-FILE NAME:  blimp/data/determiner_noun_agreement_with_adj_2.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  original
-determiner_noun_agreement_with_adj_2
-Cynthia scans these hard books. vs. Cynthia scans this hard books.
-Donna might hire this serious actress. vs. Donna might hire these serious actress.
-Wendy forgot those upset doctors. vs. Wendy forgot that upset doctors.
-Carlos hasn't fired those uncertain students. vs. Carlos hasn't fired that uncertain students.
-Claire will conceal those hopeful cashiers. vs. Claire will conceal that hopeful cashiers.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [07:19<07:19, 439.61s/it]100%|██████████| 2/2 [14:31<00:00, 435.26s/it]100%|██████████| 2/2 [14:31<00:00, 435.91s/it]
-11:16:45
-All complete!

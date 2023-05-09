@@ -1,8 +1,0 @@
-determiner_noun_agreement_with_adj_irregular_2
-Alexander didn't walk through that new oasis. vs. Alexander didn't walk through those new oasis.
-This hair irritates these old alumni. vs. This hair irritates this old alumni.
-Winston Churchill was escaping from this serious person. vs. Winston Churchill was escaping from these serious person.
-Anna walks through these purple oases. vs. Anna walks through this purple oases.
-Alicia sounded like this good analysis. vs. Alicia sounded like these good analysis.
-
-

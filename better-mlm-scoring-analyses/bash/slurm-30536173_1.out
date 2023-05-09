@@ -1,17 +1,0 @@
-18:03:12
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  1
-FILE NAME:  blimp/data/anaphor_gender_agreement.jsonl
-MODEL NAME:  roberta-large
-MASKING:  global_l2r
-anaphor_gender_agreement
-Katherine can't help herself. vs. Katherine can't help himself.
-Karla could listen to herself. vs. Karla could listen to himself.
-Marie won't think about herself. vs. Marie won't think about itself.
-Mark hasn't discussed himself. vs. Mark hasn't discussed itself.
-Stephen impressed himself. vs. Stephen impressed itself.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [28:55<28:55, 1735.19s/it]100%|██████████| 2/2 [57:31<00:00, 1724.17s/it]100%|██████████| 2/2 [57:31<00:00, 1725.82s/it]
-19:00:54
-All complete!

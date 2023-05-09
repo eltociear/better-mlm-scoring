@@ -1,17 +1,0 @@
-10:07:18
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  6
-FILE NAME:  blimp/data/coordinate_structure_constraint_complex_left_branch.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-coordinate_structure_constraint_complex_left_branch
-What senators was Alicia approaching and some teachers scaring? vs. What was Alicia approaching senators and some teachers scaring?
-Whose restaurants is Clyde exiting and Amelia talking about? vs. Whose is Clyde exiting restaurants and Amelia talking about?
-Which teenagers had Tamara hired and Grace fired? vs. Which had Tamara hired teenagers and Grace fired?
-What lights could Spain sell and Andrea discover? vs. What could Spain sell lights and Andrea discover?
-What paintings has Melissa looked like and Erin revealed? vs. What has Melissa looked like paintings and Erin revealed?
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [33:50<33:50, 2030.57s/it]100%|██████████| 2/2 [1:06:23<00:00, 1984.76s/it]100%|██████████| 2/2 [1:06:23<00:00, 1991.66s/it]
-11:13:54
-All complete!

@@ -1,2 +1,0 @@
-/var/slurm/slurmd/job29022488/slurm_script: line 33: 59294 Killed                  python calculate-word-likelihood.py --model $MODEL --dataset $DATASET --which_masking "${1}"
-slurmstepd: error: Detected 1 oom-kill event(s) in StepId=29022488.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

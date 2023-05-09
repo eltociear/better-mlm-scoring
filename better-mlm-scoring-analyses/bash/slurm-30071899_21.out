@@ -1,17 +1,0 @@
-10:33:17
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  21
-FILE NAME:  blimp/data/existential_there_subject_raising.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-existential_there_subject_raising
-There is soon to be a cat existing. vs. There is willing to be a cat existing.
-There was bound to be a fish escaping. vs. There was unable to be a fish escaping.
-There weren't about to be few prints of this eggplant scaring Paula. vs. There weren't unwilling to be few prints of this eggplant scaring Paula.
-There were looking to be a lot of children assembling. vs. There were hoping to be a lot of children assembling.
-There were likely to be some books about the Borgias disturbing this senator. vs. There were ready to be some books about the Borgias disturbing this senator.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [18:51<18:51, 1131.77s/it]100%|██████████| 2/2 [34:08<00:00, 1005.18s/it]100%|██████████| 2/2 [34:08<00:00, 1024.17s/it]
-11:07:34
-All complete!

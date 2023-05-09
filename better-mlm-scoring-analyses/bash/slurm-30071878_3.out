@@ -1,17 +1,0 @@
-10:06:26
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  3
-FILE NAME:  blimp/data/expletive_it_object_raising.jsonl
-MASKING NAME:  global_l2r
-MODEL NAME:  bert-base-cased
-expletive_it_object_raising
-Tara would ascertain it to be noteworthy that Kenneth didn't wash. vs. Tara wouldn't entice it to be noteworthy that Kenneth didn't wash.
-Carla could declare it to be not so important that these doctors observe Rhonda. vs. Carla can convince it to be not so important that these doctors observe Rhonda.
-Nina anticipated it to be nice that Jacqueline exists. vs. Nina obligated it to be nice that Jacqueline exists.
-Some granddaughter of Bruce did find it to be expected that a lot of legislatures try to conceal Colleen. vs. Some granddaughter of Bruce would force it to be expected that a lot of legislatures try to conceal Colleen.
-Charles's brothers hadn't considered it to be not so amusing that every man exercised. vs. Charles's brothers motivate it to be not so amusing that every man exercised.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [18:30<18:30, 1110.31s/it]100%|██████████| 2/2 [36:54<00:00, 1106.46s/it]100%|██████████| 2/2 [36:54<00:00, 1107.04s/it]
-10:43:31
-All complete!

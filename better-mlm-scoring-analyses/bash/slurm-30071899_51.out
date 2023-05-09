@@ -1,17 +1,0 @@
-10:50:53
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  51
-FILE NAME:  blimp/data/tough_vs_raising_2.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-tough_vs_raising_2
-Every hospital isn't about to tempt Tiffany to reference Matt. vs. Every hospital isn't fun to tempt Tiffany to reference Matt.
-Rachel was apt to talk to Alicia. vs. Rachel was exciting to talk to Alicia.
-This doctor's cousins aren't soon to question Kirsten. vs. This doctor's cousins aren't interesting to question Kirsten.
-Sheila is certain to find Stephen to describe this customer. vs. Sheila is difficult to find Stephen to describe this customer.
-Liam's French teachers were sure to want to aggravate many people. vs. Liam's French teachers were irritating to want to aggravate many people.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [10:19<10:19, 619.12s/it]100%|██████████| 2/2 [19:03<00:00, 563.56s/it]100%|██████████| 2/2 [19:03<00:00, 571.89s/it]
-11:10:03
-All complete!

@@ -1,17 +1,0 @@
-19:51:24
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  52
-FILE NAME:  blimp/data/transitive.jsonl
-MODEL NAME:  roberta-large
-MASKING:  global_l2r
-transitive
-Some turtles alarm Kimberley. vs. Some turtles come here Kimberley.
-Diane watched Alan. vs. Diane screamed Alan.
-This cousin of Theodore buys some mushroom. vs. This cousin of Theodore wept some mushroom.
-Rhonda was arguing about this nephew of Dana. vs. Rhonda was going fishing this nephew of Dana.
-A lot of actresses' nieces have toured that art gallery. vs. A lot of actresses' nieces have coped that art gallery.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [45:13<45:13, 2713.93s/it]100%|██████████| 2/2 [1:26:21<00:00, 2569.21s/it]100%|██████████| 2/2 [1:26:21<00:00, 2590.92s/it]
-21:17:55
-All complete!

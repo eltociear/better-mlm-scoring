@@ -1,8 +1,0 @@
-determiner_noun_agreement_1
-Raymond is selling this sketch. vs. Raymond is selling this sketches.
-Craig explored that grocery store. vs. Craig explored that grocery stores.
-Eva has scared these children. vs. Eva has scared these child.
-Marcus would conceal that pamphlet. vs. Marcus would conceal that pamphlets.
-Carmen hadn't shocked these customers. vs. Carmen hadn't shocked these customer.
-
-

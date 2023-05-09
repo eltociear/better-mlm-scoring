@@ -1,17 +1,0 @@
-16:24:18
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  49
-FILE NAME:  blimp/data/superlative_quantifiers_2.jsonl
-MODEL NAME:  roberta-base
-MASKING:  global_l2r
-superlative_quantifiers_2
-The teenager does tour at most nine restaurants. vs. No teenager does tour at most nine restaurants.
-That car looks like at least seven prints. vs. No car looks like at least seven prints.
-The doctor brought at most eight gates. vs. No doctor brought at most eight gates.
-An actor arrived at at most six lakes. vs. No actor arrived at at most six lakes.
-Every senator notices at most four windows. vs. No senator notices at most four windows.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [07:08<07:08, 428.15s/it]100%|██████████| 2/2 [14:18<00:00, 429.43s/it]100%|██████████| 2/2 [14:18<00:00, 429.24s/it]
-16:38:47
-All complete!

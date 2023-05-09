@@ -1,12 +1,0 @@
-15:31:17
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-1089-134686-0000 | He hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce.
-1089-134686-0001 | Stuff it into you his belly counselled him.
-1089-134686-0002 | After early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels.
-1089-134686-0003 | Hello bertie any good in your mind.
-1089-134686-0004 | Number ten fresh nelly is waiting on you good night husband.
-
-
-  0%|          | 0/14 [00:00<?, ?it/s]slurmstepd: error: *** JOB 30524223 ON node100 CANCELLED AT 2023-05-02T15:41:12 ***

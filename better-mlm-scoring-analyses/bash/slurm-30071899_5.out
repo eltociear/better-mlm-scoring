@@ -1,17 +1,0 @@
-10:07:18
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  5
-FILE NAME:  blimp/data/causative.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-causative
-Aaron breaks the glass. vs. Aaron appeared the glass.
-April had dropped the truck. vs. April had existed the truck.
-All actors train Tonya's brothers. vs. All actors appeared Tonya's brothers.
-Raymond was stretching that shirt. vs. Raymond was vanishing that shirt.
-Benjamin would wrinkle every scarf. vs. Benjamin would fall every scarf.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [19:31<19:31, 1171.88s/it]100%|██████████| 2/2 [38:41<00:00, 1158.89s/it]100%|██████████| 2/2 [38:41<00:00, 1160.84s/it]
-10:46:17
-All complete!

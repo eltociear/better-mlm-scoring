@@ -1,17 +1,0 @@
-16:50:36
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  26
-FILE NAME:  blimp/data/irregular_plural_subject_verb_agreement_1.jsonl
-MODEL NAME:  bert-large-cased
-MASKING:  global_l2r
-irregular_plural_subject_verb_agreement_1
-Those radii have scared that teenager. vs. Those radii has scared that teenager.
-This goose isn't bothering Edward. vs. This goose weren't bothering Edward.
-The axes haven't stunned that teenager. vs. The axes hasn't stunned that teenager.
-The radius is boring Carla. vs. The radius were boring Carla.
-All hypotheses have hurt Beth. vs. All hypotheses has hurt Beth.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [1:07:01<1:07:01, 4021.06s/it]100%|██████████| 2/2 [2:16:17<00:00, 4100.72s/it]  100%|██████████| 2/2 [2:16:17<00:00, 4088.77s/it]
-19:07:00
-All complete!

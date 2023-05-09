@@ -1,17 +1,0 @@
-11:13:27
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  41
-FILE NAME:  blimp/data/principle_A_domain_2.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  original
-principle_A_domain_2
-Donald can imagine those college campuses are boring themselves. vs. Donald can imagine those college campuses are boring himself.
-Gerald was explaining Patricia was revealing herself. vs. Gerald was explaining Patricia was revealing himself.
-Mark imagines Erin might admire herself. vs. Mark imagines Erin might admire himself.
-Gary imagined most reports upset themselves. vs. Gary imagined most reports upset himself.
-A lot of doctors hadn't imagined Denise notices herself. vs. A lot of doctors hadn't imagined Denise notices themselves.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [08:34<08:34, 514.16s/it]100%|██████████| 2/2 [16:52<00:00, 504.73s/it]100%|██████████| 2/2 [16:52<00:00, 506.15s/it]
-11:30:30
-All complete!

@@ -1,8 +1,0 @@
-distractor_agreement_relational_noun
-A niece of most senators hasn't descended most slopes. vs. A niece of most senators haven't descended most slopes.
-The sketch of those trucks hasn't hurt Alan. vs. The sketch of those trucks haven't hurt Alan.
-A newspaper article about the Borgias has disagreed with Marcus. vs. A newspaper article about the Borgias have disagreed with Marcus.
-The niece of most guests has cleaned every college campus. vs. The niece of most guests have cleaned every college campus.
-A sketch of lights doesn't appear. vs. A sketch of lights don't appear.
-
-

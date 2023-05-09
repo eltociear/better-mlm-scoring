@@ -1,17 +1,0 @@
-19:28:12
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  40
-FILE NAME:  blimp/data/principle_A_domain_1.jsonl
-MODEL NAME:  roberta-large
-MASKING:  global_l2r
-principle_A_domain_1
-Carla had explained that Samuel has discussed her. vs. Carla had explained that Samuel has discussed herself.
-Alice hadn't said that some people weren't escaping from her. vs. Alice hadn't said that some people weren't escaping from herself.
-Carl imagines that Maria does leave him. vs. Carl imagines that Maria does leave himself.
-Those waiters think that Robert flees from them. vs. Those waiters think that Robert flees from themselves.
-Florence did think that Walter stunned her. vs. Florence did think that Walter stunned herself.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [19:32<19:32, 1172.17s/it]100%|██████████| 2/2 [40:47<00:00, 1232.97s/it]100%|██████████| 2/2 [40:47<00:00, 1223.85s/it]
-20:09:08
-All complete!

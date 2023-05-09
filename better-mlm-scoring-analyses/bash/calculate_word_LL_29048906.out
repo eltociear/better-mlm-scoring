@@ -1,8 +1,0 @@
-MODEL:  roberta-base
-MASKING:  original
-DATASET:  EventsAdapt
-Calculating word likelihoods
-12:26:28
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-12:56:28
-All complete!

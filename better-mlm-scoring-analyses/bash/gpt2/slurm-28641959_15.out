@@ -1,10 +1,0 @@
-Calculating BLiMP scores for gpt2
-10:13:14
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  15
-FILE NAME:  blimp/data/determiner_noun_agreement_with_adj_irregular_1.jsonl
-MODEL NAME:  gpt2
-Using pad_token, but it is not set yet.
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:37<00:37, 37.36s/it]100%|██████████| 2/2 [01:10<00:00, 35.12s/it]100%|██████████| 2/2 [01:10<00:00, 35.46s/it]
-10:14:33
-All complete!

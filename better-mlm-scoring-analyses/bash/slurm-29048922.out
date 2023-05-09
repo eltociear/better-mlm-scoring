@@ -1,14 +1,0 @@
-MODEL NAME:  roberta-base
-DATASET:  EventsAdapt
-MASKING:  within_word_l2r
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-0 | The raider caught the illness.
-1 | The illness caught the raider.
-2 | The illness was caught by the raider.
-3 | The raider was caught by the illness.
-4 | The marauder contracted the disease.
-
-
-  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [05:42<39:59, 342.84s/it] 25%|██▌       | 2/8 [11:31<34:39, 346.54s/it] 38%|███▊      | 3/8 [24:15<44:45, 537.04s/it] 50%|█████     | 4/8 [30:14<31:06, 466.56s/it] 62%|██████▎   | 5/8 [35:13<20:18, 406.15s/it] 75%|███████▌  | 6/8 [39:46<12:02, 361.13s/it] 88%|████████▊ | 7/8 [43:57<05:24, 324.94s/it]100%|██████████| 8/8 [47:30<00:00, 289.44s/it]100%|██████████| 8/8 [47:30<00:00, 356.36s/it]
-13:15:57
-All complete!

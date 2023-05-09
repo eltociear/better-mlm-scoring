@@ -1,17 +1,0 @@
-19:13:19
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  33
-FILE NAME:  blimp/data/only_npi_licensor_present.jsonl
-MODEL NAME:  roberta-large
-MASKING:  global_l2r
-only_npi_licensor_present
-Only Bill would ever complain. vs. Even Bill would ever complain.
-Only Lori had ever healed Carl. vs. Even Lori had ever healed Carl.
-Only these pedestrians ever obligate Carl to aggravate Brad. vs. Even these pedestrians ever obligate Carl to aggravate Brad.
-Only Alexander ever looked like this drawing. vs. Even Alexander ever looked like this drawing.
-Only libraries ever sway Sally to salute. vs. Even libraries ever sway Sally to salute.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [58:29<58:29, 3509.63s/it]100%|██████████| 2/2 [2:06:31<00:00, 3846.34s/it]100%|██████████| 2/2 [2:06:31<00:00, 3795.84s/it]
-21:19:56
-All complete!

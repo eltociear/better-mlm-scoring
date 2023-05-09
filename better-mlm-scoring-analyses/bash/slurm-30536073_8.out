@@ -1,17 +1,0 @@
-16:50:14
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  8
-FILE NAME:  blimp/data/determiner_noun_agreement_1.jsonl
-MODEL NAME:  bert-large-cased
-MASKING:  global_l2r
-determiner_noun_agreement_1
-Raymond is selling this sketch. vs. Raymond is selling this sketches.
-Craig explored that grocery store. vs. Craig explored that grocery stores.
-Eva has scared these children. vs. Eva has scared these child.
-Marcus would conceal that pamphlet. vs. Marcus would conceal that pamphlets.
-Carmen hadn't shocked these customers. vs. Carmen hadn't shocked these customer.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [49:24<49:24, 2964.27s/it]100%|██████████| 2/2 [1:42:08<00:00, 3081.76s/it]100%|██████████| 2/2 [1:42:08<00:00, 3064.14s/it]
-18:32:35
-All complete!

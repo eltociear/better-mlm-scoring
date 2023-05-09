@@ -1,17 +1,0 @@
-10:55:06
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  3
-FILE NAME:  blimp/data/animate_subject_passive.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  original
-animate_subject_passive
-Amanda was respected by some waitresses. vs. Amanda was respected by some picture.
-Some lake was passed by some cashiers. vs. Some lake was passed by some phenomena.
-Lisa was kissed by the boys. vs. Lisa was kissed by the blouses.
-Amanda isn't respected by the children. vs. Amanda isn't respected by the cups.
-The glove was noticed by some woman. vs. The glove was noticed by some mouse.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [07:54<07:54, 474.10s/it]100%|██████████| 2/2 [16:10<00:00, 487.25s/it]100%|██████████| 2/2 [16:10<00:00, 485.28s/it]
-11:11:22
-All complete!

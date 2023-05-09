@@ -1,2 +1,0 @@
-  0%|          | 0/14 [00:00<?, ?it/s]/var/slurm/slurmd/job29001139/slurm_script: line 29: 126256 Killed                  python dataset_scoring.py --dataset $DATASET --model $MODELNAME --which_masking "${1}" --batch_size 2000
-slurmstepd: error: Detected 1 oom-kill event(s) in StepId=29001139.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

@@ -1,17 +1,0 @@
-11:14:24
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  44
-FILE NAME:  blimp/data/regular_plural_subject_verb_agreement_1.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  original
-regular_plural_subject_verb_agreement_1
-Paula references Robert. vs. Paula reference Robert.
-Most legislatures haven't disliked children. vs. Most legislatures hasn't disliked children.
-Some organizations aren't disturbing Vanessa. vs. Some organizations isn't disturbing Vanessa.
-The cups alarm Angela. vs. The cups alarms Angela.
-Tina isn't ascending that mountain. vs. Tina weren't ascending that mountain.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [05:26<05:26, 326.23s/it]100%|██████████| 2/2 [10:03<00:00, 297.39s/it]100%|██████████| 2/2 [10:03<00:00, 301.71s/it]
-11:24:37
-All complete!

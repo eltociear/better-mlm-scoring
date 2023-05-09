@@ -1,17 +1,0 @@
-15:52:46
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  19
-FILE NAME:  blimp/data/existential_there_quantifiers_1.jsonl
-MODEL NAME:  roberta-base
-MASKING:  global_l2r
-existential_there_quantifiers_1
-There was a documentary about music irritating Allison. vs. There was each documentary about music irritating Allison.
-There were no legislatures working hard. vs. There were most legislatures working hard.
-There was a sweater shocking David. vs. There was each sweater shocking David.
-There are some brothers of Rachel arriving at a library. vs. There are all brothers of Rachel arriving at a library.
-There aren't many lights darkening. vs. There aren't all lights darkening.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [09:30<09:30, 570.17s/it]100%|██████████| 2/2 [19:34<00:00, 590.35s/it]100%|██████████| 2/2 [19:34<00:00, 587.32s/it]
-16:12:27
-All complete!

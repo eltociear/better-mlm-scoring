@@ -1,17 +1,0 @@
-10:34:00
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  22
-FILE NAME:  blimp/data/inchoative.jsonl
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-inchoative
-Patricia had changed. vs. Patricia had forgotten.
-A lot of closets could fling open. vs. A lot of closets could buy.
-All pants loosen. vs. All pants brought.
-Many glasses aren't warping. vs. Many glasses aren't messing up.
-A screen was fading. vs. A screen was cleaning.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:34<02:34, 154.94s/it]100%|██████████| 2/2 [05:05<00:00, 152.30s/it]100%|██████████| 2/2 [05:05<00:00, 152.69s/it]
-10:39:13
-All complete!

@@ -1,8 +1,0 @@
-determiner_noun_agreement_with_adj_2
-Cynthia scans these hard books. vs. Cynthia scans this hard books.
-Donna might hire this serious actress. vs. Donna might hire these serious actress.
-Wendy forgot those upset doctors. vs. Wendy forgot that upset doctors.
-Carlos hasn't fired those uncertain students. vs. Carlos hasn't fired that uncertain students.
-Claire will conceal those hopeful cashiers. vs. Claire will conceal that hopeful cashiers.
-
-

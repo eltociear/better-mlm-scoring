@@ -1,14 +1,0 @@
-16:33:48
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-MODEL NAME:  bert-base-cased
-MASKING:  global_l2r
-1089-134686-0000 | He hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce.
-1089-134686-0001 | Stuff it into you his belly counselled him.
-1089-134686-0002 | After early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels.
-1089-134686-0003 | Hello bertie any good in your mind.
-1089-134686-0004 | Number ten fresh nelly is waiting on you good night husband.
-
-
-  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [17:27<3:47:03, 1047.98s/it] 14%|█▍        | 2/14 [33:38<3:20:26, 1002.22s/it] 21%|██▏       | 3/14 [57:00<3:37:16, 1185.15s/it] 29%|██▊       | 4/14 [1:07:13<2:39:50, 959.05s/it] 36%|███▌      | 5/14 [1:25:04<2:29:54, 999.36s/it] 43%|████▎     | 6/14 [1:42:53<2:16:24, 1023.04s/it] 50%|█████     | 7/14 [2:00:56<2:01:39, 1042.84s/it] 57%|█████▋    | 8/14 [2:21:57<1:51:13, 1112.30s/it] 64%|██████▍   | 9/14 [2:33:48<1:22:14, 986.83s/it]  71%|███████▏  | 10/14 [2:45:35<1:00:01, 900.36s/it] 79%|███████▊  | 11/14 [2:59:17<43:48, 876.27s/it]   86%|████████▌ | 12/14 [3:16:12<30:37, 918.50s/it] 93%|█████████▎| 13/14 [3:33:12<15:49, 949.27s/it]100%|██████████| 14/14 [3:34:03<00:00, 677.83s/it]100%|██████████| 14/14 [3:34:03<00:00, 917.36s/it]
-20:08:04
-All complete!

@@ -1,8 +1,0 @@
-left_branch_island_simple_question
-Whose museums had Dana alarmed? vs. Whose had Dana alarmed museums?
-Whose hat should Tonya wear? vs. Whose should Tonya wear hat?
-What movies is Renee concealing? vs. What is Renee concealing movies?
-What bicycle was Rebecca noticing? vs. What was Rebecca noticing bicycle?
-Which senator should Jesus visit? vs. Which should Jesus visit senator?
-
-

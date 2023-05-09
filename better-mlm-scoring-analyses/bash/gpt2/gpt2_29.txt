@@ -1,8 +1,0 @@
-irregular_past_participle_adjectives
-The hidden offspring aren't confident. vs. The hid offspring aren't confident.
-The hidden bicycles weren't exposed. vs. The hid bicycles weren't exposed.
-The hidden glass was big. vs. The hid glass was big.
-The worn skirts aren't important. vs. The wore skirts aren't important.
-The worn hats aren't big. vs. The wore hats aren't big.
-
-

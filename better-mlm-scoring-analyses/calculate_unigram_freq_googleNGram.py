@@ -10,7 +10,7 @@ def main():
     with open(os.path.abspath("eventsAdapt/EventsAdapt_vocabulary.txt")) as file:
         words = [line.rstrip() for line in file]
     
-    with open(os.path.abspath("results/unigram_frequencies//EventsAdapt_unigram_frequencies.txt"), "w") as fout:
+    with open(os.path.abspath("results/unigram_frequencies/EventsAdapt_unigram_frequencies.txt"), "w") as fout:
         
         fout.write('Index\tWord\tUnigram_freq\tUnigram_prob\n') #add header
         

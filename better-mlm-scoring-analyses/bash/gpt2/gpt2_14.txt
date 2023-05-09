@@ -1,8 +1,0 @@
-determiner_noun_agreement_with_adjective_1
-Rebecca was criticizing those good documentaries. vs. Rebecca was criticizing those good documentary.
-Some college campus embarrassed those bad legislatures. vs. Some college campus embarrassed those bad legislature.
-All men weren't questioning these unemployed cashiers. vs. All men weren't questioning these unemployed cashier.
-Sara hasn't bored this displeased senator. vs. Sara hasn't bored this displeased senators.
-A lot of pedestrians kiss this displeased teenager. vs. A lot of pedestrians kiss this displeased teenagers.
-
-

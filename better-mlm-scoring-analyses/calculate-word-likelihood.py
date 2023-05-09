@@ -1,4 +1,6 @@
-from minicons import scorer
+import sys
+sys.path.append("..")
+from adapted_minicons import scorer
 import os
 import argparse
 import re
@@ -36,7 +38,7 @@ def main(args, context):
     if re.search('gpt', args.model):
         assert [elm[0] == ('<|endoftext|>', 0.0) for elm in word_token_scores]
         word_token_scores = [elm[1:] for elm in word_token_scores]
-        #CK NOTE: using [1:] because I'm ignoring the EOS token for which the prob is being ignored scorer.py l. 920
+        #NOTE: using [1:] because I'm ignoring the EOS token for which the prob is being ignored scorer.py l. 920
 
 
     exclude_context = model.tokenizer.tokenize(context)
@@ -67,6 +69,8 @@ def main(args, context):
             savename = f"{args.dataset}_AdjustedPLL_mlm"
         elif args.which_masking == "original":
             savename  = f"{args.dataset}_OriginalPLL"
+        elif args.which_masking == "global_l2r":
+            savename  = f"{args.dataset}_AdjustedPLL_global_l2r"
         else:
             raise NotImplementedError("No masking option supplied!")
     else:
@@ -90,10 +94,9 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', required=True, help="Can be LibriSpeech, EventsAdapt or Brown")
     parser.add_argument('--chunk', required=False, help="Needed if we run Brown!")
     parser.add_argument('--model', required=True)
-    parser.add_argument('--which_masking', help="Can be original, within_word_l2r or within_word_mlm")
+    parser.add_argument('--which_masking', help="Can be original, within_word_l2r, within_word_mlm or global_l2r")
     args = parser.parse_args()
 
-    #contexts = ["I opened a dictionary and randomly picked a word. It was", "I opened the dictionary and picked the word", "My word is", ""]
     contexts = ["My word is", "", "I opened a dictionary and randomly picked a word. It was", "I opened the dictionary and picked the word"]
     for context in contexts:
         main(args, context)

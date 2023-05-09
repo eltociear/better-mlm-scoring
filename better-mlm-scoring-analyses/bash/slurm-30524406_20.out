@@ -1,17 +1,0 @@
-15:58:57
-SOURCING minicons-env ENVIRONMENT (ANACONDA39)
-SLURM_ARRAY_TASK_ID:  20
-FILE NAME:  blimp/data/existential_there_quantifiers_2.jsonl
-MODEL NAME:  roberta-base
-MASKING:  global_l2r
-existential_there_quantifiers_2
-All convertibles weren't there existing. vs. There weren't all convertibles existing.
-Every fish was there astounding Sally. vs. There was every fish astounding Sally.
-All sisters of Roger weren't there going to this school. vs. There weren't all sisters of Roger going to this school.
-Every documentary is there annoying Anna. vs. There is every documentary annoying Anna.
-Each government was there hurting Rhonda. vs. There was each government hurting Rhonda.
-
-
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [29:07<29:07, 1747.26s/it]100%|██████████| 2/2 [1:08:15<00:00, 2101.03s/it]100%|██████████| 2/2 [1:08:15<00:00, 2047.96s/it]
-17:07:22
-All complete!

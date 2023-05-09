@@ -8,13 +8,10 @@ def lookup_ngram_google_books_v2(ngram,start_year=1960,end_year=math.inf):
     ngram_string = " ".join(ngram)
     total = 0
     for record in z.search(prefix=(ngram_string + "\t").encode()):
-       #print(record.decode())
        (found_ngram, year_str, tokens_str, _) = record.decode().split("\t")
        if found_ngram != ngram_string:
            break
        year = int(year_str)
-       #print(year)
-       #print(type(year))
        if year >= start_year and year <= end_year:
            total += int(tokens_str)
     return total
@@ -22,7 +19,6 @@ def lookup_ngram_google_books_v2(ngram,start_year=1960,end_year=math.inf):
 def main(word):
     """Look up the joint frequency of an ngram w_1 ... w_n (and the frequency of w_1 ... w_n-1 for n>1) in either the Google Web ngrams or Google Books ngrams."""
     parser = argparse.ArgumentParser(description='Look up the joint frequency of an ngram w_1 ... w_n (and the frequency of w_1 ... w_n-1 for n>1) in either the Google Web ngrams or Google Books ngrams.')
-    #parser.add_argument('ngram', metavar="ngram",type=str,nargs="+",help="ngram w_1 ... w_n for which joint frequency (and frequency of w_1 ... w_n-1, if n>1) will be looked up")
     parser.add_argument('-W', '--web', help='use Google Web 1T (if not specified, will use Google Books as default.  Google Web 1T may not be implemented right now either.)', action="store_true")
     parser.add_argument('-f', '--from_year', help='specify starting year for Google books counts', type=int, default=1960)
     parser.add_argument('-t', '--to_year', help='specify ending year for Google books counts', type=int, default=math.inf)
@@ -40,9 +36,6 @@ def main(word):
         event = ngram
         event_freq = f(event)
         event_prob = float(event_freq)/float(overall_count)
-#         print("1gram count:", stringify_ngram(event), str(event_freq))
-#         print("Overall count: " + str(overall_count))
-#         print("P( " + stringify_ngram(ngram) + ") = " + str(event_prob))
     return event_freq, event_prob
 
 if __name__ == "__main__":
