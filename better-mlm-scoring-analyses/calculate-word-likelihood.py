@@ -15,12 +15,12 @@ def main(args, context):
         raise NotImplementedError
 
     if args.dataset == "EventsAdapt":
-        filepath = os.path.abspath("eventsAdapt/EventsAdapt_vocabulary.txt")
+        filepath = os.path.abspath("data/eventsAdapt/EventsAdapt_vocabulary.txt")
     elif args.dataset == "LibriSpeech":
-        filepath = os.path.abspath("librispeech/data/LibriSpeech_vocabulary.txt")
+        filepath = os.path.abspath("data/librispeech/data/LibriSpeech_vocabulary.txt")
     elif args.dataset == "Brown":
         assert args.chunk, "Brown needs the chunk flag to run!"
-        filepath = os.path.abspath(f"brown/Brown_vocabulary_chunk_{args.chunk}.txt")
+        filepath = os.path.abspath(f"data/brown/Brown_vocabulary_chunk_{args.chunk}.txt")
     else:
         raise NotImplementedError
 

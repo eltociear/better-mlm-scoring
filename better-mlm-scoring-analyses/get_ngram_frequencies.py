@@ -33,18 +33,18 @@ def get_word_freq(word):
     return word_freq
 
 
-def main(args):
+def main(args, out_dir):
         
     vocab_path = {
-        "EventsAdapt" : "eventsAdapt/EventsAdapt_vocabulary.txt",
-        "LibriSpeech": "libriSpeech/LibriSpeech_vocabulary.txt",
-        "Brown": "brown/Brown_vocabulary_chunk_{}.txt".format(args.chunk)}
+        "EventsAdapt" : "data/eventsAdapt/EventsAdapt_vocabulary.txt",
+        "LibriSpeech": "data/libriSpeech/LibriSpeech_vocabulary.txt",
+        "Brown": "data/brown/Brown_vocabulary_chunk_{}.txt".format(args.chunk)}
         
     with open(os.path.abspath(vocab_path[args.dataset])) as file:
         words = [line.rstrip() for line in file]
         
     if args.chunk:
-        with open(os.path.abspath("results/unigram_frequencies_anya/{}_unigram_frequencies_chunk_{}.txt".format(args.dataset, args.chunk)), "w") as fout:
+        with open(os.path.abspath("{}{}_unigram_frequencies_chunk_{}.txt".format(out_dir, args.dataset, args.chunk)), "w") as fout:
             fout.write('Index\tWord\tUnigram_freq\n')  # add header
 
             for ind, word in enumerate(words):
@@ -52,7 +52,7 @@ def main(args):
                 fout.write('{}\t{}\t{}\n'.format(ind, word, unigram_frequency))  # add row
         
     else:
-        with open(os.path.abspath("results/unigram_frequencies_anya/{}_unigram_frequencies.txt".format(args.dataset)), "w") as fout:
+        with open(os.path.abspath("(){}_unigram_frequencies.txt".format(out_dir, args.dataset)), "w") as fout:
             fout.write('Index\tWord\tUnigram_freq\n')  # add header
 
             for ind, word in enumerate(words):
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     parser.add_argument('--chunk', help="Needed if we run Brown!")
     args = parser.parse_args()
 
-    out_dir = 'results/unigram_frequencies_anya/'
+    out_dir = 'results/unigram_frequencies/'
     os.makedirs(out_dir, exist_ok=True)
 
-    main(args)
+    main(args, out_dir)

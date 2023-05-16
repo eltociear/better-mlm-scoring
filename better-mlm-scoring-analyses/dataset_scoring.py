@@ -56,14 +56,14 @@ def main():
     stimuli = []
 
     if args.dataset == "LibriSpeech":
-        with open('librispeech/data/test-clean.am.json') as json_file:
+        with open('data/librispeech/data/test-clean.am.json') as json_file:
             corpus = json.load(json_file)
             for sent_idx, value in corpus.items():
                 ref_stimulus = _apply_tokenizer_opts(value["ref"]) # Only scoring ref sentences so far
                 stimuli.append([sent_idx, ref_stimulus])
 
     elif args.dataset == "Brown":
-        with open('brown/brown_stimuli.pkl', 'rb') as f:
+        with open('data/brown/brown_stimuli.pkl', 'rb') as f:
             df = pickle.load(f)
         sentences = df["sentence"].values
         sentence_ids = list(df["sentence"].index)
@@ -71,7 +71,7 @@ def main():
             stimuli.append([sent_idx, sent])
 
     else:
-        df = pd.read_csv(os.path.abspath("eventsAdapt/clean_EventsAdapt_SentenceSet.csv"))
+        df = pd.read_csv(os.path.abspath("data/eventsAdapt/clean_EventsAdapt_SentenceSet.csv"))
         sentences = df["Sentence"]
         sentence_ids = list(range(len(sentences)))
         for sent_idx, sent in list(zip(sentence_ids, sentences)):

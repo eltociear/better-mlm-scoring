@@ -49,6 +49,13 @@ plt.style.use('seaborn-dark-palette')
 
 import matplotlib.patches as patches
 
+RENAME_DICT_METRICS = {
+    "original" : "PLL-original",
+    "within_word_l2r" : "PLL-word-l2r",
+    "within_word_mlm" : "PLL-whole-word",
+    "global_l2r" : "PLL-sentence-l2r"
+}
+
 ###################
 ## Side-by-side
 ###################
@@ -58,7 +65,10 @@ for sent_i, sent in enumerate(stimuli):
     fig, axs = plt.subplots(1, len(side_by_side_plot_metrics), figsize=(20, 6), sharey=True)
     ys = []
     for i, which_masking in enumerate(side_by_side_plot_metrics):
+        print(f'#{which_masking}#')
         scores = mlm_model.token_score(sent, which_masking=which_masking)[0]
+        for score in scores:
+            print(f"{score[0]} | {score[1]}")
         x = [elm[0] for elm in scores]
         y = [elm[1] for elm in scores]
         ys.append(y)
@@ -77,19 +87,8 @@ for sent_i, sent in enumerate(stimuli):
             axs[i].set_ylabel('Token PLL score')
         else:
             axs[i].set_ylabel('')
-
-        if which_masking == "within_word_l2r":
-            axs[i].set_title("PLL-word-l2r", fontsize=20, fontweight="bold")
-            savesuffix = 'adaptedPLL_l2r'
-        elif which_masking == "within_word_mlm":
-            axs[i].set_title(f"PLL-whole-word", fontsize=20, fontweight="bold")
-            savesuffix = 'adaptedPLL_mlm'
-        elif which_masking == "global_l2r":
-            axs[i].set_title(f"PLL-global-l2r", fontsize=20, fontweight="bold")
-            savesuffix = 'adaptedPLL_globall2r'
-        else:
-            axs[i].set_title("PLL-original", fontsize=20, fontweight="bold")
-            savesuffix = 'originalPLL'
+            
+        axs[i].set_title(f"{RENAME_DICT_METRICS[which_masking]}", fontsize=20, fontweight="bold")
 
     # overlay shared with different color
     # Find the indices where the three plots differ
@@ -180,29 +179,23 @@ for sent_i, sent in enumerate(stimuli):
         y = [elm[1] for elm in scores]
         avg = np.mean(y)
 
-        fig, ax = plt.subplots()
-        plt.plot(y, marker="o", label=f"Sentence PLL score = {round(sum(y),2)}")
+        fig, ax = plt.subplots(figsize=(7, 5))
+        plt.plot(y, marker="o", linewidth=2, markersize=7, label=f"Sentence PLL score = {round(sum(y),2)}")
         plt.xticks(np.arange(len(x)), np.arange(1, len(x) + 1))
         ax.set_xticklabels(x)
-        plt.axhline(y=avg, color='r', linestyle='--', label=f"Avg. token PLL score = {round(avg, 2)}")
+        plt.axhline(y=avg, color=axhlinecolor, linestyle='--', label=f"Avg. token PLL score = {round(avg, 2)}")
         plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1), fancybox=True, shadow=False, ncol=1)
         plt.ylabel('Token PLL score')
-        if which_masking == "within_word_l2r":
-            plt.title("Adapted PLL metric with left-to-right word token masking")
-            savesuffix = 'adaptedPLL_l2r'
-        elif which_masking == "within_word_mlm":
-            plt.title("Adapted PLL metric with whole-word masking")
-            savesuffix = 'adaptedPLL_mlm'
-        elif which_masking == "global_l2r":
-            plt.title("Adapted PLL metric with global left-to-right token masking")
-            savesuffix = 'adaptedPLL_globall2r'
-        else:
-            plt.title("Token-level masking (original PLL metric)")
-            savesuffix = 'originalPLL'
+        
+        plt.title(f"{RENAME_DICT_METRICS[which_masking]}", fontsize=20, fontweight="bold")
         fig.tight_layout()
 
-        filename = f'{out_dir}/{sent}_{savesuffix}.png'
+        filename = f'{out_dir}/{sent}_{which_masking}.png'
         plt.savefig(filename, dpi=300, bbox_inches='tight')
+        filename = f'{out_dir}/{sent}_{which_masking}.svg'
+        plt.savefig(filename, format="svg", dpi=300, bbox_inches='tight')
+        filename = f'{out_dir}/{sent}_{which_masking}.pdf'
+        plt.savefig(filename, format="pdf", dpi=300, bbox_inches='tight')
         plt.show()
         
 # ###################
