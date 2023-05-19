@@ -337,7 +337,7 @@ class MaskedLMScorer(LMScorer):
         https://github.com/simonepri/lm-scorer
         
         :param text: batch of sentences to be prepared for scoring.
-        :param which_masking:  #CK
+        :param which_masking:
             * default is "original" masking (i.e., token-by-token)
             * if "within_word_l2r" = we mask out all subtokens belonging to the same word that are
                     to the right of the token to be currently predicted (see below)
@@ -361,7 +361,7 @@ class MaskedLMScorer(LMScorer):
 
         for ind, (token_ids, attention_mask) in enumerate(zip(token_idx, attention_masks)):
 
-            tokens = encoded.tokens(batch_index=ind)  # CK: added for debugging
+            tokens = encoded.tokens(batch_index=ind)
             word_ids = encoded.word_ids(batch_index=ind)
 
             token_ids = torch.tensor(token_ids)
@@ -376,12 +376,7 @@ class MaskedLMScorer(LMScorer):
 
             if which_masking == "within_word_l2r":
                 """
-                CK adjusted the preparation function here.
                 We want tokens belonging to the right of the current token belonging to the same word to be predicted to be masked out as well.
-                For justification, see https://arxiv.org/pdf/2212.01488.pdf, SI 7
-
-                Note: This only works if you use FastTokenizers, which minicons uses as a default.
-
                 (example uses BertFastTokenizer)
                 Input sentence: 'The hooligan wrecked the vehicle.'
                 original mask_indices >> [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
@@ -395,12 +390,7 @@ class MaskedLMScorer(LMScorer):
 
             elif which_masking == "within_word_mlm":
                 """
-                CK adjusted the preparation function here.
                 We want all tokens of the current token belonging to the same word as the one to be predicted to be masked out as well.
-                For justification, see https://arxiv.org/pdf/2212.01488.pdf, SI 7
-
-                Note: This only works if you use FastTokenizers, which minicons uses as a default.
-
                 (example uses BertFastTokenizer)
                 Input sentence: 'The hooligan wrecked the vehicle.'
                 original mask_indices >> [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
@@ -800,7 +790,7 @@ class IncrementalLMScorer(LMScorer):
 
     def encode(self, text: Union[str, List[str]]) -> dict:
         text = [text] if isinstance(text, str) else text
-        text = [self.tokenizer.bos_token + sentence for sentence in text] #Added CK https://github.com/huggingface/transformers/issues/1009
+        text = [self.tokenizer.bos_token + sentence for sentence in text] #Added https://github.com/huggingface/transformers/issues/1009
         # also in LM-Zoo: https://github.com/cpllab/lm-zoo/blob/master/models/gpt2/get_surprisals.py#L44
         return self.tokenizer(text, return_tensors='pt', padding = True)
     
@@ -921,7 +911,7 @@ class IncrementalLMScorer(LMScorer):
         ids = [[i for i in instance if i != self.tokenizer.pad_token_id] for instance in encoded['input_ids'].tolist()]
 
         ## Ignore the probabilities of the first token.
-        effective_ids = [id[1:] for id in ids] # CK: Note that I now include the BOS token at the beginning of the string!
+        effective_ids = [id[1:] for id in ids] # Note that we now include the BOS token at the beginning of the string!
 
         with torch.no_grad():
             logits = self.model(**encoded).logits.detach()
