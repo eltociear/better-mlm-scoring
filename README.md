@@ -11,6 +11,25 @@ Estimating the log-likelihood of a given sentence under an autoregressive langua
 We improve on the widely used pseudo-log-likelihood sentence score estimation method for masked language models from [Salazar et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.240.pdf) by solving the score inflation problem for multi-token words the original PLL metric introduces, without overly penalizing multi-token words. The new metric also fulfills several theoretical desiderata of sentence/word scoring methods better than alternative PLL metrics and is more cognitively plausible:
 <img src="readme_figs/Fig2_motivation_for_adaptation.png" height="250">
 
+## Installation
+```
+git clone --recursive https://github.com/carina-kauf/better-mlm-scoring.git
+cd better-mlm-scoring
+pip install -r requirements.txt 
+```
+
+## Run
+Scoring the `bert-base-cased` model on the `EventsAdapt` dataset using the `PLL-word-l2r` metric:
+```
+cd better-mlm-scoring-analyses
+```
+```
+python dataset_scoring.py --dataset EventsAdapt \
+                          --model bert-base-cased \
+                          --which_masking within_word_l2r
+```
+Masking options are `original`, `within_word_l2r`, `within_word_mlm`, `global_l2r`
+
 ## Citation
 If you use this work, please cite:
 
@@ -29,7 +48,7 @@ If you use this work, please cite:
 ## Repo structure
 
 #### Master branch
-* `adapted_minicons` : A stripped version of the [minicons](https://github.com/kanishkamisra/minicons/tree/master) package in which we adapt the `MaskedLMScorer` class in the `scorer` module
+* `adapted_minicons` : A stripped version of the [minicons](https://github.com/kanishkamisra/minicons/tree/master) package in which we adapt the `MaskedLMScorer` class in the `scorer` module.
 * `better-mlm-scoring-analyses` : Data and scripts used to analyze the novel masked language model scoring metrics
 
 #### Branches
